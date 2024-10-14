@@ -1,0 +1,64 @@
+{
+    "header": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "experience": "Experiencia",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "greeting": "Hola, soy",
+      "name": "Miguel Toyas Pernichi",
+      "title": "Desarrollador Web Full Stack",
+      "subtitle": "Apasionado por crear soluciones web innovadoras"
+    },
+    "about": {
+      "title": "Sobre Mí",
+      "description": "Desarrollador Web Full Stack con un trasfondo único en Ingeniería Mecánica, aportando habilidades analíticas de resolución de problemas al desarrollo de software. Recientemente completé un bootcamp intensivo de programación, dominando React.js, TypeScript, Python y SQL. Busco oportunidades en la dinámica escena tecnológica de Dublín donde pueda contribuir con mi experiencia técnica y pensamiento innovador para crear soluciones web impactantes."
+    },
+    "experience": {
+      "title": "Experiencia",
+      "job1": {
+        "title": "Desarrollador Web Full Stack",
+        "company": "Freelance",
+        "date": "Jun 2024 - Presente",
+        "description": "Desarrollo de aplicaciones full-stack con enfoque en React.js, TypeScript, Python y SQL."
+      },
+      "job2": {
+        "title": "Desarrollador Web Frontend",
+        "company": "No Country",
+        "date": "Jul 2024 - Ago 2024",
+        "description": "Desarrollé el frontend para 'YO LO CUIDO', una plataforma de cuidado de mascotas, utilizando React y tecnologías web modernas."
+      }
+    },
+    "projects": {
+      "title": "Proyectos",
+      "project1": {
+        "title": "LIQUIBOXES",
+        "description": "Una plataforma de comercio electrónico innovadora para cajas sorpresa, construida con React.js, Python y Flask."
+      },
+      "project2": {
+        "title": "YO LO CUIDO",
+        "description": "Una plataforma web responsiva para servicios de cuidado de mascotas, desarrollada con React y styled-components."
+      },
+      "project3": {
+        "title": "Base de Datos de Star Wars",
+        "description": "Una aplicación web interactiva que muestra datos de Star Wars, construida con React y Redux."
+      }
+    },
+    "skills": {
+      "title": "Habilidades",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Herramientas y Otros"
+    },
+    "contact": {
+      "title": "Contáctame",
+      "description": "¿Interesado en colaborar o tienes un proyecto en mente? ¡Conectemos!",
+      "formName": "Nombre",
+      "formEmail": "Correo electrónico",
+      "formMessage": "Mensaje",
+      "formSubmit": "Enviar Mensaje"
+    }
+  }

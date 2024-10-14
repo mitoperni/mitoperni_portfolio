@@ -1,0 +1,64 @@
+{
+    "header": {
+      "home": "Home",
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact"
+    },
+    "hero": {
+      "greeting": "Hi, I'm",
+      "name": "Miguel Toyas Pernichi",
+      "title": "Full Stack Web Developer",
+      "subtitle": "Passionate about creating innovative web solutions"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "Full Stack Web Developer with a unique background in Mechanical Engineering, bringing analytical problem-solving skills to software development. Recently completed an intensive coding bootcamp, mastering React.js, TypeScript, Python, and SQL. Seeking opportunities in Dublin's dynamic tech scene where I can contribute my technical expertise and innovative thinking to create impactful web solutions."
+    },
+    "experience": {
+      "title": "Experience",
+      "job1": {
+        "title": "Full Stack Web Developer",
+        "company": "Freelance",
+        "date": "Jun 2024 - Present",
+        "description": "Developing full-stack applications with a focus on React.js, TypeScript, Python, and SQL."
+      },
+      "job2": {
+        "title": "Frontend Web Developer",
+        "company": "No Country",
+        "date": "Jul 2024 - Aug 2024",
+        "description": "Developed the frontend for 'YO LO CUIDO', a pet care platform, using React and modern web technologies."
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "project1": {
+        "title": "LIQUIBOXES",
+        "description": "An innovative e-commerce platform for mystery boxes, built with React.js, Python, and Flask."
+      },
+      "project2": {
+        "title": "YO LO CUIDO",
+        "description": "A responsive web platform for pet care services, developed with React and styled-components."
+      },
+      "project3": {
+        "title": "Star Wars Database",
+        "description": "An interactive web application showcasing Star Wars data, built with React and Redux."
+      }
+    },
+    "skills": {
+      "title": "Skills",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools & Others"
+    },
+    "contact": {
+      "title": "Contact Me",
+      "description": "Interested in collaborating or have a project in mind? Let's connect!",
+      "formName": "Name",
+      "formEmail": "Email",
+      "formMessage": "Message",
+      "formSubmit": "Send Message"
+    }
+  }
