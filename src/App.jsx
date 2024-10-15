@@ -6,7 +6,7 @@ import './styles/global.css'
 import './styles/variables.css'
 
 function App() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
 
   return (
     <MainLayout>
@@ -16,3 +16,4 @@ function App() {
 }
 
 export default App
+

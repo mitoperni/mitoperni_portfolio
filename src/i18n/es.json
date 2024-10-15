@@ -56,9 +56,7 @@
     "contact": {
       "title": "Contáctame",
       "description": "¿Interesado en colaborar o tienes un proyecto en mente? ¡Conectemos!",
-      "formName": "Nombre",
-      "formEmail": "Correo electrónico",
-      "formMessage": "Mensaje",
-      "formSubmit": "Enviar Mensaje"
+      "Name": "Miguel Toyas Pernichi",
+      "Email": "mitoperni@gmail.com"
     }
   }

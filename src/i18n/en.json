@@ -56,9 +56,7 @@
     "contact": {
       "title": "Contact Me",
       "description": "Interested in collaborating or have a project in mind? Let's connect!",
-      "formName": "Name",
-      "formEmail": "Email",
-      "formMessage": "Message",
-      "formSubmit": "Send Message"
+      "name": "Miguel Toyas Pernichi",
+      "email": "mitoperni@gmail.com"
     }
   }

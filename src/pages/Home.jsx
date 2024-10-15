@@ -1,7 +1,13 @@
 import React from 'react'
+import Contact from '../components/Contact/Contact'
+import '../styles/Home.css'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div id='home'>
+      <div id="home-contact">
+        <Contact />
+      </div>
+    </div>
   )
 }
