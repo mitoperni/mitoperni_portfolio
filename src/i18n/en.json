@@ -36,15 +36,18 @@
       "title": "Projects",
       "project1": {
         "title": "LIQUIBOXES",
-        "description": "An innovative e-commerce platform for mystery boxes, built with React.js, Python, and Flask."
+        "description": "An innovative e-commerce platform for mystery boxes, built with React.js, Python, and Flask.",
+        "date": "Jun 2024 - Present"
       },
       "project2": {
         "title": "YO LO CUIDO",
-        "description": "A responsive web platform for pet care services, developed with React and styled-components."
+        "description": "A responsive web platform for pet care services, developed with React and styled-components.",
+        "date": "May 2024 - Aug 2024"
       },
       "project3": {
         "title": "Star Wars Database",
-        "description": "An interactive web application showcasing Star Wars data, built with React and Redux."
+        "description": "An interactive web application showcasing Star Wars data, built with React and Redux.",
+        "date": "May 2024 - Jul 2024"
       }
     },
     "skills": {

@@ -7,7 +7,7 @@ function Experience() {
   return (
     <div id="experience">
       <div id="experience-title">
-        <p>{t("experience.title")}</p>
+        <h2>{t("experience.title")}</h2>
       </div>
 
 
