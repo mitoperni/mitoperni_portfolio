@@ -1,42 +1,73 @@
-/* Home.css */
 #home {
-    position: relative;
-    z-index: 1;
-  }
-  
-  #hero-and-about {
-    display: flex;
-    min-height: 100dvh;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    position: relative;
-  }
-  
-  #home-hero,
-  #home-about {
-    border: 1px solid white;
-    padding: 5rem;
-    flex: 1;
-    transition: flex 0.3s ease, font-size 0.3s ease;
-    font-size: 1rem;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
-    backdrop-filter: blur(5px); /* Efecto de desenfoque */
-  }
-  
-  #home-hero:hover,
-  #home-about:hover {
-    flex: 2;
-    font-size: 1.5rem;
-  }
-  
-  /* Asegurarse de que las secciones tengan suficiente altura para el efecto parallax */
-  #home-experience,
-  #home-projects,
-  #home-skills,
-  #home-contact {
-    min-height: 100dvh;
-    position: relative;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.7);
-  }
+  position: relative;
+  min-height: 100vh;
+}
+
+#hero-and-about {
+  display: flex;
+  min-height: 100dvh;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+#home-hero,
+#home-about {
+  border: 1px solid white;
+  padding: 5rem;
+  flex: 1;
+  transition: flex 0.3s ease, font-size 0.3s ease;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+#home-hero:hover,
+#home-about:hover {
+  flex: 2;
+  font-size: 1.5rem;
+}
+
+#home-experience,
+#home-projects,
+#home-skills {
+  position: relative;
+  min-height: 100dvh;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 2rem;
+}
+
+#home-contact {
+  position: relative;
+  min-height: 100dvh;
+  padding: 2rem;
+  background-color: transparent;
+}
+
+/* Efecto de aparición gradual para la última sección */
+#home-contact::before {
+  content: '';
+  position: absolute;
+  top: -100dvh;
+  left: 0;
+  right: 0;
+  height: 200dvh;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1;
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
