@@ -14,7 +14,7 @@ function Header() {
     setIsLangMenuOpen(false);
   };
 
-  const navItems = ['home', 'about', 'experience', 'projects', 'skills', 'contact'];
+  const navItems = [ 'experience', 'projects', 'skills', 'contact'];
 
   const flags = {
     en: { code: 'GB', name: 'English' },
@@ -66,8 +66,9 @@ function Header() {
               countryCode={flags[i18n.language].code} 
               svg 
               style={{
-                width: '24px',
-                height: '24px',
+                width: '15px',
+                height: '15px',
+                margin: '0',
               }}
               title={flags[i18n.language].name}
             />
@@ -81,8 +82,8 @@ function Header() {
                       countryCode={flag.code} 
                       svg 
                       style={{
-                        width: '24px',
-                        height: '24px',
+                        width: '15px',
+                        height: '15px',
                       }}
                       title={flag.name}
                     />

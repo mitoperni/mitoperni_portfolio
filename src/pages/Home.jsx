@@ -13,23 +13,23 @@ export default function Home() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Si la sección visible es bg-white, añadimos la clase al body
-            if (entry.target.classList.contains('bg-white')) {
-              document.body.classList.add('bg-white');
+            // Si la sección visible es bg-light, añadimos la clase al header
+            if (entry.target.classList.contains("bg-light")) {
+              document.querySelector("header").classList.add("bg-light");
             } else {
-              document.body.classList.remove('bg-white');
+              document.querySelector("header").classList.remove("bg-light");
             }
           }
         });
       },
       {
-        threshold: 0.5 // Cuando al menos 50% de la sección es visible
+        threshold: 0.5,
       }
     );
 
-    // Observar todas las secciones
-    document.querySelectorAll('#hero-and-about, #home-experience, #home-projects, #home-skills, #home-contact')
-      .forEach(section => observer.observe(section));
+    document
+      .querySelectorAll(".bg-light, .bg-dark")
+      .forEach((section) => observer.observe(section));
 
     return () => observer.disconnect();
   }, []);
@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <>
       <div id="home">
-        <div id="hero-and-about" className="bg-white">
+        <div id="hero-and-about" className="bg-light">
           <div id="home-hero">
             <Hero />
           </div>
@@ -46,16 +46,16 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="home-experience" className="bg-black">
+        <div id="home-experience" className="bg-dark">
           <Experience />
         </div>
-        <div id="home-projects" className="bg-white">
+        <div id="home-projects" className="bg-light">
           <Projects />
         </div>
-        <div id="home-skills" className="bg-black">
+        <div id="home-skills" className="bg-dark">
           <Skills />
         </div>
-        <div id="home-contact" className="bg-white">
+        <div id="home-contact" className="bg-light">
           <Contact />
         </div>
       </div>

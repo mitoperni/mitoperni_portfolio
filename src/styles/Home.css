@@ -17,18 +17,12 @@
 
 #home-hero,
 #home-about {
-  border: 1px solid white;
+  border: 1px solid var(--accent-color);
   padding: 5rem;
   flex: 1;
   transition: flex 0.3s ease, font-size 0.3s ease;
   font-size: 1rem;
   backdrop-filter: blur(5px);
-}
-
-/* Aseguramos que el borde sea visible en secciones blancas */
-.bg-white #home-hero,
-.bg-white #home-about {
-  border-color: black;
 }
 
 #home-hero:hover,
@@ -39,12 +33,7 @@
 
 #home-experience,
 #home-projects,
-#home-skills {
-  position: relative;
-  min-height: 100dvh;
-  padding: 2rem;
-}
-
+#home-skills,
 #home-contact {
   position: relative;
   min-height: 100dvh;
@@ -61,7 +50,7 @@
   #home-hero,
   #home-about {
     padding: 2rem;
-    width: calc(100% - 4rem); /* Ajuste para el padding */
+    width: calc(100% - 4rem);
   }
 
   #home-hero:hover,
@@ -86,15 +75,4 @@
 #home-skills,
 #home-contact {
   transition: all 0.3s ease;
-}
-
-/* Mejoramos la visibilidad del contenido en diferentes fondos */
-.bg-white #home-hero,
-.bg-white #home-about {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-#home-hero,
-#home-about {
-  background-color: rgba(0, 0, 0, 0.1);
 }

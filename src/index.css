@@ -1,42 +1,35 @@
 @import "./styles/variables.css";
 
 body {
-  background-color: black;
+  background-color: var(--bg-color);
   margin: 0;
   font-family: sans-serif;
   letter-spacing: -0.1ch;
   line-height: 1;
   overflow: overlay;
   cursor: var(--cursor-dark);
+  color: var(--text-color);
 }
 
-/* Estilos base del scrollbar */
+/* Estilos del scrollbar */
 body::-webkit-scrollbar {
-  width: 35px;
-  height: 100%;
+  width: 12px;
 }
 
 body::-webkit-scrollbar-track {
-  pointer-events: none;
-  background: linear-gradient(to bottom, transparent, var(--scroll-color-dark) 1px) no-repeat center / 1px 90%;
+  background: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--scroll-design-dark);
-  transition: background 0.3s ease;
-}
-
-/* Cuando el body tiene la clase bg-white (añadida por JavaScript) */
-body.bg-white::-webkit-scrollbar-track {
-  background: linear-gradient(to bottom, transparent, var(--scroll-color-light) 1px) no-repeat center / 1px 90%;
-}
-
-body.bg-white::-webkit-scrollbar-thumb {
-  background: var(--scroll-design-light);
+  background-color: var(--accent-color);
+  opacity: 0.7;
+  border-radius: 6px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  --color: red;
+  opacity: 0.9;
 }
 
 [hidden] {
@@ -47,23 +40,21 @@ body::-webkit-scrollbar-thumb:hover {
   cursor: var(--cursor-dark-hover);
 }
 
-.bg-white {
-  background: white;
+.bg-light {
+  background: var(--bg-color-neg);
   cursor: var(--cursor);
-  color: black;
+  color: var(--text-color-neg);
 }
 
-.bg-white [cursor] {
+.bg-light [cursor] {
   cursor: var(--cursor);
 }
 
-.bg-white [cursor]:hover {
+.bg-light [cursor]:hover {
   cursor: var(--cursor-hover);
 }
 
-.bg-black {
-  background-color: black;
-  display: flex;
-  position: relative;
-  color: white;
+.bg-dark {
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
