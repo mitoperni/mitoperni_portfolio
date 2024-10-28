@@ -1,0 +1,69 @@
+@import "./styles/variables.css";
+
+body {
+  background-color: black;
+  margin: 0;
+  font-family: sans-serif;
+  letter-spacing: -0.1ch;
+  line-height: 1;
+  overflow: overlay;
+  cursor: var(--cursor-dark);
+}
+
+/* Estilos base del scrollbar */
+body::-webkit-scrollbar {
+  width: 35px;
+  height: 100%;
+}
+
+body::-webkit-scrollbar-track {
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, var(--scroll-color-dark) 1px) no-repeat center / 1px 90%;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--scroll-design-dark);
+  transition: background 0.3s ease;
+}
+
+/* Cuando el body tiene la clase bg-white (añadida por JavaScript) */
+body.bg-white::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, transparent, var(--scroll-color-light) 1px) no-repeat center / 1px 90%;
+}
+
+body.bg-white::-webkit-scrollbar-thumb {
+  background: var(--scroll-design-light);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  --color: red;
+}
+
+[hidden] {
+  display: none;
+}
+
+[cursor]:hover {
+  cursor: var(--cursor-dark-hover);
+}
+
+.bg-white {
+  background: white;
+  cursor: var(--cursor);
+  color: black;
+}
+
+.bg-white [cursor] {
+  cursor: var(--cursor);
+}
+
+.bg-white [cursor]:hover {
+  cursor: var(--cursor-hover);
+}
+
+.bg-black {
+  background-color: black;
+  display: flex;
+  position: relative;
+  color: white;
+}

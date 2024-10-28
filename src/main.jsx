@@ -1,8 +1,6 @@
 import React from "react";
 import { Suspense } from "react";
 import ReactDOM from "react-dom/client";
-import "./styles/variables.css";
-import "./styles/global.css";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n/i18n.js";
 import App from "./App.jsx";
