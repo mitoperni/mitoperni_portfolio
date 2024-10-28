@@ -1,75 +1,187 @@
+/* Contact.css */
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
 .contact-info {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    margin-top: 2rem;
-  }
-  
-  .contact-details {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  .contact-item {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .contact-item:hover {
-    transform: translateY(-2px);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: rgba(var(--text-color-rgb), 0.05);
+  transition: var(--transition);
+}
+
+.contact-item:hover {
+  transform: translateY(-2px);
+  background: rgba(var(--text-color-rgb), 0.1);
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--text-color);
+  background: rgba(var(--text-color-rgb), 0.05);
+  transition: var(--transition);
+  width: 100%;
+}
+
+.social-link:hover {
+  transform: translateY(-2px);
+}
+
+.social-link.linkedin{
+  background-color: #0077B5;
+}
+
+.social-link.github {
+  background-color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-neg-color);
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(var(--text-color-rgb), 0.2);
+  background: rgba(var(--text-color-rgb), 0.05);
+  color: var(--text-neg-color);
+  font-size: 1rem;
+  transition: var(--transition);
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  background: white;
+  box-shadow: 0 0 0 3px rgba(var(--primary-color-rgb), 0.1);
+}
+
+.submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  background: var(--primary-color);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.submit-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(var(--primary-color-rgb), 0.2);
+}
+
+.submit-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.submit-button.sending {
+  background: var(--accent-color);
+  cursor: not-allowed;
+}
+
+.submit-button.success {
+  background: #4CAF50;
+}
+
+.submit-button.error {
+  background: #f44336;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
   
   .social-links {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
+    flex-direction: column;
   }
   
-  .social-link {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.75rem 1.25rem;
-    border-radius: 1.8rem;
-    border: 0.1rem solid white;
-    text-decoration: none;
-    color: white;
-    transition: all 0.3s ease;
+  .contact-details {
+    align-items: stretch;
   }
-  
-  .social-link span {
-    font-size: 0.9rem;
+
+  .contact-form {
+    padding: 1.5rem;
   }
-  
-  .social-link:hover {
-    transform: translateY(-2px);
+
+  .submit-button {
+    width: 100%;
   }
-  
-  .social-link.linkedin {
-    background-color: #0077B5;
-    border-color: #0077B5;
-    color: white;
-    box-shadow: 0 4px 12px rgba(0, 119, 181, 0.2);
+}
+
+@media (max-width: 480px) {
+  .contact-wrapper {
+    padding: 1rem;
   }
-  
-  .social-link.github {
-    background-color: #333;
-    border-color: #333;
-    color: white;
-    box-shadow: 0 4px 12px rgba(51, 51, 51, 0.2);
+
+  .contact-form {
+    padding: 1rem;
   }
-  
-  @media (max-width: 768px) {
-    .social-links {
-      flex-direction: column;
-      align-items: stretch;
-    }
-    
-    .contact-details {
-      align-items: center;
-    }
-  }
+}

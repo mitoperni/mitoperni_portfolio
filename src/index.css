@@ -4,7 +4,6 @@ body {
   background-color: var(--bg-color);
   margin: 0;
   font-family: sans-serif;
-  letter-spacing: -0.1ch;
   line-height: 1;
   overflow: overlay;
   cursor: var(--cursor-dark);

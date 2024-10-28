@@ -64,13 +64,25 @@
   },
   "contact": {
     "title": "Contato",
-    "description": "Procurando um desenvolvedor Full Stack? Atualmente estou disponível para oportunidades no setor de tecnologia em Dublin. Sinta-se à vontade para entrar em contato através das minhas redes sociais ou enviar um e-mail para conversarmos sobre como posso contribuir com sua equipe.",
+    "description": "Atualmente estou disponível para oportunidades presenciais em Dublin e posições remotas internacionais. Vamos conversar sobre como posso contribuir com sua equipe!",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
     "location": "Dublin, Irlanda",
     "linkedin": "https://www.linkedin.com/in/migueltoyaspernichi",
     "github": "https://github.com/mitoperni",
     "linkedin_text": "Perfil no LinkedIn",
-    "github_text": "Projetos no GitHub"
+    "github_text": "Projetos no GitHub",
+    "form": {
+      "name": "Nome",
+      "name_placeholder": "Seu nome",
+      "email": "E-mail",
+      "email_placeholder": "Seu e-mail",
+      "message": "Mensagem",
+      "message_placeholder": "Sua mensagem",
+      "submit": "Enviar mensagem",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada!",
+      "error": "Erro. Tente novamente"
+    }
   }
 }

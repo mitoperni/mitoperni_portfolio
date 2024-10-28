@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
 import { motion } from 'framer-motion';
 import './MainLayout.css';
 
@@ -17,7 +16,6 @@ const MainLayout = ({ children }) => {
       <main className="main-content">
         {children}
       </main>
-      <Footer />
     </motion.div>
   );
 };
