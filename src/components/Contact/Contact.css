@@ -1,0 +1,75 @@
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-item:hover {
+    transform: translateY(-2px);
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 1.8rem;
+    border: 0.1rem solid white;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .social-link span {
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover {
+    transform: translateY(-2px);
+  }
+  
+  .social-link.linkedin {
+    background-color: #0077B5;
+    border-color: #0077B5;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 119, 181, 0.2);
+  }
+  
+  .social-link.github {
+    background-color: #333;
+    border-color: #333;
+    color: white;
+    box-shadow: 0 4px 12px rgba(51, 51, 51, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .social-links {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .contact-details {
+      align-items: center;
+    }
+  }

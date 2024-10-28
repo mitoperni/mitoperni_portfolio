@@ -1,65 +1,76 @@
 {
-    "header": {
-      "home": "Início",
-      "about": "Sobre",
-      "experience": "Experiência",
-      "projects": "Projetos",
-      "skills": "Habilidades",
-      "contact": "Contato"
+  "header": {
+    "home": "Início",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "name": "Miguel Toyas Pernichi",
+    "title": "Desenvolvedor Web Full Stack",
+    "subtitle": "Desenvolvedor React & Python | JavaScript & Flask | Estabelecido em Dublin"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": "Desenvolvedor Web Full Stack especializado em React.js e Python, com experiência prática no desenvolvimento e implementação de aplicações web. Liderei o desenvolvimento do LIQUIBOXES, uma plataforma inovadora de comércio eletrônico, e contribuí em diversos projetos em equipe, incluindo o YO LO CUIDO. Minha formação em Engenharia Mecânica fortalece minha abordagem na resolução de problemas e na arquitetura de sistemas. Estabelecido em Dublin, combino conhecimentos técnicos com fluência em inglês, espanhol e português. Procuro uma empresa de tecnologia dinâmica onde possa agregar valor em projetos significativos enquanto continuo evoluindo como desenvolvedor."
+  },
+  "experience": {
+    "title": "Experiência",
+    "job1": {
+      "title": "Desenvolvedor Full Stack e Líder de Equipe",
+      "company": "LIQUIBOXES",
+      "date": "Junho 2024 - Presente",
+      "description": "Liderando uma equipe de 3 desenvolvedores na criação de uma plataforma inovadora de comércio eletrônico. Projetei e implementei a solução completa utilizando React.js e Python/Flask. Principais realizações incluem: implementação de processamento seguro de pagamentos com Stripe, projeto de estrutura eficiente de banco de dados com SQLAlchemy e estabelecimento de um fluxo de trabalho ágil. O projeto foi reconhecido como o melhor da 4Geeks Academy."
     },
-    "hero": {
-      "greeting": "Olá, eu sou",
-      "name": "Miguel Toyas Pernichi",
-      "title": "Desenvolvedor Web Full Stack",
-      "subtitle": "Apaixonado por criar soluções web inovadoras"
+    "job2": {
+      "title": "Desenvolvedor Frontend",
+      "company": "No Country",
+      "date": "Maio 2024 - Agosto 2024",
+      "description": "Desenvolvi o frontend do YO LO CUIDO, uma plataforma de serviços de cuidados com animais de estimação. Implementei componentes de interface responsiva utilizando React e práticas modernas de CSS. Trabalhei em estreita colaboração com a equipe de UX/UI para garantir uma implementação fiel aos designs. Otimizei o desempenho da aplicação e implementei o sistema de autenticação de usuários."
     },
-    "about": {
-      "title": "Sobre Mim",
-      "description": "Desenvolvedor Web Full Stack com uma formação única em Engenharia Mecânica, trazendo habilidades analíticas de resolução de problemas para o desenvolvimento de software. Recentemente concluí um bootcamp intensivo de programação, dominando React.js, TypeScript, Python e SQL. Busco oportunidades na dinâmica cena tecnológica de Dublin onde posso contribuir com minha experiência técnica e pensamento inovador para criar soluções web impactantes."
-    },
-    "experience": {
-      "title": "Experiência",
-      "job1": {
-        "title": "Desenvolvedor Web Full Stack",
-        "company": "Freelance",
-        "date": "Jun 2024 - Presente",
-        "description": "Desenvolvimento de aplicações full-stack com foco em React.js, TypeScript, Python e SQL."
-      },
-      "job2": {
-        "title": "Desenvolvedor Web Frontend",
-        "company": "No Country",
-        "date": "Jul 2024 - Ago 2024",
-        "description": "Desenvolvi o frontend para 'YO LO CUIDO', uma plataforma de cuidados com animais de estimação, usando React e tecnologias web modernas."
-      }
-    },
-    "projects": {
-      "title": "Projetos",
-      "project1": {
-        "title": "LIQUIBOXES",
-        "description": "Uma plataforma de comércio eletrônico inovadora para caixas misteriosas, construída com React.js, Python e Flask.",
-        "date": "Jun 2024 - Present"
-      },
-      "project2": {
-        "title": "YO LO CUIDO",
-        "description": "Uma plataforma web responsiva para serviços de cuidados com animais de estimação, desenvolvida com React e styled-components.",
-        "date": "Mai 2024 - Aug 2024"
-      },
-      "project3": {
-        "title": "Banco de Dados Star Wars",
-        "description": "Uma aplicação web interativa exibindo dados de Star Wars, construída com React e Redux.",
-        "date": "Mai 2024 - Jul 2024"
-      }
-    },
-    "skills": {
-      "title": "Habilidades",
-      "frontend": "Frontend",
-      "backend": "Backend",
-      "tools": "Ferramentas e Outros"
-    },
-    "contact": {
-      "title": "Entre em Contato",
-      "description": "Interessado em colaborar ou tem um projeto em mente? Vamos nos conectar!",
-      "Name": "Miguel Toyas Pernichi",
-      "Email": "mitoperni@gmail.com"
+    "job3": {
+      "title": "Consultor de Projetos de P&D&I",
+      "company": "Aliot Innovação",
+      "date": "Abril 2023 - Janeiro 2024",
+      "description": "Especializado na análise de projetos tecnológicos inovadores, com foco em TI, jogos eletrônicos e desenvolvimento de animação. Esta função despertou minha paixão pelo desenvolvimento de software através do contato direto com tecnologias de ponta e metodologias de desenvolvimento. Analisei arquiteturas de software complexas, colaborei com empresas de tecnologia e adquiri conhecimentos valiosos sobre práticas modernas de desenvolvimento que motivaram minha transição para o desenvolvimento full-stack."
     }
+  },
+  "projects": {
+    "title": "Projetos",
+    "project1": {
+      "title": "LIQUIBOXES",
+      "description": "Coordenei o desenvolvimento de uma plataforma inovadora de e-commerce que revoluciona a gestão de estoque através de caixas surpresa personalizadas. Desenvolvida com React.js, Python/Flask e PostgreSQL. Inclui processamento seguro de pagamentos (Stripe), gestão de estoque em tempo real e sistema avançado de recomendações. Implementação de pipeline CI/CD e gerenciamento de revisões de código através do GitHub Actions.",
+      "date": "Jun 2024 - Presente"
+    },
+    "project2": {
+      "title": "YO LO CUIDO",
+      "description": "Desenvolvi uma plataforma web responsiva de serviços de cuidados com pets que conecta proprietários e cuidadores. Frontend construído com React utilizando práticas modernas como hooks personalizados e context API. Integração de autenticação de usuários, notificações em tempo real e sistema intuitivo de agendamentos. Colaboração próxima com a equipe de backend para integração da API.",
+      "date": "Mai 2024 - Ago 2024"
+    },
+    "project3": {
+      "title": "Banco de Dados Star Wars",
+      "description": "Criei uma aplicação web interativa que apresenta dados do universo Star Wars utilizando React e Redux. Implementação de funcionalidades como busca dinâmica, sistema de favoritos e perfis detalhados de personagens. Integração com a API REST SWAPI e sistema eficiente de cache de dados para desempenho otimizado.",
+      "date": "Mai 2024 - Jul 2024"
+    }
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "frontend": "Desenvolvimento Frontend",
+    "backend": "Desenvolvimento Backend",
+    "tools": "Ferramentas e Métodos"
+  },
+  "contact": {
+    "title": "Contato",
+    "description": "Procurando um desenvolvedor Full Stack? Atualmente estou disponível para oportunidades no setor de tecnologia em Dublin. Sinta-se à vontade para entrar em contato através das minhas redes sociais ou enviar um e-mail para conversarmos sobre como posso contribuir com sua equipe.",
+    "name": "Miguel Toyas Pernichi",
+    "email": "mitoperni@gmail.com",
+    "location": "Dublin, Irlanda",
+    "linkedin": "https://www.linkedin.com/in/migueltoyaspernichi",
+    "github": "https://github.com/mitoperni",
+    "linkedin_text": "Perfil no LinkedIn",
+    "github_text": "Projetos no GitHub"
   }
+}

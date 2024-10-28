@@ -1,65 +1,76 @@
 {
-    "header": {
-      "home": "Home",
-      "about": "About",
-      "experience": "Experience",
-      "projects": "Projects",
-      "skills": "Skills",
-      "contact": "Contact"
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Miguel Toyas Pernichi",
+    "title": "Full Stack Web Developer",
+    "subtitle": "React & Python Developer | JavaScript & Flask | Dublin-based"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Full Stack Web Developer specializing in React.js and Python, with hands-on experience building and deploying web applications. Led the development of LIQUIBOXES, an innovative e-commerce platform, and contributed to multiple team projects including YO LO CUIDO. My background in Mechanical Engineering enhances my approach to problem-solving and system architecture. Currently established in Dublin, I combine technical expertise with strong communication skills in English, Spanish, and Portuguese. Seeking to join a dynamic tech company where I can contribute to impactful projects while continuing to grow as a developer."
+  },
+  "experience": {
+    "title": "Experience",
+    "job1": {
+      "title": "Full Stack Developer & Team Lead",
+      "company": "LIQUIBOXES",
+      "date": "June 2024 - Present",
+      "description": "Leading a team of 3 developers in building an innovative e-commerce platform. Architected and implemented the full solution using React.js and Python/Flask. Key achievements include: implementing secure payment processing with Stripe, designing an efficient database structure with SQLAlchemy, and establishing an agile development workflow. The project was recognized as the best project at 4Geeks Academy."
     },
-    "hero": {
-      "greeting": "Hi, I'm",
-      "name": "Miguel Toyas Pernichi",
-      "title": "Full Stack Web Developer",
-      "subtitle": "Passionate about creating innovative web solutions"
+    "job2": {
+      "title": "Frontend Developer",
+      "company": "No Country",
+      "date": "May 2024 - August 2024",
+      "description": "Developed the frontend for YO LO CUIDO, a pet care services platform. Implemented responsive UI components using React and modern CSS practices. Collaborated with UX/UI team to ensure pixel-perfect implementation of designs. Optimized application performance and implemented user authentication system."
     },
-    "about": {
-      "title": "About Me",
-      "description": "Full Stack Web Developer with a unique background in Mechanical Engineering, bringing analytical problem-solving skills to software development. Recently completed an intensive coding bootcamp, mastering React.js, TypeScript, Python, and SQL. Seeking opportunities in Dublin's dynamic tech scene where I can contribute my technical expertise and innovative thinking to create impactful web solutions."
-    },
-    "experience": {
-      "title": "Experience",
-      "job1": {
-        "title": "Full Stack Web Developer",
-        "company": "Freelance",
-        "date": "Jun 2024 - Present",
-        "description": "Developing full-stack applications with a focus on React.js, TypeScript, Python, and SQL."
-      },
-      "job2": {
-        "title": "Frontend Web Developer",
-        "company": "No Country",
-        "date": "Jul 2024 - Aug 2024",
-        "description": "Developed the frontend for 'YO LO CUIDO', a pet care platform, using React and modern web technologies."
-      }
-    },
-    "projects": {
-      "title": "Projects",
-      "project1": {
-        "title": "LIQUIBOXES",
-        "description": "An innovative e-commerce platform for mystery boxes, built with React.js, Python, and Flask.",
-        "date": "Jun 2024 - Present"
-      },
-      "project2": {
-        "title": "YO LO CUIDO",
-        "description": "A responsive web platform for pet care services, developed with React and styled-components.",
-        "date": "May 2024 - Aug 2024"
-      },
-      "project3": {
-        "title": "Star Wars Database",
-        "description": "An interactive web application showcasing Star Wars data, built with React and Redux.",
-        "date": "May 2024 - Jul 2024"
-      }
-    },
-    "skills": {
-      "title": "Skills",
-      "frontend": "Frontend",
-      "backend": "Backend",
-      "tools": "Tools & Others"
-    },
-    "contact": {
-      "title": "Contact Me",
-      "description": "Interested in collaborating or have a project in mind? Let's connect!",
-      "name": "Miguel Toyas Pernichi",
-      "email": "mitoperni@gmail.com"
+    "job3": {
+      "title": "R&D&I Project Consultant",
+      "company": "Aliot Innovación",
+      "date": "April 2023 - January 2024",
+      "description": "Specialized in analyzing innovative technology projects, focusing on IT, video games, and animation development. This role sparked my passion for software development through deep exposure to cutting-edge technologies and development methodologies. Analyzed complex software architectures, collaborated with tech companies, and gained valuable insights into modern development practices that inspired my transition into full-stack development."
     }
+  },
+  "projects": {
+    "title": "Projects",
+    "project1": {
+      "title": "LIQUIBOXES",
+      "description": "Led the development of an innovative e-commerce platform that revolutionizes inventory management through personalized mystery boxes. Built with React.js, Python/Flask, and PostgreSQL. Features include secure payment processing (Stripe), real-time inventory management, and an advanced recommendation system. Implemented CI/CD pipeline and conducted code reviews using GitHub Actions.",
+      "date": "Jun 2024 - Present"
+    },
+    "project2": {
+      "title": "YO LO CUIDO",
+      "description": "Developed a responsive pet care services platform connecting pet owners with caregivers. Built the frontend using React with modern practices including custom hooks and context API. Implemented user authentication, real-time notifications, and an intuitive booking system. Collaborated with backend team for seamless API integration.",
+      "date": "May 2024 - Aug 2024"
+    },
+    "project3": {
+      "title": "Star Wars Database",
+      "description": "Created an interactive web application showcasing Star Wars universe data using React and Redux. Implemented features like dynamic search, favorites system, and detailed character profiles. Utilized the SWAPI REST API and implemented efficient data caching for optimal performance.",
+      "date": "May 2024 - Jul 2024"
+    }
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "frontend": "Frontend Development",
+    "backend": "Backend Development",
+    "tools": "Tools & Methods"
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "description": "Looking for a Full Stack Developer? I'm currently open to opportunities in Dublin's tech scene. Feel free to reach out through my social networks or drop me an email to discuss how I can contribute to your team.",
+    "name": "Miguel Toyas Pernichi",
+    "email": "mitoperni@gmail.com",
+    "location": "Dublin, Ireland",
+    "linkedin": "https://www.linkedin.com/in/migueltoyaspernichi",
+    "github": "https://github.com/mitoperni",
+    "linkedin_text": "LinkedIn Profile",
+    "github_text": "GitHub Projects"
   }
+}
