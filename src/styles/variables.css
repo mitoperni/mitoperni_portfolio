@@ -1,14 +1,19 @@
 :root {
-  --bg-color: #0c120c;      /* Night - Un fondo oscuro elegante */
-  --text-color: #f1f0cc;    /* Lemon chiffon - Texto claro pero suave */
-  --primary-color: #a71d31; /* Madder - Color principal vibrante */
-  --secondary-color: #d5bf86; /* Ecru - Color secundario neutro */
-  --accent-color: #8d775f;   /* Chamoisee - Color de acento sutil */
+/* Fondo oscuro elegante */
+--bg-color: #1B1B1D;         /* Gris casi negro, da un aspecto moderno sin ser completamente negro */
+--text-color: #EAE0D5;       /* Crema pálido, elegante y cálido para un buen contraste */
 
-  --bg-color-neg: #f0f0f0;    /* Negativo de Night */
-  --text-color-neg: #0e0f33;  /* Negativo de Lemon chiffon */
-  --primary-color-neg: #58e2ce; /* Negativo de Madder */
-  --secondary-color-neg: #2a4079; /* Negativo de Ecru */
+/* Colores principales */
+--primary-color: #C4A77D;    /* Tono marrón suave y cálido, aporta sofisticación */
+--secondary-color: #6C7A89;  /* Gris azulado, neutro y calmante, ideal para balancear el diseño */
+--accent-color: #A67F5E;     /* Marrón dorado suave para destacar ciertos elementos */
+
+/* Fondo claro */
+--bg-color-neg: #F4F1EB;     /* Beige muy claro, más suave que el blanco para una apariencia cálida */
+--text-color-neg: #1F1F1F;   /* Gris oscuro, permite mantener el contraste sin ser demasiado duro */
+--primary-color-neg: #8C705A; /* Marrón cálido, se mantiene en línea con el esquema clásico */
+--secondary-color-neg: #4A586E; /* Azul grisáceo profundo, contrasta bien con los tonos claros */
+
   
   --base: 20vmin;
   --transition: all 0.2s;

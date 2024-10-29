@@ -1,16 +1,37 @@
+@import "../../styles/variables.css";
+
 /* Contact.css */
+
 .contact-wrapper {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+  margin-top: 2.5rem;
+}
+
+#contact-text-div {
+  flex: 2;
+}
+
+#contact-form-div {
+  flex: 1;
+}
+
+#contact h2 {
+  font-size: 3rem;
+}
+#contact h4 {
+  font-size: 2rem;
+}
+#contact h5 {
+  font-size: 1.5rem;
 }
 
 .contact-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 3rem;
   margin-top: 2rem;
 }
@@ -23,7 +44,7 @@
 
 .contact-details {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   gap: 1.5rem;
 }
 
@@ -65,12 +86,17 @@
   transform: translateY(-2px);
 }
 
-.social-link.linkedin{
-  background-color: #0077B5;
+.social-link.linkedin {
+  background-color: #0077b5;
 }
 
 .social-link.github {
   background-color: #333;
+}
+
+.social-link.calendly {
+  background-color: var(--accent-color);
+  max-width: 50%;
 }
 
 .contact-form {
@@ -146,7 +172,7 @@
 }
 
 .submit-button.success {
-  background: #4CAF50;
+  background: #4caf50;
 }
 
 .submit-button.error {
@@ -158,11 +184,11 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .social-links {
     flex-direction: column;
   }
-  
+
   .contact-details {
     align-items: stretch;
   }

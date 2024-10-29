@@ -72,7 +72,10 @@
     "github": "https://github.com/mitoperni",
     "linkedin_text": "LinkedIn Profile",
     "github_text": "GitHub Projects",
+    "calendly_title": "Schedule a meeting at your convenience using my online calendar",
+    "calendly_text": "Schedule Meeting",
     "form": {
+      "title": "Contact Me",
       "name": "Name",
       "name_placeholder": "Your name",
       "email": "Email",
