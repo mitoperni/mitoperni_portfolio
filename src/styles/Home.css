@@ -24,11 +24,20 @@
 .bg-light {
   background: var(--bg-color-neg);
   color: var(--text-color-neg);
+  cursor: var(--cursor-dark);
+}
+.bg-light:hover {
+  cursor: var(--cursor-dark);
 }
 
 .bg-dark {
   background: var(--bg-color);
   color: var(--text-color);
+  cursor: var(--cursor);
+}
+
+.bg-dark:hover {
+  cursor: var(--cursor);
 }
 
 /* Media Queries para Responsividad */

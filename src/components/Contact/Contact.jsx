@@ -2,14 +2,7 @@ import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import useScrollAnimation from "../../hooks/useScrollAnimation";
 import { useTranslation } from "react-i18next";
-import {
-  Linkedin,
-  Github,
-  Calendar1Icon,
-  Mail,
-  MapPin,
-  Send,
-} from "lucide-react";
+import { Linkedin, Github, Calendar1Icon, Mail, MapPin, Send } from "lucide-react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
@@ -58,7 +51,7 @@ function Contact() {
         <div className="contact-container">
           <div className="contact-info">
             <div className="contact-details">
-              <div className="contact-item" cursor>
+              <div className="contact-item">
                 <Mail size={20} />
                 <p>{t("contact.email")}</p>
               </div>
@@ -102,6 +95,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      
       {/* Contenedor del formulario de contacto */}
       <div id="contact-form-div">
         <h4>{t("contact.form.title")}</h4>

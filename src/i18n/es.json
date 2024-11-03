@@ -5,7 +5,9 @@
     "experience": "Experiencia",
     "projects": "Proyectos",
     "skills": "Habilidades",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "next-section": "Siguiente Sección",
+    "back-top": "Volver al Principio"
   },
   "hero": {
     "greeting": "Hola, soy",

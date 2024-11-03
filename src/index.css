@@ -6,13 +6,11 @@ html {
 
 
 body {
-  background-color: var(--bg-color);
   margin: 0;
   font-family: "Zen Antique", serif;
   line-height: 1;
   overflow: overlay;
   cursor: var(--cursor-dark);
-  color: var(--text-color);
 }
 
 /* Estilos del scrollbar */
@@ -44,21 +42,3 @@ body::-webkit-scrollbar-thumb:hover {
   cursor: var(--cursor-dark-hover);
 }
 
-.bg-light {
-  background: var(--bg-color-neg);
-  cursor: var(--cursor);
-  color: var(--text-color-neg);
-}
-
-.bg-light [cursor] {
-  cursor: var(--cursor);
-}
-
-.bg-light [cursor]:hover {
-  cursor: var(--cursor-hover);
-}
-
-.bg-dark {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}

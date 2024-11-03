@@ -18,7 +18,7 @@ function Hero() {
       <p className="hero-subtitle">{t("hero.title")}</p>
       <p className="hero-description">{t("hero.subtitle")}</p>
       <motion.a
-        href="#about"
+        href="#experience"
         className="cta-button"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}

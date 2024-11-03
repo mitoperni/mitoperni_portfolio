@@ -1,7 +1,6 @@
 @import "../../styles/variables.css";
 
-/* Contact.css */
-
+/* Contact Wrapper */
 .contact-wrapper {
   display: flex;
   justify-content: center;
@@ -9,9 +8,9 @@
   gap: 2rem;
   margin: 0 auto;
   padding: 2rem;
-  margin-top: 2.5rem;
 }
 
+/* Contact Info and Form Div */
 #contact-text-div {
   flex: 2;
 }
@@ -20,72 +19,70 @@
   flex: 1;
 }
 
+/* Títulos */
 #contact h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 #contact h4 {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
 }
 
 #contact h5 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem;
 }
 
+/* Contact Container */
 .contact-container {
   display: grid;
-  gap: 3rem;
-  margin-top: 2rem;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .contact-details {
   display: flex;
-  justify-content: center;
-  gap: 1.5rem;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 0.5rem;
   background: rgba(var(--text-color-rgb), 0.05);
   transition: var(--transition);
 }
 
-.contact-item:hover {
-  transform: translateY(-2px);
-  background: rgba(var(--text-color-rgb), 0.1);
-}
-
+/* Links sociales */
 .social-links {
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.5rem;
   margin-top: 1rem;
 }
 
 .social-link {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 1rem 1.5rem;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
   border-radius: 0.5rem;
   text-decoration: none;
   color: var(--text-color);
   background: rgba(var(--text-color-rgb), 0.05);
   transition: var(--transition);
-  width: 100%;
-}
-
-.social-link:hover {
-  transform: translateY(-2px);
+  text-align: center;
 }
 
 .social-link.linkedin {
@@ -101,16 +98,21 @@
   max-width: 50%;
 }
 
+.social-link:hover {
+  transform: translateY(-2px);
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  padding: 2rem;
+  gap: 1rem;
+  padding: 1.5rem;
   background: white;
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilos de inputs y textarea */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -118,14 +120,14 @@
 }
 
 .form-group label {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 500;
   color: var(--text-neg-color);
 }
 
 .form-group input,
 .form-group textarea {
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 0.5rem;
   border: 1px solid rgba(var(--text-color-rgb), 0.2);
   background: rgba(var(--text-color-rgb), 0.05);
@@ -135,20 +137,13 @@
   resize: vertical;
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--primary-color);
-  background: white;
-  box-shadow: 0 0 0 3px rgba(var(--primary-color-rgb), 0.1);
-}
-
+/* Botón de envío */
 .submit-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.75rem;
-  padding: 1rem 2rem;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
   border-radius: 0.5rem;
   border: none;
   background: var(--primary-color);
@@ -157,6 +152,7 @@
   font-weight: 500;
   transition: var(--transition);
   cursor: pointer;
+  width: 100%; /* Ocupa toda la anchura en dispositivos pequeños */
 }
 
 .submit-button:hover:not(:disabled) {
@@ -164,23 +160,7 @@
   box-shadow: 0 4px 12px rgba(var(--primary-color-rgb), 0.2);
 }
 
-.submit-button:active:not(:disabled) {
-  transform: translateY(0);
-}
-
-.submit-button.sending {
-  background: var(--secondary-color);
-  cursor: not-allowed;
-}
-
-.submit-button.success {
-  background: #4caf50;
-}
-
-.submit-button.error {
-  background: #f44336;
-}
-
+/* Mensajes de éxito y error */
 .success-message,
 .error-message {
   font-size: 1rem;
@@ -196,10 +176,13 @@
   color: #f44336;
 }
 
-@media (max-width: 768px) {
-  .contact-container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+/* Media Queries para mejorar la responsividad */
+@media (max-width: 950px) {
+  
+  .contact-wrapper {
+    display: block;
+    padding: 1rem;
+    align-items: center;
   }
 
   .social-links {
@@ -207,24 +190,38 @@
   }
 
   .contact-details {
-    align-items: stretch;
+    align-items: flex-start;
+  }
+
+  #contact h2 {
+    font-size: 2rem;
+  }
+
+  #contact h4 {
+    font-size: 1.5rem;
   }
 
   .contact-form {
     padding: 1.5rem;
   }
-
-  .submit-button {
-    width: 100%;
-  }
 }
 
 @media (max-width: 480px) {
   .contact-wrapper {
+    flex-direction: column !important;
     padding: 1rem;
+  }
+
+  .contact-item {
+    padding: 0.5rem;
   }
 
   .contact-form {
     padding: 1rem;
+  }
+
+  .submit-button {
+    width: 100%;
+    font-size: 0.9rem;
   }
 }
