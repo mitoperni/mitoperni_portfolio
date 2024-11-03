@@ -12,7 +12,6 @@ i18n
   .use(LanguageDetector)
   .use(Backend)
   .init({
-    debug: true,
     resources: {
       en: { translation: enTranslations },
       es: { translation: esTranslations },

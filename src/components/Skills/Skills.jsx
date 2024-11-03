@@ -1,12 +1,33 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import './Skills.css';
+import React from "react";
+import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import "./Skills.css";
 
 const skillsList = {
-  frontend: ["React", "JavaScript", "HTML5", "CSS3", "Bootstrap", "Responsive Design"],
-  backend: ["Python", "Flask", "SQLAlchemy", "PostgreSQL", "RESTful APIs", "Database Design"],
-  tools: ["Git", "GitHub", "Agile/Scrum", "VS Code", "Trello", "Pair Programming"]
+  frontend: [
+    "React",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "Responsive Design",
+  ],
+  backend: [
+    "Python",
+    "Flask",
+    "SQLAlchemy",
+    "PostgreSQL",
+    "RESTful APIs",
+    "Database Design",
+  ],
+  tools: [
+    "Git",
+    "GitHub",
+    "Agile/Scrum",
+    "VS Code",
+    "Trello",
+    "Pair Programming",
+  ],
 };
 
 function Skills() {
@@ -17,7 +38,12 @@ function Skills() {
       <h2 className="skills-title">{t("skills.title")}</h2>
       <div className="skills-container">
         {Object.entries(skillsList).map(([category, skills]) => (
-          <div key={category} className="skills-category">
+          <div
+            key={category}
+            className={`skills-category ${
+              category === "backend" ? "align-right" : ""
+            }`}
+          >
             <h3 className="skills-category-title">{t(`skills.${category}`)}</h3>
             <div className="skills-list">
               {skills.map((skill, index) => (
