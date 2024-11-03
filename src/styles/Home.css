@@ -1,6 +1,10 @@
 @import "../styles/variables.css";
 @import "../index.css";
 
+#home {
+  position: absolute;
+}
+
 #home-hero {
   width: 100%;
   display: flex;
@@ -28,7 +32,6 @@
 
 #home-projects{
   min-height: 100dvh;
-
 }
 
 .bg-light {

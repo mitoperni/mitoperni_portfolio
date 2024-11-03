@@ -1,74 +1,91 @@
 /* ProjectModal.css */
 .project-modal-backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500vh;
+  background: rgba(0, 0, 0, 0.8); /* Fondo oscurecido */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
 }
 
 .project-modal {
-    background: var(--bg-color);
-    color: var(--text-color);
-    padding: 2rem;
-    border-radius: 0.8rem;
-    max-width: 600px;
-    width: 90%;
-    position: relative;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 2rem;
+  border-radius: 0.8rem;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-100%, -50%);
 }
 
 .close-button {
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: var(--text-color);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-color);
 }
 
 .project-modal-image {
-    width: 100%;
-    height: auto;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .project-modal-title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .project-modal-description {
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: justify;
 }
 
 .project-modal-technologies {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 .project-modal-link {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: var(--primary-color);
-    color: var(--text-color-neg);
-    border-radius: 0.4rem;
-    font-weight: bold;
-    text-align: center;
-    transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  color: var(--text-color-neg);
+  border-radius: 0.4rem;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
 }
 
 .project-modal-link:hover {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 720px) {
+  .project-modal-backdrop {
+    width: 120%;
+    height: 1000vh;
+  }
+
+  .project-modal {
+    max-width: 350px;
+  }
 }
