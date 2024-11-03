@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import "./Skills.css";
@@ -19,15 +18,9 @@ const skillsList = {
     "PostgreSQL",
     "RESTful APIs",
     "Database Design",
+    "SQL",
   ],
-  tools: [
-    "Git",
-    "GitHub",
-    "Agile/Scrum",
-    "VS Code",
-    "Trello",
-    "Pair Programming",
-  ],
+  tools: ["Git", "GitHub", "VS Code", "Trello", "Pair Programming", "Vercel"],
 };
 
 function Skills() {
