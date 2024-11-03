@@ -48,18 +48,30 @@
     "title": "Projects",
     "project1": {
       "title": "LIQUIBOXES",
-      "description": "Led the development of an innovative e-commerce platform that revolutionizes inventory management through personalized mystery boxes. Built with React.js, Python/Flask, and PostgreSQL. Features include secure payment processing (Stripe), real-time inventory management, and an advanced recommendation system. Implemented CI/CD pipeline and conducted code reviews using GitHub Actions.",
-      "date": "Jun 2024 - Present"
+      "description": "Led the development of an innovative e-commerce platform that revolutionizes inventory management through personalized mystery boxes. Built with React.js, Python/Flask, and PostgreSQL. Features secure payment processing (Stripe), real-time inventory management, and an advanced recommendation system. Implemented CI/CD pipeline and conducted code reviews using GitHub Actions.",
+      "date": "Jun 2024 - Present",
+      "link": "https://sample-service-name-3no0.onrender.com",
+      "image": "https://i.imgur.com/o6fsGOD.jpeg",
+      "gif": "https://i.imgur.com/tgWNyHM.gif",
+      "technologies": ["React.js", "Python", "Flask", "PostgreSQL"]
     },
     "project2": {
       "title": "YO LO CUIDO",
       "description": "Developed a responsive pet care services platform connecting pet owners with caregivers. Built the frontend using React with modern practices including custom hooks and context API. Implemented user authentication, real-time notifications, and an intuitive booking system. Collaborated with backend team for seamless API integration.",
-      "date": "May 2024 - Aug 2024"
+      "date": "May 2024 - Aug 2024",
+      "link": "https://yolocuido.vercel.app",
+      "image": "https://i.imgur.com/oKZzomT.png",
+      "gif": "https://i.imgur.com/RMEfTmW.gif",
+      "technologies": ["React.js", "Hooks", "Context API"]
     },
     "project3": {
       "title": "Star Wars Database",
       "description": "Created an interactive web application showcasing Star Wars universe data using React and Redux. Implemented features like dynamic search, favorites system, and detailed character profiles. Utilized the SWAPI REST API and implemented efficient data caching for optimal performance.",
-      "date": "May 2024 - Jul 2024"
+      "date": "May 2024 - Jul 2024",
+      "link": "https://starwarsdatabase.vercel.app",
+      "image": "https://i.imgur.com/ojoENAe.png",
+      "gif": "https://i.imgur.com/SBPv12t.gif",
+      "technologies": ["React.js", "Redux", "SWAPI API"]
     }
   },
   "skills": {

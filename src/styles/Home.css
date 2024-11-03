@@ -26,11 +26,17 @@
   align-items: center;
 }
 
+#home-projects{
+  min-height: 100dvh;
+
+}
+
 .bg-light {
   background: var(--bg-color-neg);
   color: var(--text-color-neg);
   cursor: var(--cursor-dark);
 }
+
 .bg-light:hover {
   cursor: var(--cursor-dark);
 }

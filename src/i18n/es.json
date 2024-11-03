@@ -49,17 +49,29 @@
     "project1": {
       "title": "LIQUIBOXES",
       "description": "Dirigí el desarrollo de una plataforma innovadora de comercio electrónico que revoluciona la gestión de inventario mediante cajas sorpresa personalizadas. Desarrollada con React.js, Python/Flask y PostgreSQL. Incluye procesamiento seguro de pagos (Stripe), gestión de inventario en tiempo real y un sistema avanzado de recomendaciones. Implementación de pipeline CI/CD y gestión de revisiones de código mediante GitHub Actions.",
-      "date": "Jun 2024 - Presente"
+      "date": "Jun 2024 - Presente",
+      "link": "https://sample-service-name-3no0.onrender.com",
+      "image": "https://i.imgur.com/o6fsGOD.jpeg",
+      "gif": "https://i.imgur.com/tgWNyHM.gif",
+      "technologies": ["React.js", "Python", "Flask", "PostgreSQL"]
     },
     "project2": {
       "title": "YO LO CUIDO",
       "description": "Desarrollé una plataforma web adaptativa de servicios de cuidado de mascotas que conecta propietarios con cuidadores. Frontend construido con React utilizando prácticas modernas como hooks personalizados y context API. Integración de autenticación de usuarios, notificaciones en tiempo real y un sistema intuitivo de reservas. Colaboración estrecha con el equipo de backend para la integración de API.",
-      "date": "May 2024 - Ago 2024"
+      "date": "May 2024 - Ago 2024",
+      "link": "https://yolocuido.vercel.app",
+      "image": "https://i.imgur.com/oKZzomT.png",
+      "gif": "https://i.imgur.com/RMEfTmW.gif",
+      "technologies": ["React.js", "Hooks", "Context API"]
     },
     "project3": {
       "title": "Base de Datos de Star Wars",
       "description": "Creé una aplicación web interactiva que presenta datos del universo Star Wars utilizando React y Redux. Implementación de funcionalidades como búsqueda dinámica, sistema de favoritos y perfiles detallados de personajes. Integración con la API REST SWAPI y sistema eficiente de caché de datos para un rendimiento óptimo.",
-      "date": "May 2024 - Jul 2024"
+      "date": "May 2024 - Jul 2024",
+      "link": "https://starwarsdatabase.vercel.app",
+      "image": "https://i.imgur.com/ojoENAe.png",
+      "gif": "https://i.imgur.com/SBPv12t.gif",
+      "technologies": ["React.js", "Redux", "SWAPI API"]
     }
   },
   "skills": {

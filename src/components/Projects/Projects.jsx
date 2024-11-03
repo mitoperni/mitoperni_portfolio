@@ -1,33 +1,20 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import useScrollAnimation from '../../hooks/useScrollAnimation';
+// Projects.js
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import ProjectCard from './ProjectCard/ProjectCard';
+import ProjectModal from './ProjectModal/ProjectModal';
 import './Projects.css';
 
-const ProjectCard = ({ title, description, date, isEven }) => {
-  const { ref, controls } = useScrollAnimation();
-
-  return (
-    <motion.div
-      ref={ref}
-      className={`project-card ${isEven ? 'even' : 'odd'}`}
-      animate={controls}
-      initial={{ opacity: 0, y: 50 }}
-      whileHover={{ scale: 1.05 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-    >
-      <h3 className="project-title">{title}</h3>
-      <p className="project-description">{description}</p>
-      <span className="project-date">{date}</span>
-    </motion.div>
-  );
-};
-
-function Projects() {
+const Projects = () => {
   const { t } = useTranslation();
   const projects = Object.entries(t('projects', { returnObjects: true }))
     .filter(([key, project]) => key !== 'title' && project.title && project.description)
     .map(([, project]) => project);
+
+  const [selectedProject, setSelectedProject] = useState(null);
+
+  // Función para cerrar el modal
+  const closeModal = () => setSelectedProject(null);
 
   return (
     <section id="projects" className="projects-section">
@@ -36,13 +23,18 @@ function Projects() {
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
-            {...project}
-            isEven={index % 2 === 0}
+            title={project.title}
+            date={project.date}
+            image={project.image}
+            onClick={() => setSelectedProject(project)}
           />
         ))}
       </div>
+      {selectedProject && (
+        <ProjectModal project={selectedProject} onClose={closeModal} />
+      )}
     </section>
   );
-}
+};
 
 export default Projects;

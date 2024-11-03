@@ -1,0 +1,41 @@
+/* ProjectCard.css */
+.project-card {
+  position: relative;
+  background: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 0.8rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 350px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.project-image {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 1rem;
+}
+
+.project-title {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  text-overflow: ellipsis;
+}
+
+.project-date {
+  font-size: 1rem;
+  color: var(--secondary-color);
+}

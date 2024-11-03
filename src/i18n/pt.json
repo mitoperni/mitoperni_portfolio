@@ -48,18 +48,30 @@
     "title": "Projetos",
     "project1": {
       "title": "LIQUIBOXES",
-      "description": "Coordenei o desenvolvimento de uma plataforma inovadora de e-commerce que revoluciona a gestão de estoque através de caixas surpresa personalizadas. Desenvolvida com React.js, Python/Flask e PostgreSQL. Inclui processamento seguro de pagamentos (Stripe), gestão de estoque em tempo real e sistema avançado de recomendações. Implementação de pipeline CI/CD e gerenciamento de revisões de código através do GitHub Actions.",
-      "date": "Jun 2024 - Presente"
+      "description": "Liderei o desenvolvimento de uma plataforma inovadora de e-commerce que revoluciona a gestão de inventário através de caixas surpresa personalizadas. Desenvolvida com React.js, Python/Flask e PostgreSQL. Inclui processamento seguro de pagamentos (Stripe), gestão de inventário em tempo real e um sistema avançado de recomendações. Implementação de pipeline CI/CD e revisão de código com GitHub Actions.",
+      "date": "Jun 2024 - Presente",
+      "link": "https://sample-service-name-3no0.onrender.com",
+      "image": "https://i.imgur.com/o6fsGOD.jpeg",
+      "gif": "https://i.imgur.com/tgWNyHM.gif",
+      "technologies": ["React.js", "Python", "Flask", "PostgreSQL"]
     },
     "project2": {
       "title": "YO LO CUIDO",
-      "description": "Desenvolvi uma plataforma web responsiva de serviços de cuidados com pets que conecta proprietários e cuidadores. Frontend construído com React utilizando práticas modernas como hooks personalizados e context API. Integração de autenticação de usuários, notificações em tempo real e sistema intuitivo de agendamentos. Colaboração próxima com a equipe de backend para integração da API.",
-      "date": "Mai 2024 - Ago 2024"
+      "description": "Desenvolvi uma plataforma web adaptativa de serviços de cuidados com animais que conecta proprietários com cuidadores. Frontend construído com React usando práticas modernas como hooks personalizados e context API. Implementação de autenticação de usuários, notificações em tempo real e um sistema intuitivo de reservas. Colaboração com equipe de backend para integração completa da API.",
+      "date": "Mai 2024 - Ago 2024",
+      "link": "https://yolocuido.vercel.app",
+      "image": "https://i.imgur.com/oKZzomT.png",
+      "gif": "https://i.imgur.com/RMEfTmW.gif",
+      "technologies": ["React.js", "Hooks", "Context API"]
     },
     "project3": {
-      "title": "Banco de Dados Star Wars",
-      "description": "Criei uma aplicação web interativa que apresenta dados do universo Star Wars utilizando React e Redux. Implementação de funcionalidades como busca dinâmica, sistema de favoritos e perfis detalhados de personagens. Integração com a API REST SWAPI e sistema eficiente de cache de dados para desempenho otimizado.",
-      "date": "Mai 2024 - Jul 2024"
+      "title": "Banco de Dados de Star Wars",
+      "description": "Criei uma aplicação web interativa que apresenta dados do universo Star Wars utilizando React e Redux. Implementação de funcionalidades como busca dinâmica, sistema de favoritos e perfis detalhados de personagens. Utilização da API REST SWAPI e sistema eficiente de cache de dados para um desempenho otimizado.",
+      "date": "Mai 2024 - Jul 2024",
+      "link": "https://starwarsdatabase.vercel.app",
+      "image": "https://i.imgur.com/ojoENAe.png",
+      "gif": "https://i.imgur.com/SBPv12t.gif",
+      "technologies": ["React.js", "Redux", "SWAPI API"]
     }
   },
   "skills": {
