@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import ReactCountryFlag from "react-country-flag"
+import ReactCountryFlag from "react-country-flag";
+import { motion } from 'framer-motion';
 import './Header.css';
 
 function Header() {
@@ -15,7 +16,6 @@ function Header() {
   };
 
   const navItems = [ 'experience', 'projects', 'skills', 'contact'];
-
   const flags = {
     en: { code: 'GB', name: 'English' },
     es: { code: 'ES', name: 'Español' },
@@ -29,15 +29,25 @@ function Header() {
         setScrolled(isScrolled);
       }
     };
-
     document.addEventListener('scroll', handleScroll);
-    return () => {
-      document.removeEventListener('scroll', handleScroll);
-    };
+    return () => document.removeEventListener('scroll', handleScroll);
   }, [scrolled]);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+  const hamburgerVariants = {
+    open: { rotate: 45, y: 7 },
+    closed: { rotate: 0, y: 0 },
+  };
+
+  const middleLineVariants = {
+    open: { opacity: 0 },
+    closed: { opacity: 1 },
+  };
+
+  const bottomLineVariants = {
+    open: { rotate: -45, y: -7 },
+    closed: { rotate: 0, y: 0 },
   };
 
   return (
@@ -48,17 +58,34 @@ function Header() {
             <a href="#home">Mitoperni</a>
           </div>
           <button className="hamburger-menu" onClick={toggleMenu}>
-            <span></span>
-            <span></span>
-            <span></span>
+            <motion.span
+              variants={hamburgerVariants}
+              animate={isMenuOpen ? 'open' : 'closed'}
+            ></motion.span>
+            <motion.span
+              variants={middleLineVariants}
+              animate={isMenuOpen ? 'open' : 'closed'}
+            ></motion.span>
+            <motion.span
+              variants={bottomLineVariants}
+              animate={isMenuOpen ? 'open' : 'closed'}
+            ></motion.span>
           </button>
-          <ul id="header-nav-list" className={isMenuOpen ? 'open' : ''}>
+          <motion.ul
+            id="header-nav-list"
+            className={isMenuOpen ? 'open' : ''}
+            initial={{ x: '100%' }}
+            animate={{ x: isMenuOpen ? 0 : '100%' }}
+            transition={{ duration: 0.3, ease: 'easeInOut' }}
+          >
             {navItems.map((item) => (
               <li key={item}>
-                <a href={`#${item}`} onClick={() => setIsMenuOpen(false)}>{t(`header.${item}`)}</a>
+                <a href={`#${item}`} onClick={() => setIsMenuOpen(false)}>
+                  {t(`header.${item}`)}
+                </a>
               </li>
             ))}
-          </ul>
+          </motion.ul>
         </nav>
         <div id="header-lang-selector">
           <button id="header-lang-button" onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}>

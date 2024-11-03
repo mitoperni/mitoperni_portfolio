@@ -1,5 +1,10 @@
 @import "./styles/variables.css";
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   background-color: var(--bg-color);
   margin: 0;

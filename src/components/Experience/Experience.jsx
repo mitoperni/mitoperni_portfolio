@@ -1,29 +1,39 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
+import React from 'react';
+import { motion } from 'framer-motion';
+import useScrollAnimation from '../../hooks/useScrollAnimation';
+import { useTranslation } from 'react-i18next';
+import './Experience.css';
 
-// Componente para un trabajo individual
 const JobCard = ({ jobKey }) => {
   const { t } = useTranslation();
-  
+  const { ref, controls } = useScrollAnimation();
+
   return (
-    <div className="job-card">
-      <h3>{t(`experience.${jobKey}.title`)}</h3>
+    <motion.div
+      ref={ref}
+      className="job-card"
+      animate={controls}
+      initial={{ opacity: 0, y: 50 }}
+      whileHover={{ scale: 1.05 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+    >
+      <h3 className="job-title">{t(`experience.${jobKey}.title`)}</h3>
       <div className="job-info">
         <span className="company">{t(`experience.${jobKey}.company`)}</span>
         <span className="date">{t(`experience.${jobKey}.date`)}</span>
       </div>
-      <p className="description">{t(`experience.${jobKey}.description`)}</p>
-    </div>
+      <p className="job-description">{t(`experience.${jobKey}.description`)}</p>
+    </motion.div>
   );
 };
 
 function Experience() {
   const { t } = useTranslation();
-  const jobs = ['job1', 'job2', 'job3']; // Fácil de expandir añadiendo más jobs aquí
+  const jobs = ['job1', 'job2', 'job3'];
 
   return (
-    <section id="experience">
-      <h2>{t("experience.title")}</h2>
+    <section id="experience" className="experience-section">
+      <h2 className="experience-title">{t("experience.title")}</h2>
       <div className="jobs-container">
         {jobs.map((job) => (
           <JobCard key={job} jobKey={job} />

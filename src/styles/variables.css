@@ -1,35 +1,35 @@
 :root {
-/* Fondo oscuro elegante */
---bg-color: #1B1B1D;         /* Gris casi negro, da un aspecto moderno sin ser completamente negro */
---text-color: #EAE0D5;       /* Crema pálido, elegante y cálido para un buen contraste */
+  /* Fondo oscuro elegante */
+  --bg-color: #2b2a26; /* Marrón oscuro, elegante sin ser completamente negro */
+  --text-color: #f4ede1; /* Crema pálido, buena legibilidad y calidez */
 
-/* Colores principales */
---primary-color: #C4A77D;    /* Tono marrón suave y cálido, aporta sofisticación */
---secondary-color: #6C7A89;  /* Gris azulado, neutro y calmante, ideal para balancear el diseño */
---accent-color: #A67F5E;     /* Marrón dorado suave para destacar ciertos elementos */
+  /* Colores principales */
+  --primary-color: #d4a373; /* Dorado suave, aporta sofisticación */
+  --secondary-color: #b2ada5; /* Gris cálido, neutro y sutil */
 
-/* Fondo claro */
---bg-color-neg: #F4F1EB;     /* Beige muy claro, más suave que el blanco para una apariencia cálida */
---text-color-neg: #1F1F1F;   /* Gris oscuro, permite mantener el contraste sin ser demasiado duro */
---primary-color-neg: #8C705A; /* Marrón cálido, se mantiene en línea con el esquema clásico */
---secondary-color-neg: #4A586E; /* Azul grisáceo profundo, contrasta bien con los tonos claros */
+  /* Fondo claro */
+  --bg-color-neg: #f4f1eb; /* Beige claro, apariencia suave y cálida */
+  --text-color-neg: #3b3a36; /* Gris oscuro para mantener contraste sin ser negro absoluto */
 
-  
+  /* Acento */
+  --accent-color: #a67f5e; /* Marrón dorado suave para destacar ciertos elementos */
+
+  /* Otras variables */
   --base: 20vmin;
   --transition: all 0.2s;
   --cubic: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  
-  /* Cursores personalizados con los nuevos colores */
-  --cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='%230c120c'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3C/svg%3E")
+
+  /* Cursores personalizados */
+  --cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='%23F4EDE1'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3C/svg%3E")
       20 0,
     auto;
-  --cursor-hover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 24 24' fill='none' stroke='%230c120c' stroke-width='1'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3C/svg%3E")
+  --cursor-hover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 24 24' fill='none' stroke='%23F4EDE1' stroke-width='1'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3C/svg%3E")
       20 0,
     auto;
-  --cursor-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='%23f1f0cc'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3C/svg%3E")
+  --cursor-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='%233B3A36'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3C/svg%3E")
       20 0,
     auto;
-  --cursor-dark-hover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 24 24' fill='none' stroke='%23f1f0cc' stroke-width='1'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3C/svg%3E")
+  --cursor-dark-hover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 24 24' fill='none' stroke='%233B3A36' stroke-width='1'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3C/svg%3E")
       20 0,
     auto;
 }

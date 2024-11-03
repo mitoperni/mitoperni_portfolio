@@ -1,41 +1,37 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import useScrollAnimation from '../../hooks/useScrollAnimation';
 import { useTranslation } from 'react-i18next';
+import './Projects.css';
 
-const ProjectCard = ({ title, description, date, isEven }) => (
-  <div className={`project-card project-card-${isEven ? 'even' : 'odd'}`}>
-    <h3>{title}</h3>
-    <p>{description}</p>
-    <p>{date}</p>
-  </div>
-);
+const ProjectCard = ({ title, description, date, isEven }) => {
+  const { ref, controls } = useScrollAnimation();
 
-const monthsMap = {
-  en: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-  es: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
-  pt: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez']
+  return (
+    <motion.div
+      ref={ref}
+      className={`project-card ${isEven ? 'even' : 'odd'}`}
+      animate={controls}
+      initial={{ opacity: 0, y: 50 }}
+      whileHover={{ scale: 1.05 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+    >
+      <h3 className="project-title">{title}</h3>
+      <p className="project-description">{description}</p>
+      <span className="project-date">{date}</span>
+    </motion.div>
+  );
 };
 
 function Projects() {
-  const { t, i18n } = useTranslation();
-  
-  const parseDate = (dateString) => {
-    const [month, year] = dateString.split(' ');
-    const monthIndex = monthsMap[i18n.language].indexOf(month);
-    return new Date(year, monthIndex);
-  };
-  
+  const { t } = useTranslation();
   const projects = Object.entries(t('projects', { returnObjects: true }))
     .filter(([key, project]) => key !== 'title' && project.title && project.description)
-    .sort(([, a], [, b]) => {
-      const dateA = parseDate(a.date.split(' - ')[0]);
-      const dateB = parseDate(b.date.split(' - ')[0]);
-      return dateB - dateA;
-    })
     .map(([, project]) => project);
 
   return (
-    <section id="projects">
-      <h2>{t('projects.title')}</h2>
+    <section id="projects" className="projects-section">
+      <h2 className="projects-title">{t('projects.title')}</h2>
       <div className="projects-container">
         {projects.map((project, index) => (
           <ProjectCard

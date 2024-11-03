@@ -1,78 +1,42 @@
 @import "../styles/variables.css";
 @import "../index.css";
 
-#home {
-  position: relative;
-  min-height: 100vh;
+#home-hero {
+  background-color: #f4e3d7; /* Tonos cálidos y claros */
+  color: var(--text-color-neg);
+  flex-grow: 1;
+  width: 100%;
+}
+
+#home-about {
+  width: 100%;
 }
 
 #hero-and-about {
-  display: flex;
   min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  flex: content;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  padding: 2rem;
 }
 
-#home-hero,
-#home-about {
-  border: 1px solid var(--accent-color);
-  padding: 5rem;
-  flex: 1;
-  transition: flex 0.3s ease, font-size 0.3s ease;
-  font-size: 1rem;
-  backdrop-filter: blur(5px);
+.bg-light {
+  background: var(--bg-color-neg);
+  color: var(--text-color-neg);
 }
 
-#home-hero:hover,
-#home-about:hover {
-  flex: 2;
-  font-size: 1.5rem;
+.bg-dark {
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 
-#home-experience,
-#home-projects,
-#home-skills,
-#home-contact {
-  position: relative;
-  min-height: 100dvh;
-  padding: 2rem;
-}
-
-/* Media queries para responsividad */
+/* Media Queries para Responsividad */
 @media (max-width: 768px) {
-  #hero-and-about {
-    flex-direction: column;
-    padding: 1rem;
-  }
-
-  #home-hero,
-  #home-about {
-    padding: 2rem;
-    width: calc(100% - 4rem);
-  }
-
-  #home-hero:hover,
-  #home-about:hover {
-    flex: 1;
-    font-size: 1.2rem;
-  }
-
   #home-experience,
   #home-projects,
   #home-skills,
   #home-contact {
-    padding: 1rem;
+    padding: 2rem;
   }
-}
-
-/* Aseguramos transiciones suaves */
-#home-hero,
-#home-about,
-#home-experience,
-#home-projects,
-#home-skills,
-#home-contact {
-  transition: all 0.3s ease;
 }

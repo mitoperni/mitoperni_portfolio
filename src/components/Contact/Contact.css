@@ -23,9 +23,11 @@
 #contact h2 {
   font-size: 3rem;
 }
+
 #contact h4 {
   font-size: 2rem;
 }
+
 #contact h5 {
   font-size: 1.5rem;
 }
@@ -167,7 +169,7 @@
 }
 
 .submit-button.sending {
-  background: var(--accent-color);
+  background: var(--secondary-color);
   cursor: not-allowed;
 }
 
@@ -177,6 +179,21 @@
 
 .submit-button.error {
   background: #f44336;
+}
+
+.success-message,
+.error-message {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.success-message {
+  color: #4caf50;
+}
+
+.error-message {
+  color: #f44336;
 }
 
 @media (max-width: 768px) {

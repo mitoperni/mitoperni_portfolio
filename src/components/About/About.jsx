@@ -1,19 +1,23 @@
-import React from 'react'
+import React from 'react';
+import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import './About.css';
 
 function About() {
   const { t } = useTranslation();
 
   return (
-    <div id='about'>
-      <div id="about-title">
-        <h2>{t('about.title')}</h2>
-      </div>
-      <div id="about-description">
-        <p>{t('about.description')}</p>
-      </div>
-    </div>
-  )
+    <motion.section
+      className="about-section"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      id="about"
+    >
+      <h2 className="about-title">{t('about.title')}</h2>
+      <p className="about-description">{t('about.description')}</p>
+    </motion.section>
+  );
 }
 
-export default About
+export default About;

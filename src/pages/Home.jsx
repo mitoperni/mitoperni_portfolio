@@ -13,7 +13,6 @@ export default function Home() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Si la sección visible es bg-light, añadimos la clase al header
             if (entry.target.classList.contains("bg-light")) {
               document.querySelector("header").classList.add("bg-light");
             } else {
@@ -35,30 +34,27 @@ export default function Home() {
   }, []);
 
   return (
-    <>
-      <div id="home">
-        <div id="hero-and-about" className="bg-light">
-          <div id="home-hero">
-            <Hero />
-          </div>
-          <div id="home-about">
-            <About />
-          </div>
+    <div id="home">
+      <div id="hero-and-about">
+        <div id="home-hero">
+          <Hero />
         </div>
-
-        <div id="home-experience" className="bg-dark">
-          <Experience />
-        </div>
-        <div id="home-projects" className="bg-light">
-          <Projects />
-        </div>
-        <div id="home-skills" className="bg-dark">
-          <Skills />
-        </div>
-        <div id="home-contact" className="bg-light">
-          <Contact />
+        <div id="home-about" className="bg-light">
+          <About />
         </div>
       </div>
-    </>
+      <div id="home-experience" className="bg-dark">
+        <Experience />
+      </div>
+      <div id="home-projects" className="bg-light">
+        <Projects />
+      </div>
+      <div id="home-skills" className="bg-dark">
+        <Skills />
+      </div>
+      <div id="home-contact" className="bg-light">
+        <Contact />
+      </div>
+    </div>
   );
 }

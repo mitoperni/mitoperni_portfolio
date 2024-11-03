@@ -1,0 +1,57 @@
+/* Experience.css */
+
+.experience-section {
+    padding: 4rem 2rem;
+    background-color: var(--bg-color);
+  }
+  
+  .experience-title {
+    font-size: 2.5rem;
+    font-family: 'Cinzel', serif;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .jobs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .job-card {
+    background: var(--bg-color-neg);
+    color: var(--text-color-neg);
+    border-radius: 0.8rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .job-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+    font-family: 'Cinzel Decorative', serif;
+  }
+  
+  .job-info {
+    display: flex;
+    justify-content: space-between;
+    color: var(--secondary-color);
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  .job-description {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

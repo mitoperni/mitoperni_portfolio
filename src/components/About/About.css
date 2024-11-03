@@ -1,0 +1,24 @@
+/* About.css */
+
+.about-section {
+    padding: 4rem 2rem;
+    background-color: var(--bg-color-neg);
+    color: var(--text-color-neg);
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-family: 'Cinzel', serif;
+    color: var(--primary-color-neg);
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  

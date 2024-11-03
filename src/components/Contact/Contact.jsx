@@ -1,4 +1,6 @@
 import React, { useState, useRef } from "react";
+import { motion } from "framer-motion";
+import useScrollAnimation from "../../hooks/useScrollAnimation";
 import { useTranslation } from "react-i18next";
 import {
   Linkedin,
@@ -15,6 +17,7 @@ function Contact() {
   const { t } = useTranslation();
   const form = useRef();
   const [status, setStatus] = useState("");
+  const { ref, controls } = useScrollAnimation();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -40,11 +43,18 @@ function Contact() {
   };
 
   return (
-    <div id="contact" className="contact-wrapper">
+    <motion.div
+      ref={ref}
+      animate={controls}
+      initial={{ opacity: 0, y: 50 }}
+      transition={{ duration: 0.6 }}
+      id="contact"
+      className="contact-wrapper"
+    >
+      {/* Contenedor de información de contacto */}
       <div id="contact-text-div">
         <h2>{t("contact.title")}</h2>
         <p className="contact-description">{t("contact.description")}</p>
-
         <div className="contact-container">
           <div className="contact-info">
             <div className="contact-details">
@@ -52,13 +62,11 @@ function Contact() {
                 <Mail size={20} />
                 <p>{t("contact.email")}</p>
               </div>
-
               <div className="contact-item">
                 <MapPin size={20} />
                 <p>{t("contact.location")}</p>
               </div>
             </div>
-
             <div className="social-links">
               <a
                 href={t("contact.linkedin")}
@@ -79,7 +87,6 @@ function Contact() {
                 <span>{t("contact.github_text")}</span>
               </a>
             </div>
-
             <div>
               <h5>{t("contact.calendly_title")}</h5>
               <a
@@ -95,7 +102,7 @@ function Contact() {
           </div>
         </div>
       </div>
-
+      {/* Contenedor del formulario de contacto */}
       <div id="contact-form-div">
         <h4>{t("contact.form.title")}</h4>
         <form ref={form} className="contact-form" onSubmit={handleSubmit}>
@@ -109,7 +116,6 @@ function Contact() {
               placeholder={t("contact.form.name_placeholder")}
             />
           </div>
-
           <div className="form-group">
             <label htmlFor="reply_to">{t("contact.form.email")}</label>
             <input
@@ -120,7 +126,6 @@ function Contact() {
               placeholder={t("contact.form.email_placeholder")}
             />
           </div>
-
           <div className="form-group">
             <label htmlFor="message">{t("contact.form.message")}</label>
             <textarea
@@ -131,19 +136,21 @@ function Contact() {
               rows="4"
             />
           </div>
-
-          <button
+          <motion.button
             type="submit"
             className={`submit-button ${status}`}
             disabled={status === "sending"}
-            cursor
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
           >
             <Send size={16} />
             {t(`contact.form.${status || "submit"}`)}
-          </button>
+          </motion.button>
+          {status === "success" && <p className="success-message">{t("contact.form.success")}</p>}
+          {status === "error" && <p className="error-message">{t("contact.form.error")}</p>}
         </form>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

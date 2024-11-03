@@ -1,3 +1,5 @@
+/* Header.css */
+
 #header {
   position: sticky;
   top: 0;
@@ -14,12 +16,12 @@
   padding: 1rem 2rem;
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
-  background-color: rgba(12, 18, 12, 0.8); /* usando el valor de --bg-color con transparencia */
+  background-color: rgba(43, 42, 38, 0.8); /* Ajuste de color según paleta */
 }
 
 #header.scrolled .header-content {
   padding: 0.5rem 2rem;
-  background-color: rgba(12, 18, 12, 0.9); /* un poco más opaco al hacer scroll */
+  background-color: rgba(43, 42, 38, 0.9); /* Más opaco al hacer scroll */
 }
 
 #header-nav {
@@ -102,7 +104,7 @@
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: rgba(12, 18, 12, 0.9);
+  background-color: rgba(43, 42, 38, 0.9);
   backdrop-filter: blur(10px);
   border: 1px solid var(--accent-color);
   border-radius: 4px;
@@ -161,15 +163,9 @@
     height: 100vh;
     width: 300px;
     flex-direction: column;
-    background-color: rgba(12, 18, 12, 0.95);
+    background-color: rgba(43, 42, 38, 0.95);
     backdrop-filter: blur(10px);
     padding: 2rem;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
-  }
-
-  #header-nav-list.open {
-    transform: translateX(0);
   }
 
   #header-nav-list li {

@@ -1,0 +1,50 @@
+/* Hero.css */
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+    font-family: 'Cinzel', serif; /* Fuente inspirada en Patrick David */
+    margin: 0;
+    color: var(--accent-color);
+  }
+  
+  .hero-subtitle {
+    font-size: 1.8rem;
+    font-family: 'Cinzel Decorative', serif;
+    margin: 0.5rem 0;
+  }
+  
+  .hero-description {
+    font-size: 1.2rem;
+    font-family: 'Merriweather', serif;
+    max-width: 600px;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #A67F5E; /* Color de hover */
+  }
+  
