@@ -12,7 +12,7 @@
 
 .skills-title {
   font-size: 15vmin;
-  font-family: "Galada", cursive;
+  font-family: var(--font-title);
   letter-spacing: 0.3rem;
   color: var(--primary-color);
   margin-bottom: 0;
@@ -41,7 +41,7 @@
 
 .skills-category-title {
   font-size: 10vmin;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--font-subtitle);
   color: var(--accent-color);
   margin-top: 1rem;
   font-family: 'Tusker Grotesk 7600';

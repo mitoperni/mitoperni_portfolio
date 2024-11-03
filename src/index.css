@@ -2,11 +2,12 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: var(--font-subtitle);
+
 }
 
 body {
   margin: 0;
-  font-family: "Zen Antique", serif;
   line-height: 1;
   overflow: overlay;
   cursor: var(--cursor-dark);
