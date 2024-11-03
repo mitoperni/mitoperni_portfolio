@@ -13,7 +13,9 @@
     "greeting": "Hola, soy",
     "name": "Miguel Toyas Pernichi",
     "title": "Desarrollador Web Full Stack",
-    "subtitle": "Desarrollador React & Python | JavaScript & Flask | Establecido en Dublín"
+    "subtitle": "Desarrollador React & Python | JavaScript & Flask",
+    "cta": "Ir a Experiencias",
+    "location": "Establecido en Dublín, Irlanda"
   },
   "about": {
     "title": "Sobre Mí",

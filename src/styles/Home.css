@@ -2,14 +2,17 @@
 @import "../index.css";
 
 #home-hero {
-  background-color: #f4e3d7; /* Tonos cálidos y claros */
-  color: var(--text-color-neg);
-  flex-grow: 1;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 #home-about {
   width: 100%;
+  flex-grow: 2;
+
 }
 
 #hero-and-about {
