@@ -12,7 +12,9 @@
 #home-about {
   width: 100%;
   flex-grow: 2;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero-and-about {

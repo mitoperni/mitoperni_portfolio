@@ -19,7 +19,9 @@
   },
   "about": {
     "title": "Sobre Mim",
-    "description": "Desenvolvedor Web Full Stack especializado em React.js e Python, com experiência prática no desenvolvimento e implementação de aplicações web. Liderei o desenvolvimento do LIQUIBOXES, uma plataforma inovadora de comércio eletrônico, e contribuí em diversos projetos em equipe, incluindo o YO LO CUIDO. Minha formação em Engenharia Mecânica fortalece minha abordagem na resolução de problemas e na arquitetura de sistemas. Estabelecido em Dublin, combino conhecimentos técnicos com fluência em inglês, espanhol e português. Procuro uma empresa de tecnologia dinâmica onde possa agregar valor em projetos significativos enquanto continuo evoluindo como desenvolvedor."
+    "description": "Desenvolvedor Web Full Stack especializado em React.js e Python, com experiência prática no desenvolvimento e implementação de aplicações web. Liderei o desenvolvimento do LIQUIBOXES, uma plataforma inovadora de comércio eletrônico, e contribuí em diversos projetos em equipe, incluindo o YO LO CUIDO.",
+    "description_2": "Minha formação em Engenharia Mecânica fortalece minha abordagem na resolução de problemas e na arquitetura de sistemas.",
+    "description_3": "Estabelecido em Dublin, combino conhecimentos técnicos com fluência em inglês, espanhol e português. Procuro uma empresa de tecnologia dinâmica onde possa agregar valor em projetos significativos enquanto continuo evoluindo como desenvolvedor."
   },
   "experience": {
     "title": "Experiência",
