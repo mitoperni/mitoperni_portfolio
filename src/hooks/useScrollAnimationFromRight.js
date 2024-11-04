@@ -11,7 +11,7 @@ export default function useScrollAnimationFromRight() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             // Animación para entrar desde la derecha al centro
-            controls.start({ opacity: 1, x: 100 });
+            controls.start({ opacity: 1, x: 50 });
           } else {
             // Posición inicial fuera de la vista, desplazado a la derecha
             controls.start({ opacity: 0, x: 300 });

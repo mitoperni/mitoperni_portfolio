@@ -52,16 +52,16 @@
 }
 
 /* Media Queries para Responsividad */
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   #home-experience,
   #home-projects,
   #home-skills,
   #home-contact {
-    padding: 2rem;
+    padding: 1rem;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   #home-experience,
   #home-projects,
   #home-skills,

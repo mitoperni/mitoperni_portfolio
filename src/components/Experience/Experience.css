@@ -9,18 +9,9 @@
   min-height: 100dvh;
 }
 
-/* .experience-title-up {
+.experience-title-up {
   display: none;
-  font-size: 5.5rem;
-  padding-right: 4rem;
-  font-family: var(--font-title);
-  color: var(--text-color);
-  margin-bottom: 2rem;
-  flex: 1;
-  line-height: 0 !important;
-  letter-spacing: 0 !important;
-  text-orientation: upright;
-} */
+}
 
 .experience-container {
   flex: 1;
@@ -32,9 +23,6 @@
   font-family: var(--font-title);
   color: var(--text-color);
   margin-right: 2rem;
-  line-height: 0 !important;
-  letter-spacing: 0 !important;
-  text-orientation: upright;
 }
 
 .jobs-container {
@@ -45,17 +33,31 @@
   gap: 3rem;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1080px) {
   .experience-section {
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
   }
-  /* 
-  .experience-title{
+
+  .experience-title {
     display: none;
   }
-  .experience-title-up{
-    display: none;
-  } */
+  .experience-title-up {
+    display: flex;
+    font-size: 5.5rem;
+    font-family: var(--font-title);
+    color: var(--text-color);
+    margin-bottom: 5rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-title-up {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+  }
 }

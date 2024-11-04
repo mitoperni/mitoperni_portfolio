@@ -13,6 +13,7 @@ function Experience() {
 
   // Nueva referencia y controles independientes para el título h2
   const { ref, controls } = useScrollAnimationFromRight();
+  const { refUp = ref, controlsUp = controls } = useScrollAnimationFromRight();
 
   // Estados para el modal
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -32,13 +33,18 @@ function Experience() {
 
   return (
     <section id="experience" className="experience-section">
+      <h2
+        className="experience-title-up"
+      >
+        {t("experience.title")}
+      </h2>
       <div className="jobs-container">
         {jobs.map((job) => (
-            <JobCard
-              key={job}
-              jobKey={job}
-              onClick={() => handleCardClick(job)}
-            />
+          <JobCard
+            key={job}
+            jobKey={job}
+            onClick={() => handleCardClick(job)}
+          />
         ))}
       </div>
 
