@@ -2,7 +2,14 @@ import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import useScrollAnimation from "../../hooks/useScrollAnimation";
 import { useTranslation } from "react-i18next";
-import { Linkedin, Github, Calendar1Icon, Mail, MapPin, Send } from "lucide-react";
+import {
+  Linkedin,
+  Github,
+  Calendar1Icon,
+  Mail,
+  MapPin,
+  Send,
+} from "lucide-react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
@@ -46,40 +53,14 @@ function Contact() {
     >
       {/* Contenedor de información de contacto */}
       <div id="contact-text-div">
-        <h2>{t("contact.title")}</h2>
-        <p className="contact-description">{t("contact.description")}</p>
+        <div className="contact-text">
+          <h2>{t("contact.title")}</h2>
+          <p className="contact-description">{t("contact.description")}</p>
+          <p className="contact-description-2">{t("contact.description.2")}</p>
+        </div>
+
         <div className="contact-container">
           <div className="contact-info">
-            <div className="contact-details">
-              <div className="contact-item">
-                <Mail size={20} />
-                <p>{t("contact.email")}</p>
-              </div>
-              <div className="contact-item">
-                <MapPin size={20} />
-                <p>{t("contact.location")}</p>
-              </div>
-            </div>
-            <div className="social-links">
-              <a
-                href={t("contact.linkedin")}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-link linkedin"
-              >
-                <Linkedin size={20} />
-                <span>{t("contact.linkedin_text")}</span>
-              </a>
-              <a
-                href={t("contact.github")}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-link github"
-              >
-                <Github size={20} />
-                <span>{t("contact.github_text")}</span>
-              </a>
-            </div>
             <div>
               <h5>{t("contact.calendly_title")}</h5>
               <a
@@ -95,7 +76,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      
+
       {/* Contenedor del formulario de contacto */}
       <div id="contact-form-div">
         <h4>{t("contact.form.title")}</h4>
@@ -140,9 +121,34 @@ function Contact() {
             <Send size={16} />
             {t(`contact.form.${status || "submit"}`)}
           </motion.button>
-          {status === "success" && <p className="success-message">{t("contact.form.success")}</p>}
-          {status === "error" && <p className="error-message">{t("contact.form.error")}</p>}
+          {status === "success" && (
+            <p className="success-message">{t("contact.form.success")}</p>
+          )}
+          {status === "error" && (
+            <p className="error-message">{t("contact.form.error")}</p>
+          )}
         </form>
+
+        <div className="social-links">
+          <a
+            href={t("contact.linkedin")}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link linkedin"
+          >
+            <Linkedin size={20} />
+            <span>{t("contact.linkedin_text")}</span>
+          </a>
+          <a
+            href={t("contact.github")}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link github"
+          >
+            <Github size={20} />
+            <span>{t("contact.github_text")}</span>
+          </a>
+        </div>
       </div>
     </motion.div>
   );

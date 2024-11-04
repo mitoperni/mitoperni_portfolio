@@ -81,8 +81,9 @@
     "tools": "Ferramentas e Métodos"
   },
   "contact": {
-    "title": "Contato",
-    "description": "Atualmente estou disponível para oportunidades presenciais em Dublin e posições remotas internacionais. Vamos conversar sobre como posso contribuir com sua equipe!",
+    "title": "Contacte-me",
+    "description": "Atualmente estou disponível para oportunidades presenciais em Dublin ou para posições remotas a nível internacional. Vamos conversar sobre como posso contribuir para a sua equipa!",
+    "description.2": "Se estiver interessado em colaborar, agende uma reunião comigo para explorar como posso apoiar os seus projetos. Ou, se preferir, envie-me uma mensagem com as suas perguntas ou ideias, e terei todo o gosto em discutir o que precisar. Também pode visitar as minhas redes sociais para saber mais sobre o meu trabalho.",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
     "location": "Dublin, Irlanda",
@@ -90,18 +91,18 @@
     "github": "https://github.com/mitoperni",
     "linkedin_text": "Perfil no LinkedIn",
     "github_text": "Projetos no GitHub",
-    "calendly_title": "Programe uma reunião conforme sua conveniência usando meu calendário online",
-    "calendly_text": "Programar Reunião",
+    "calendly_title": "Agende uma reunião no meu calendário online",
+    "calendly_text": "Agendar reunião",
     "form": {
-      "title": "Entre em contacto comigo",
+      "title": "Envie-me uma mensagem",
       "name": "Nome",
-      "name_placeholder": "Seu nome",
-      "email": "E-mail",
-      "email_placeholder": "Seu e-mail",
+      "name_placeholder": "O seu nome",
+      "email": "Email",
+      "email_placeholder": "O seu email",
       "message": "Mensagem",
-      "message_placeholder": "Sua mensagem",
+      "message_placeholder": "A sua mensagem",
       "submit": "Enviar mensagem",
-      "sending": "Enviando...",
+      "sending": "A enviar...",
       "success": "Mensagem enviada!",
       "error": "Erro. Tente novamente"
     }

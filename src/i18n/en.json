@@ -81,8 +81,9 @@
     "tools": "Tools & Methods"
   },
   "contact": {
-    "title": "Let's Connect",
-    "description": "I'm currently open to both on-site opportunities in Dublin and remote positions worldwide. Let's discuss how I can contribute to your team!",
+    "title": "Contact me",
+    "description": "I am currently available for on-site opportunities in Dublin or remote positions internationally. Let’s talk about how I can contribute to your team!",
+    "description.2": "If you're interested in collaborating, schedule a meeting with me to explore how I can support your projects. Or, if you prefer, send me a message with your questions or ideas, and I’ll be happy to discuss whatever you need. You can also check out my social media profiles to learn more about my work.",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
     "location": "Dublin, Ireland",
@@ -90,19 +91,19 @@
     "github": "https://github.com/mitoperni",
     "linkedin_text": "LinkedIn Profile",
     "github_text": "GitHub Projects",
-    "calendly_title": "Schedule a meeting at your convenience using my online calendar",
+    "calendly_title": "Schedule a meeting using my online calendar",
     "calendly_text": "Schedule Meeting",
     "form": {
-      "title": "Contact Me",
+      "title": "Send me a message",
       "name": "Name",
       "name_placeholder": "Your name",
       "email": "Email",
       "email_placeholder": "Your email",
       "message": "Message",
       "message_placeholder": "Your message",
-      "submit": "Send Message",
+      "submit": "Send message",
       "sending": "Sending...",
-      "success": "Message Sent!",
+      "success": "Message sent!",
       "error": "Error. Please try again"
     }
   }
