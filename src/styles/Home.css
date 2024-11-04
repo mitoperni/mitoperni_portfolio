@@ -1,9 +1,6 @@
 @import "../styles/variables.css";
 @import "../index.css";
 
-#home {
-  position: absolute;
-}
 
 #home-hero {
   width: 100%;
@@ -62,5 +59,14 @@
   #home-skills,
   #home-contact {
     padding: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #home-experience,
+  #home-projects,
+  #home-skills,
+  #home-contact {
+    padding: 0.2rem;
   }
 }

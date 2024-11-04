@@ -1,5 +1,5 @@
 // Projects.js
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import ProjectCard from './ProjectCard/ProjectCard';
 import ProjectModal from './ProjectModal/ProjectModal';
@@ -12,24 +12,70 @@ const Projects = () => {
     .map(([, project]) => project);
 
   const [selectedProject, setSelectedProject] = useState(null);
+  const sectionRef = useRef(null);
+  const titleRef = useRef(null);
+  const cardsRef = useRef([]);
 
-  // Función para cerrar el modal
   const closeModal = () => setSelectedProject(null);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const sectionTop = sectionRef.current.offsetTop;
+      const scrollY = window.scrollY;
+
+      // Efecto parallax en el título
+      if (titleRef.current) {
+        const titleDistance = scrollY - sectionTop;
+        titleRef.current.style.transform = `translateY(${titleDistance * 0.15}px) scale(${1 - titleDistance / 1000})`;
+        titleRef.current.style.opacity = `${1 - titleDistance / 500}`;
+      }
+    };
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    // Aplicar observer a cada *card* individualmente
+    cardsRef.current.forEach((card) => observer.observe(card));
+
+    // Listener para el scroll
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      observer.disconnect();
+    };
+  }, []);
+
   return (
-    <section id="projects" className="projects-section">
-      <h2 className="projects-title">{t('projects.title')}</h2>
+    <section ref={sectionRef} id="projects" className="projects-section">
+      <h2 ref={titleRef} className="projects-title">
+        {t('projects.title')}
+      </h2>
+
       <div className="projects-container">
         {projects.map((project, index) => (
-          <ProjectCard
+          <div
+            ref={(el) => (cardsRef.current[index] = el)}
+            className="project-card-wrapper"
             key={index}
-            title={project.title}
-            date={project.date}
-            image={project.image}
-            onClick={() => setSelectedProject(project)}
-          />
+          >
+            <ProjectCard
+              title={project.title}
+              date={project.date}
+              image={project.image}
+              onClick={() => setSelectedProject(project)}
+            />
+          </div>
         ))}
       </div>
+
       {selectedProject && (
         <ProjectModal project={selectedProject} onClose={closeModal} />
       )}

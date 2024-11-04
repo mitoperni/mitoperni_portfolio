@@ -1,4 +1,3 @@
-// ProjectCard.js
 import { motion } from 'framer-motion';
 import './ProjectCard.css';
 
@@ -6,7 +5,7 @@ import './ProjectCard.css';
 const ProjectCard = ({ title, date, image, onClick }) => (
   <motion.div
     className="project-card"
-    whileHover={{ scale: 1.05 }}
+    whileHover={{ scale: 1.03 }}
     onClick={onClick}
   >
     <img src={image} alt={`${title} preview`} className="project-image" />

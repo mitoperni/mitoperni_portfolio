@@ -89,3 +89,39 @@
     max-width: 350px;
   }
 }
+
+@media (max-width: 450px) {
+  .project-modal-backdrop {
+    width: 100%;
+    height: 1000vh;
+  }
+
+  .project-modal {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-modal-image {
+    width: 90%;
+    margin-bottom: 0;
+  }
+  
+  .project-modal-title {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  
+  .project-modal-description {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  
+  .project-modal-technologies {
+    font-size: 0.6rem;
+    margin-bottom: 0;
+  }
+
+}
