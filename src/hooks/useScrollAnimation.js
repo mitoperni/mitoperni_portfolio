@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import { useAnimation } from 'framer-motion';
 
 export default function useScrollAnimation() {
   const ref = useRef(null);
@@ -10,23 +10,40 @@ export default function useScrollAnimation() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            controls.start({ opacity: 1, y: 0 });
+            controls.start({
+              opacity: 1,
+              y: 0,
+              filter: "blur(0px)", // Elimina el desenfoque al entrar
+              transition: {
+                type: "spring",
+                stiffness: 70,
+                damping: 20,
+                duration: 0.1,
+                delay: 0.2, // Retraso sutil al aparecer
+                ease: [0.42, 0, 0.58, 1], // Easing personalizado suave
+              },
+            });
           } else {
-            controls.start({ opacity: 0, y: 50 });
+            controls.start({
+              opacity: 0,
+              y: 100, // Desplaza hacia abajo al salir
+              filter: "blur(8px)", // Desenfoque gradual al desaparecer
+              transition: {
+                duration: 0.1,
+                ease: [0.55, 0.085, 0.68, 0.53], // Easing rápido y natural
+              },
+            });
           }
         });
       },
-      { threshold: 0.3 }
+      { threshold: 0.1 }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
+    const currentRef = ref.current;
+    if (currentRef) observer.observe(currentRef);
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
-      }
+      if (currentRef) observer.unobserve(currentRef);
     };
   }, [controls]);
 

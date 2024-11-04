@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 500vh;
+  height: 100%;
   background: rgba(0, 0, 0, 0.8); /* Fondo oscurecido */
   display: flex;
   align-items: center;
@@ -80,10 +80,6 @@
 }
 
 @media (max-width: 720px) {
-  .project-modal-backdrop {
-    width: 120%;
-    height: 1000vh;
-  }
 
   .project-modal {
     max-width: 350px;
@@ -91,10 +87,6 @@
 }
 
 @media (max-width: 450px) {
-  .project-modal-backdrop {
-    width: 100%;
-    height: 1000vh;
-  }
 
   .project-modal {
     max-width: 300px;

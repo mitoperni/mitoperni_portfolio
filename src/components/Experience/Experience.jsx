@@ -1,43 +1,61 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import useScrollAnimation from '../../hooks/useScrollAnimation';
-import { useTranslation } from 'react-i18next';
-import './Experience.css';
-
-const JobCard = ({ jobKey }) => {
-  const { t } = useTranslation();
-  const { ref, controls } = useScrollAnimation();
-
-  return (
-    <motion.div
-      ref={ref}
-      className="job-card"
-      animate={controls}
-      initial={{ opacity: 0, y: 50 }}
-      whileHover={{ scale: 1.05 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-    >
-      <h3 className="job-title">{t(`experience.${jobKey}.title`)}</h3>
-      <div className="job-info">
-        <span className="company">{t(`experience.${jobKey}.company`)}</span>
-        <span className="date">{t(`experience.${jobKey}.date`)}</span>
-      </div>
-      <p className="job-description">{t(`experience.${jobKey}.description`)}</p>
-    </motion.div>
-  );
-};
+// Experience.js
+import { useState } from "react";
+import { motion } from "framer-motion";
+import useScrollAnimationFromRight from "../../hooks/useScrollAnimationFromRight";
+import { useTranslation } from "react-i18next";
+import JobCard from "./JobCard/JobCard";
+import JobModal from "./JobModal/JobModal";
+import "./Experience.css";
 
 function Experience() {
   const { t } = useTranslation();
-  const jobs = ['job1', 'job2', 'job3'];
+  const jobs = ["job1", "job2", "job3"];
+
+  // Nueva referencia y controles independientes para el título h2
+  const { ref, controls } = useScrollAnimationFromRight();
+
+  // Estados para el modal
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedJob, setSelectedJob] = useState(null);
+
+  // Maneja la apertura del modal con los datos del trabajo seleccionado
+  const handleCardClick = (jobKey) => {
+    const jobData = {
+      title: t(`experience.${jobKey}.title`),
+      company: t(`experience.${jobKey}.company`),
+      date: t(`experience.${jobKey}.date`),
+      description: t(`experience.${jobKey}.description`),
+    };
+    setSelectedJob(jobData);
+    setIsModalOpen(true);
+  };
 
   return (
     <section id="experience" className="experience-section">
-      <h2 className="experience-title">{t("experience.title")}</h2>
       <div className="jobs-container">
         {jobs.map((job) => (
-          <JobCard key={job} jobKey={job} />
+            <JobCard
+              key={job}
+              jobKey={job}
+              onClick={() => handleCardClick(job)}
+            />
         ))}
+      </div>
+
+      {/* Renderizar el modal si está abierto */}
+      {isModalOpen && selectedJob && (
+        <JobModal job={selectedJob} onClose={() => setIsModalOpen(false)} />
+      )}
+      <div className="experience-container">
+        <motion.h2
+          ref={ref}
+          animate={controls}
+          initial={{ opacity: 0, x: 300 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          className="experience-title"
+        >
+          {t("experience.title")}
+        </motion.h2>
       </div>
     </section>
   );
