@@ -20,6 +20,11 @@
   width: 400px;
   height: 350px;
   object-fit: cover;
+  filter: sepia(0.8) /* Añade un tono cálido y terroso */
+          saturate(0.7) /* Baja la saturación para no sobresaturar */
+          brightness(0.9) /* Reduce el brillo un poco */
+          contrast(1.2) /* Aumenta el contraste para que los colores sean más profundos */
+          hue-rotate(-15deg); /* Ajusta el tono para acercarse a los tonos marrones */
 }
 
 .project-info {
@@ -33,9 +38,11 @@
   font-weight: bold;
   margin: 0.5rem 0;
   text-overflow: ellipsis;
+  color: var(--text-color);
+
 }
 
 .project-date {
   font-size: 1rem;
-  color: var(--secondary-color);
+  color: var(--text-color);
 }
