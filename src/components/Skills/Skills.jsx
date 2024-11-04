@@ -28,14 +28,12 @@ function Skills() {
 
   return (
     <section id="skills" className="skills-section">
-      <h2 className="skills-title">{t("skills.title")}</h2>
+      <h2 className="skills-title-2">{t("skills.title")}</h2>
       <div className="skills-container">
         {Object.entries(skillsList).map(([category, skills]) => (
           <div
             key={category}
-            className={`skills-category ${
-              category === "backend" ? "align-right" : ""
-            }`}
+            className="skills-category"
           >
             <h3 className="skills-category-title">{t(`skills.${category}`)}</h3>
             <div className="skills-list">
@@ -53,6 +51,7 @@ function Skills() {
           </div>
         ))}
       </div>
+      <h2 className="skills-title">{t("skills.title")}</h2>
     </section>
   );
 }
