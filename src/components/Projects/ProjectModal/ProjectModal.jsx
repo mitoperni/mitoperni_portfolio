@@ -1,18 +1,16 @@
-// ProjectModal.js
 import { useEffect, useRef } from 'react';
+import GIF from 'gif.js'; // Importa el módulo GIF desde gif.js
 import { motion, AnimatePresence } from 'framer-motion';
 import './ProjectModal.css';
 
-// Función para centrar el modal dinamicamente
+// Función para centrar el modal dinámicamente
 const centerModal = (modal) => {
   if (modal) {
     const { innerHeight, innerWidth, scrollY, scrollX } = window;
     const modalHeight = modal.offsetHeight;
     const modalWidth = modal.offsetWidth;
-
     const top = (innerHeight - modalHeight) / 2 + scrollY;
     const left = (innerWidth - modalWidth) / 2 + scrollX;
-
     modal.style.top = `${top}px`;
     modal.style.left = `${left}px`;
   }
@@ -31,19 +29,27 @@ const modalVariants = {
   exit: { opacity: 0, scale: 0.8 }
 };
 
-// eslint-disable-next-line react/prop-types
 const ProjectModal = ({ project, onClose }) => {
   const modalRef = useRef(null);
 
   useEffect(() => {
-    const handleScrollResize = () => centerModal(modalRef.current);
+    const handleScrollResize = () => {
+      if (modalRef.current) {
+        const { innerHeight, innerWidth, scrollY, scrollX } = window;
+        const modalHeight = modalRef.current.offsetHeight;
+        const modalWidth = modalRef.current.offsetWidth;
+        const top = (innerHeight - modalHeight) / 2 + scrollY;
+        const left = (innerWidth - modalWidth) / 2 + scrollX;
+        modalRef.current.style.top = `${top}px`;
+        modalRef.current.style.left = `${left}px`;
+      }
+    };
 
-    // Centrar modal al cargar y en eventos de scroll/resize
+    // Centrar el modal al cargar y al redimensionar/scroll
     handleScrollResize();
     window.addEventListener('scroll', handleScrollResize);
     window.addEventListener('resize', handleScrollResize);
 
-    // Limpieza de eventos
     return () => {
       window.removeEventListener('scroll', handleScrollResize);
       window.removeEventListener('resize', handleScrollResize);
@@ -54,31 +60,41 @@ const ProjectModal = ({ project, onClose }) => {
     <AnimatePresence>
       <motion.div
         className="project-modal-backdrop"
-        variants={backdropVariants}
-        initial="hidden"
-        animate="visible"
-        exit="exit"
         onClick={onClose}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
       >
         <motion.div
           ref={modalRef}
           className="project-modal"
-          variants={modalVariants}
-          initial="hidden"
-          animate="visible"
-          exit="exit"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.8 }}
           onClick={(e) => e.stopPropagation()} // Evitar que el click cierre el modal
         >
           <button className="close-button" onClick={onClose}>X</button>
-          <img src={project.gif} alt={`${project.title} preview`} className="project-modal-image" />
+          
+          {/* Imagen GIF con key única para forzar la recarga */}
+          <img
+            src={project.gif}
+            alt={`${project.title} preview`}
+            className="project-modal-image"
+            key={project.gif + Date.now()} // Usa Date.now() para generar una key única
+          />
+          
           <h2 className="project-modal-title">{project.title}</h2>
           <p className="project-modal-description">{project.description}</p>
+          
           {project.technologies && Array.isArray(project.technologies) && (
             <p className="project-modal-technologies">
               <strong>Tecnologías:</strong> {project.technologies.join(', ')}
             </p>
           )}
-          <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-modal-link">Ver Demo</a>
+          
+          <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-modal-link">
+            Ver Demo
+          </a>
         </motion.div>
       </motion.div>
     </AnimatePresence>

@@ -45,6 +45,13 @@
   margin-bottom: 1rem;
 }
 
+.project-modal-canvas {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
 .project-modal-title {
   font-size: 2rem;
   margin-bottom: 1rem;
