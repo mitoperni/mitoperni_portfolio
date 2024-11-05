@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react';
-import GIF from 'gif.js'; // Importa el módulo GIF desde gif.js
 import { motion, AnimatePresence } from 'framer-motion';
 import './ProjectModal.css';
 
