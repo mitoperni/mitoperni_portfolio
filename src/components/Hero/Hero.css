@@ -68,7 +68,7 @@
 }
 
 .cta-button:hover {
-  background-color: #A67F5E;
+  background-color: #a67f5e;
   color: #ffffff;
 }
 
@@ -82,21 +82,26 @@
 /* Ajustes para móviles */
 @media (max-width: 768px) {
   .hero-content {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .hero-title {
-      font-size: 3rem;
+    font-size: 3rem;
+    text-align: center;
   }
 
   .hero-subtitle {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .hero-description {
+    text-align: center;
   }
 
   .cta-button {
-      width: 100%;
-      max-width: 250px;
+    max-width: 250px;
   }
 }

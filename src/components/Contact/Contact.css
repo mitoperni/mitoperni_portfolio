@@ -197,6 +197,16 @@ h5 {
 }
 
 /* Media Queries para mejorar la responsividad */
+@media (max-width: 1080px) {
+  .contact-wrapper {
+    min-height: 95dvh;
+  }
+
+  #contact-text-div {
+    margin-right: 0rem;
+  }
+}
+
 @media (max-width: 950px) {
   .contact-wrapper {
     display: block;
@@ -213,7 +223,6 @@ h5 {
   .contact-description,
   .contact-description-2 {
     font-size: 1.3rem;
-    text-align: justify;
   }
 
   .contact-details {
@@ -229,6 +238,11 @@ h5 {
     text-align: center;
   }
 
+  #contact h5 {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+  }
+
   .contact-form {
     padding: 1.5rem;
   }
@@ -238,6 +252,16 @@ h5 {
   .contact-wrapper {
     flex-direction: column !important;
     padding: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .contact-description,
+  .contact-description-2 {
+    font-size: 1rem;
+  }
+
+  #contact h5 {
+    margin-top: 1rem;
   }
 
   .contact-item {
@@ -255,5 +279,6 @@ h5 {
 
   .social-links {
     flex-direction: column;
+    margin: 2rem;
   }
 }

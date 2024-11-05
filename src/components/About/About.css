@@ -30,11 +30,21 @@
   flex-direction: column;
 }
 
-/* Ajustes para móviles */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .about-section {
     padding: 3rem 1rem;
     flex-direction: column;
+  }
+
+  .about-title {
+    font-size: 5.5rem;
+  }
+
+}
+
+@media (max-width: 720px) {
+  .about-section {
+    padding: 3rem 1rem;
   }
 
   .about-title {
