@@ -14,42 +14,42 @@
     "name": "Miguel Toyas Pernichi",
     "title": "Full Stack Web Developer",
     "subtitle": "React & Python Developer | JavaScript & Flask",
-    "cta": "Go to Experiences",
+    "cta": "Go to Experience",
     "location": "Based in Dublin, Ireland"
   },
   "about": {
     "title": "About Me",
-    "description": "Full Stack Web Developer specializing in React.js and Python, with hands-on experience building and deploying web applications. Led the development of LIQUIBOXES, an innovative e-commerce platform, and contributed to multiple team projects including YO LO CUIDO.",
-    "description_2": " My background in Mechanical Engineering enhances my approach to problem-solving and system architecture. Currently established in Dublin, I combine technical expertise with strong communication skills in English, Spanish, and Portuguese.",
-    "description_3": "Seeking to join a dynamic tech company where I can contribute to impactful projects while continuing to grow as a developer."
+    "description": "I am a full stack web developer specializing in React.js and Python, with hands-on experience building and deploying web applications. I led the development of LIQUIBOXES, an innovative e-commerce platform, and contributed to team projects like YO LO CUIDO.",
+    "description_2": "My background in Mechanical Engineering enhances my approach to problem-solving and system architecture.",
+    "description_3": "Based in Dublin, I combine technical skills with fluency in English, Spanish, and Portuguese. I am focused on contributing to impactful projects within a dynamic tech company while continuing to grow as a developer."
   },
   "experience": {
     "title": "Experience",
     "job1": {
       "title": "Full Stack Developer & Team Lead",
       "company": "LIQUIBOXES",
-      "date": "June 2024 - Present",
-      "description": "Leading a team of 3 developers in building an innovative e-commerce platform. Architected and implemented the full solution using React.js and Python/Flask. Key achievements include: implementing secure payment processing with Stripe, designing an efficient database structure with SQLAlchemy, and establishing an agile development workflow. The project was recognized as the best project at 4Geeks Academy."
+      "date": "June 2024 - November 2024",
+      "description": "Led a team of three developers in creating an innovative e-commerce platform. Architected and implemented the complete solution using React.js and Python/Flask. Key achievements: secure payment processing with Stripe, efficient database design with SQLAlchemy, and agile workflow setup. The project was awarded Best Project at 4Geeks Academy."
     },
     "job2": {
       "title": "Frontend Developer",
       "company": "No Country",
       "date": "May 2024 - August 2024",
-      "description": "Developed the frontend for YO LO CUIDO, a pet care services platform. Implemented responsive UI components using React and modern CSS practices. Collaborated with UX/UI team to ensure pixel-perfect implementation of designs. Optimized application performance and implemented user authentication system."
+      "description": "Built the frontend for YO LO CUIDO, a pet care services platform, using React and modern CSS practices. Collaborated with the UX/UI team to ensure pixel-perfect design implementation. Enhanced performance and implemented user authentication."
     },
     "job3": {
       "title": "R&D&I Project Consultant",
       "company": "Aliot Innovación",
       "date": "April 2023 - January 2024",
-      "description": "Specialized in analyzing innovative technology projects, focusing on IT, video games, and animation development. This role sparked my passion for software development through deep exposure to cutting-edge technologies and development methodologies. Analyzed complex software architectures, collaborated with tech companies, and gained valuable insights into modern development practices that inspired my transition into full-stack development."
+      "description": "Specialized in analyzing technology projects focused on IT, video games, and animation. This role ignited my passion for software development through exposure to advanced technologies and development methodologies. I analyzed complex software architectures, collaborated with tech companies, and gained valuable insights into modern practices that inspired my transition to full-stack development."
     }
   },
   "projects": {
     "title": "Projects",
     "project1": {
       "title": "LIQUIBOXES",
-      "description": "Led the development of an innovative e-commerce platform that revolutionizes inventory management through personalized mystery boxes. Built with React.js, Python/Flask, and PostgreSQL. Features secure payment processing (Stripe), real-time inventory management, and an advanced recommendation system. Implemented CI/CD pipeline and conducted code reviews using GitHub Actions.",
-      "date": "Jun 2024 - Present",
+      "description": "Led the development of an e-commerce platform transforming inventory management with personalized mystery boxes. Built with React.js, Python/Flask, and PostgreSQL. Features include secure payment processing (Stripe), real-time inventory management, and an advanced recommendation system. CI/CD pipeline setup and code review via GitHub Actions.",
+      "date": "Jun 2024 - Nov 2024",
       "link": "https://sample-service-name-3no0.onrender.com",
       "image": "https://i.imgur.com/o6fsGOD.jpeg",
       "gif": "https://i.imgur.com/tgWNyHM.gif",
@@ -57,7 +57,7 @@
     },
     "project2": {
       "title": "YO LO CUIDO",
-      "description": "Developed a responsive pet care services platform connecting pet owners with caregivers. Built the frontend using React with modern practices including custom hooks and context API. Implemented user authentication, real-time notifications, and an intuitive booking system. Collaborated with backend team for seamless API integration.",
+      "description": "Developed a responsive platform for pet care services connecting pet owners with caregivers. Built the frontend using React, custom hooks, and context API. Implemented user authentication, real-time notifications, and an intuitive booking system. Collaborated with the backend team for seamless API integration.",
       "date": "May 2024 - Aug 2024",
       "link": "https://yolocuido.vercel.app",
       "image": "https://i.imgur.com/oKZzomT.png",
@@ -66,7 +66,7 @@
     },
     "project3": {
       "title": "Star Wars Database",
-      "description": "Created an interactive web application showcasing Star Wars universe data using React and Redux. Implemented features like dynamic search, favorites system, and detailed character profiles. Utilized the SWAPI REST API and implemented efficient data caching for optimal performance.",
+      "description": "Created an interactive web application showcasing data from the Star Wars universe using React and Redux. Features include dynamic search, favorites system, and detailed character profiles. Integrated with SWAPI REST API and implemented efficient data caching for optimal performance.",
       "date": "May 2024 - Jul 2024",
       "link": "https://starwarsdatabase.vercel.app",
       "image": "https://i.imgur.com/ojoENAe.png",
@@ -82,8 +82,8 @@
   },
   "contact": {
     "title": "Contact me",
-    "description": "I am currently available for on-site opportunities in Dublin or remote positions internationally. Let’s talk about how I can contribute to your team!",
-    "description.2": "If you're interested in collaborating, schedule a meeting with me to explore how I can support your projects. Or, if you prefer, send me a message with your questions or ideas, and I’ll be happy to discuss whatever you need. You can also check out my social media profiles to learn more about my work.",
+    "description": "Currently open to on-site opportunities in Dublin or remote positions internationally. Let’s discuss how I can contribute to your team!",
+    "description.2": "If interested in collaborating, schedule a meeting or send me a message with any questions. Feel free to check out my social media profiles for more about my work.",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
     "location": "Dublin, Ireland",
@@ -91,7 +91,7 @@
     "github": "https://github.com/mitoperni",
     "linkedin_text": "LinkedIn Profile",
     "github_text": "GitHub Projects",
-    "calendly_title": "Schedule a meeting using my online calendar",
+    "calendly_title": "Schedule a meeting",
     "calendly_text": "Schedule Meeting",
     "form": {
       "title": "Send me a message",
