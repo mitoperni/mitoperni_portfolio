@@ -16,7 +16,7 @@ function Hero() {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">{t("hero.greeting")} Miguel</h1>
-          <p className="hero-subtitle">{t("hero.title")}</p>
+          <h2 className="hero-subtitle">{t("hero.title")}</h2>
           <p className="hero-description">{t("hero.subtitle")}</p>
         </div>
         <motion.div

@@ -1,54 +1,54 @@
 {
   "header": {
     "home": "Início",
-    "about": "Sobre",
+    "about": "Sobre mim",
     "experience": "Experiência",
     "projects": "Projetos",
-    "skills": "Habilidades",
-    "contact": "Contato",
-    "next-section": "Próxima Secção",
-    "back-top": "Voltar ao Topo"
+    "skills": "Competências",
+    "contact": "Contacto",
+    "next-section": "Próxima secção",
+    "back-top": "Voltar ao topo"
   },
   "hero": {
-    "greeting": "Olá, eu sou",
+    "greeting": "Olá, sou",
     "name": "Miguel Toyas Pernichi",
-    "title": "Desenvolvedor Web Full Stack",
-    "subtitle": "Desenvolvedor React & Python | JavaScript & Flask",
-    "cta": "Ir para Experiências",
-    "location": "Estabelecido em Dublin, Irlanda"
+    "title": "Desenvolvedor Full Stack especializado em React e Python",
+    "subtitle": "A criar aplicações web dinâmicas com JavaScript, Flask e soluções de backend",
+    "cta": "Explora a minha experiência",
+    "location": "Residente em Dublin, Irlanda"
   },
   "about": {
     "title": "Sobre Mim",
-    "description": "Desenvolvedor web full stack especializado em React.js e Python, com experiência prática no desenvolvimento e implementação de aplicações web. Liderei o desenvolvimento do LIQUIBOXES, uma plataforma inovadora de e-commerce, e contribui em projetos como o YO LO CUIDO.",
-    "description_2": "Minha formação em Engenharia Mecânica fortalece minha abordagem na solução de problemas e arquitetura de sistemas.",
-    "description_3": "Residente em Dublin, combino habilidades técnicas e fluência em inglês, espanhol e português. Focado em contribuir em projetos significativos em uma empresa tecnológica dinâmica, enquanto continuo evoluindo como desenvolvedor."
+    "description": "Sou um desenvolvedor Full Stack especializado em React.js e Python, com experiência prática na criação e implementação de aplicações web dinâmicas. Trago sólidas competências em desenvolvimento front-end e back-end.",
+    "description_2": "A minha formação em Engenharia Mecânica reforça a minha capacidade de resolver problemas e de conceber soluções web eficientes e escaláveis.",
+    "description_3": "Residente em Dublin, sou fluente em inglês, espanhol e português e estou focado em contribuir para projetos impactantes em ambientes tecnológicos dinâmicos."
   },
   "experience": {
-    "title": "Experiência",
+    "title": "Experiência Profissional",
     "job1": {
-      "title": "Desenvolvedor Full Stack e Líder de Equipe",
+      "title": "Desenvolvedor Full Stack e Líder de Equipa",
       "company": "LIQUIBOXES",
       "date": "Junho 2024 - Novembro 2024",
-      "description": "Liderando uma equipe de três desenvolvedores na criação de uma plataforma de e-commerce inovadora. Projetei e implementei a solução completa com React.js e Python/Flask. Realizações principais: implementação de processamento seguro de pagamentos com Stripe, design de banco de dados eficiente com SQLAlchemy e configuração de fluxo de trabalho ágil. O projeto foi premiado como o melhor na 4Geeks Academy."
+      "description": "Liderei uma equipa no desenvolvimento de uma plataforma inovadora de comércio eletrónico usando React.js e Python/Flask. Principais conquistas: integração de pagamentos seguros com Stripe, design de bases de dados otimizadas com SQLAlchemy e gestão ágil de projetos. Recebemos o prémio de Melhor Projeto na 4Geeks Academy."
     },
     "job2": {
       "title": "Desenvolvedor Frontend",
       "company": "No Country",
       "date": "Maio 2024 - Agosto 2024",
-      "description": "Construí o frontend do YO LO CUIDO, uma plataforma de serviços para cuidados de animais, utilizando React e práticas modernas de CSS. Colaborei com a equipe de UX/UI para garantir a implementação precisa dos designs. Melhorei o desempenho e configurei a autenticação de usuários."
+      "description": "Desenvolvi o frontend para o YO LO CUIDO, uma plataforma de serviços para animais de estimação, usando React e CSS moderno. Colaborei com a equipa de UX/UI para garantir a implementação precisa dos designs e melhorei a segurança com autenticação de utilizadores."
     },
     "job3": {
-      "title": "Consultor de Projetos de P&D&I",
-      "company": "Aliot Innovação",
+      "title": "Consultor de I&D&I",
+      "company": "Aliot Inovação",
       "date": "Abril 2023 - Janeiro 2024",
-      "description": "Especializado na análise de projetos focados em TI, jogos eletrônicos e desenvolvimento de animação. Esse papel despertou minha paixão pelo desenvolvimento de software através de tecnologias de ponta e metodologias de desenvolvimento. Analisei arquiteturas de software complexas, colaborei com empresas de tecnologia e adquiri conhecimentos valiosos sobre práticas modernas que motivaram minha transição para o desenvolvimento full-stack."
+      "description": "Analisei projetos tecnológicos nas áreas de TI, videojogos e animação. Este papel despertou o meu interesse pelo desenvolvimento de software e deu-me uma visão valiosa sobre tecnologias avançadas e metodologias, inspirando a minha transição para o desenvolvimento full stack."
     }
   },
   "projects": {
-    "title": "Projetos",
+    "title": "Projetos em Destaque",
     "project1": {
-      "title": "LIQUIBOXES",
-      "description": "Liderei o desenvolvimento de uma plataforma de e-commerce que revoluciona a gestão de inventário com caixas surpresa personalizadas. Construída com React.js, Python/Flask e PostgreSQL. Recursos incluem processamento seguro de pagamentos (Stripe), gestão de inventário em tempo real e sistema avançado de recomendações. Configuração de pipeline CI/CD e revisão de código com GitHub Actions.",
+      "title": "LIQUIBOXES - Plataforma de Comércio Eletrónico",
+      "description": "Liderei o desenvolvimento do LIQUIBOXES, uma plataforma personalizada de comércio eletrónico que otimiza a gestão de inventário através de caixas surpresa personalizadas. Construída com React.js, Python/Flask e PostgreSQL, inclui integração de pagamentos seguros (Stripe), acompanhamento de inventário em tempo real e CI/CD com GitHub Actions.",
       "date": "Jun 2024 - Nov 2024",
       "link": "https://sample-service-name-3no0.onrender.com",
       "image": "https://i.imgur.com/o6fsGOD.jpeg",
@@ -56,18 +56,18 @@
       "technologies": ["React.js", "Python", "Flask", "PostgreSQL"]
     },
     "project2": {
-      "title": "YO LO CUIDO",
-      "description": "Desenvolvi uma plataforma responsiva de serviços para animais, conectando proprietários com cuidadores. Frontend com React, hooks personalizados e context API. Implementação de autenticação de usuários, notificações em tempo real e sistema de reservas intuitivo. Colaboração com a equipe de backend para integração completa da API.",
-      "date": "Mai 2024 - Ago 2024",
+      "title": "YO LO CUIDO - Plataforma de Cuidado de Animais de Estimação",
+      "description": "Desenvolvi o YO LO CUIDO, uma plataforma responsiva que conecta donos de animais a cuidadores. Construída com React, hooks personalizados e Context API, inclui notificações em tempo real, autenticação segura e um sistema de reservas intuitivo.",
+      "date": "Maio 2024 - Ago 2024",
       "link": "https://yolocuido.vercel.app",
       "image": "https://i.imgur.com/oKZzomT.png",
       "gif": "https://i.imgur.com/RMEfTmW.gif",
       "technologies": ["React.js", "Hooks", "Context API"]
     },
     "project3": {
-      "title": "Banco de Dados de Star Wars",
-      "description": "Criei uma aplicação web interativa com dados do universo Star Wars usando React e Redux. Inclui busca dinâmica, sistema de favoritos e perfis detalhados de personagens. Integração com a API SWAPI e cache de dados para desempenho otimizado.",
-      "date": "Mai 2024 - Jul 2024",
+      "title": "Base de Dados de Star Wars",
+      "description": "Criei uma aplicação web interativa que apresenta dados do universo de Star Wars utilizando React e Redux. Inclui pesquisa dinâmica, sistema de favoritos e perfis detalhados dos personagens. Integrada com a API REST do SWAPI e otimizada com cache de dados.",
+      "date": "Maio 2024 - Jul 2024",
       "link": "https://starwarsdatabase.vercel.app",
       "image": "https://i.imgur.com/ojoENAe.png",
       "gif": "https://i.imgur.com/SBPv12t.gif",
@@ -75,15 +75,15 @@
     }
   },
   "skills": {
-    "title": "Habilidades Técnicas",
+    "title": "Competências Técnicas",
     "frontend": "Desenvolvimento Frontend",
     "backend": "Desenvolvimento Backend",
     "tools": "Ferramentas e Métodos"
   },
   "contact": {
-    "title": "Contacte-me",
-    "description": "Disponível para oportunidades presenciais em Dublin ou para posições remotas. Vamos conversar sobre como posso contribuir para a sua equipa!",
-    "description.2": "Caso tenha interesse em colaborar, agende uma reunião ou envie uma mensagem com suas perguntas. Sinta-se à vontade para conferir minhas redes sociais para saber mais sobre o meu trabalho.",
+    "title": "Contacta-me",
+    "description": "Disponível para oportunidades em Dublin ou posições remotas a nível internacional. Vamos conversar sobre como posso contribuir para a tua equipa!",
+    "description.2": "Se estiveres interessado em colaborar, marca uma reunião ou envia-me uma mensagem. Também podes ver mais sobre o meu trabalho nos meus perfis de redes sociais.",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
     "location": "Dublin, Irlanda",
@@ -91,20 +91,20 @@
     "github": "https://github.com/mitoperni",
     "linkedin_text": "Perfil no LinkedIn",
     "github_text": "Projetos no GitHub",
-    "calendly_title": "Agende uma reunião",
-    "calendly_text": "Agendar reunião",
+    "calendly_title": "Marca uma reunião",
+    "calendly_text": "Marcar reunião",
     "form": {
-      "title": "Envie-me uma mensagem",
+      "title": "Envia-me uma mensagem",
       "name": "Nome",
-      "name_placeholder": "Seu nome",
-      "email": "Email",
-      "email_placeholder": "Seu email",
+      "name_placeholder": "O teu nome",
+      "email": "E-mail",
+      "email_placeholder": "O teu e-mail",
       "message": "Mensagem",
-      "message_placeholder": "Sua mensagem",
+      "message_placeholder": "A tua mensagem",
       "submit": "Enviar mensagem",
       "sending": "A enviar...",
       "success": "Mensagem enviada!",
-      "error": "Erro. Tente novamente"
+      "error": "Erro. Por favor tenta novamente"
     }
   }
 }

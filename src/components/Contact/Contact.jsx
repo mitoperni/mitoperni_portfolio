@@ -1,15 +1,8 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import useScrollAnimation from "../../hooks/useScrollAnimation";
 import { useTranslation } from "react-i18next";
-import {
-  Linkedin,
-  Github,
-  Calendar1Icon,
-  Mail,
-  MapPin,
-  Send,
-} from "lucide-react";
+import { Linkedin, Github, Calendar1Icon, Send } from "lucide-react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
@@ -61,16 +54,16 @@ function Contact() {
 
         <div className="contact-container">
           <div className="contact-info">
-              <h5>{t("contact.calendly_title")}</h5>
-              <a
-                href="https://calendly.com/mitoperni/30-minute-meeting"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-link calendly"
-              >
-                <Calendar1Icon size={20} />
-                <span>{t("contact.calendly_text")}</span>
-              </a>
+            <h5>{t("contact.calendly_title")}</h5>
+            <a
+              href="https://calendly.com/mitoperni/30-minute-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link calendly"
+            >
+              <Calendar1Icon size={20} />
+              <span>{t("contact.calendly_text")}</span>
+            </a>
           </div>
         </div>
       </div>

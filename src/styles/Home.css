@@ -26,7 +26,7 @@
   align-items: center;
 }
 
-#home-projects{
+#home-projects {
   min-height: 100dvh;
 }
 
@@ -39,7 +39,6 @@
 .bg-light:hover {
   cursor: var(--cursor-dark);
 }
-
 
 .bg-dark {
   background: var(--bg-color);
@@ -54,7 +53,6 @@
 /* Media Queries para Responsividad */
 @media (max-width: 780px) {
   #home-experience,
-  #home-projects,
   #home-skills,
   #home-contact {
     padding: 1rem;
@@ -63,7 +61,6 @@
 
 @media (max-width: 480px) {
   #home-experience,
-  #home-projects,
   #home-skills,
   #home-contact {
     padding: 0.2rem;

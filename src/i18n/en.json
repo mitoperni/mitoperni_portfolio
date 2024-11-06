@@ -12,43 +12,43 @@
   "hero": {
     "greeting": "Hello, I'm",
     "name": "Miguel Toyas Pernichi",
-    "title": "Full Stack Web Developer",
-    "subtitle": "React & Python Developer | JavaScript & Flask",
-    "cta": "Go to Experience",
+    "title": "Full Stack Developer with a Focus on React & Python",
+    "subtitle": "Creating dynamic web applications using JavaScript, Flask, and backend solutions",
+    "cta": "Explore My Experience",
     "location": "Based in Dublin, Ireland"
   },
   "about": {
     "title": "About Me",
-    "description": "I am a full stack web developer specializing in React.js and Python, with hands-on experience building and deploying web applications. I led the development of LIQUIBOXES, an innovative e-commerce platform, and contributed to team projects like YO LO CUIDO.",
-    "description_2": "My background in Mechanical Engineering enhances my approach to problem-solving and system architecture.",
-    "description_3": "Based in Dublin, I combine technical skills with fluency in English, Spanish, and Portuguese. I am focused on contributing to impactful projects within a dynamic tech company while continuing to grow as a developer."
+    "description": "I am a Full Stack Web Developer specializing in React.js and Python. With hands-on experience in building and deploying dynamic web applications, I bring strong front-end and back-end skills.",
+    "description_2": "My background in Mechanical Engineering strengthens my problem-solving approach and enhances my ability to design efficient, scalable web solutions.",
+    "description_3": "Based in Dublin, I am fluent in English, Spanish, and Portuguese, with a commitment to contributing to impactful projects within tech-driven environments."
   },
   "experience": {
-    "title": "Experience",
+    "title": "Professional Experience",
     "job1": {
       "title": "Full Stack Developer & Team Lead",
       "company": "LIQUIBOXES",
       "date": "June 2024 - November 2024",
-      "description": "Led a team of three developers in creating an innovative e-commerce platform. Architected and implemented the complete solution using React.js and Python/Flask. Key achievements: secure payment processing with Stripe, efficient database design with SQLAlchemy, and agile workflow setup. The project was awarded Best Project at 4Geeks Academy."
+      "description": "Led a team in developing an innovative e-commerce platform using React.js and Python/Flask. Key achievements include secure payment processing with Stripe, optimized database design with SQLAlchemy, and agile project management. Awarded Best Project at 4Geeks Academy."
     },
     "job2": {
       "title": "Frontend Developer",
       "company": "No Country",
       "date": "May 2024 - August 2024",
-      "description": "Built the frontend for YO LO CUIDO, a pet care services platform, using React and modern CSS practices. Collaborated with the UX/UI team to ensure pixel-perfect design implementation. Enhanced performance and implemented user authentication."
+      "description": "Developed the frontend for YO LO CUIDO, a pet care services platform, using React and modern CSS practices. Collaborated with UX/UI team for design precision and implemented user authentication for enhanced security."
     },
     "job3": {
       "title": "R&D&I Project Consultant",
       "company": "Aliot Innovación",
       "date": "April 2023 - January 2024",
-      "description": "Specialized in analyzing technology projects focused on IT, video games, and animation. This role ignited my passion for software development through exposure to advanced technologies and development methodologies. I analyzed complex software architectures, collaborated with tech companies, and gained valuable insights into modern practices that inspired my transition to full-stack development."
+      "description": "Analyzed technology projects in IT, video games, and animation. This role sparked my interest in software development and provided insights into advanced technologies and methodologies, fueling my transition to full-stack development."
     }
   },
   "projects": {
-    "title": "Projects",
+    "title": "Highlighted Projects",
     "project1": {
-      "title": "LIQUIBOXES",
-      "description": "Led the development of an e-commerce platform transforming inventory management with personalized mystery boxes. Built with React.js, Python/Flask, and PostgreSQL. Features include secure payment processing (Stripe), real-time inventory management, and an advanced recommendation system. CI/CD pipeline setup and code review via GitHub Actions.",
+      "title": "LIQUIBOXES - E-commerce Platform",
+      "description": "Led the development of LIQUIBOXES, a custom e-commerce platform enhancing inventory management with personalized mystery boxes. Built with React.js, Python/Flask, and PostgreSQL, it features secure payment processing (Stripe), real-time inventory tracking, and CI/CD pipelines with GitHub Actions.",
       "date": "Jun 2024 - Nov 2024",
       "link": "https://sample-service-name-3no0.onrender.com",
       "image": "https://i.imgur.com/o6fsGOD.jpeg",
@@ -56,8 +56,8 @@
       "technologies": ["React.js", "Python", "Flask", "PostgreSQL"]
     },
     "project2": {
-      "title": "YO LO CUIDO",
-      "description": "Developed a responsive platform for pet care services connecting pet owners with caregivers. Built the frontend using React, custom hooks, and context API. Implemented user authentication, real-time notifications, and an intuitive booking system. Collaborated with the backend team for seamless API integration.",
+      "title": "YO LO CUIDO - Pet Care Platform",
+      "description": "Developed YO LO CUIDO, a responsive platform for connecting pet owners with caregivers. Built using React, custom hooks, and Context API, it includes real-time notifications, secure user authentication, and intuitive booking features.",
       "date": "May 2024 - Aug 2024",
       "link": "https://yolocuido.vercel.app",
       "image": "https://i.imgur.com/oKZzomT.png",
@@ -66,7 +66,7 @@
     },
     "project3": {
       "title": "Star Wars Database",
-      "description": "Created an interactive web application showcasing data from the Star Wars universe using React and Redux. Features include dynamic search, favorites system, and detailed character profiles. Integrated with SWAPI REST API and implemented efficient data caching for optimal performance.",
+      "description": "Created an interactive web application displaying Star Wars data using React and Redux. Features include dynamic search, favorites management, and character profiles. Integrated SWAPI REST API and optimized data caching.",
       "date": "May 2024 - Jul 2024",
       "link": "https://starwarsdatabase.vercel.app",
       "image": "https://i.imgur.com/ojoENAe.png",
@@ -81,9 +81,9 @@
     "tools": "Tools & Methods"
   },
   "contact": {
-    "title": "Contact me",
-    "description": "Currently open to on-site opportunities in Dublin or remote positions internationally. Let’s discuss how I can contribute to your team!",
-    "description.2": "If interested in collaborating, schedule a meeting or send me a message with any questions. Feel free to check out my social media profiles for more about my work.",
+    "title": "Contact Me",
+    "description": "Open to on-site opportunities in Dublin or remote positions internationally. Let’s discuss how I can contribute to your team!",
+    "description.2": "For collaboration inquiries, schedule a meeting or send me a message. Feel free to explore my work on social media as well.",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
     "location": "Dublin, Ireland",
@@ -91,19 +91,19 @@
     "github": "https://github.com/mitoperni",
     "linkedin_text": "LinkedIn Profile",
     "github_text": "GitHub Projects",
-    "calendly_title": "Schedule a meeting",
+    "calendly_title": "Schedule a Meeting",
     "calendly_text": "Schedule Meeting",
     "form": {
-      "title": "Send me a message",
+      "title": "Send Me a Message",
       "name": "Name",
       "name_placeholder": "Your name",
       "email": "Email",
       "email_placeholder": "Your email",
       "message": "Message",
       "message_placeholder": "Your message",
-      "submit": "Send message",
+      "submit": "Send Message",
       "sending": "Sending...",
-      "success": "Message sent!",
+      "success": "Message Sent!",
       "error": "Error. Please try again"
     }
   }
