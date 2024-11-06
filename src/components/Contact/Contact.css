@@ -20,6 +20,7 @@
 #contact-form-div {
   flex: 1;
 }
+
 #contact h2,
 h4,
 h5 {
@@ -63,6 +64,7 @@ h5 {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: 100%;
 }
 
 .contact-details {
@@ -87,6 +89,7 @@ h5 {
   justify-content: space-around;
   gap: 0.5rem;
   margin-top: 1rem;
+  width: 100%;
 }
 
 .social-link {
@@ -130,6 +133,7 @@ h5 {
   background: white;
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
 }
 
 /* Estilos de inputs y textarea */
@@ -209,7 +213,7 @@ h5 {
 
 @media (max-width: 950px) {
   .contact-wrapper {
-    display: block;
+    flex-direction: column;
     padding: 1rem;
     align-items: center;
     text-align: center;
@@ -243,21 +247,42 @@ h5 {
     margin-top: 1.5rem;
   }
 
+  .social-link.calendly {
+    max-width: 75%;
+
+  }
+
+  #contact-form-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .contact-form {
-    padding: 1.5rem;
+    width: 90%;
+    text-align: left;
+  }
+
+  .contact-form label {
+    font-size: 1rem;
+  }
+
+  .social-links {
+    justify-content: space-around;
   }
 }
 
 @media (max-width: 480px) {
   .contact-wrapper {
-    flex-direction: column !important;
     padding: 1rem;
     margin-bottom: 3rem;
   }
 
   .contact-description,
   .contact-description-2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   #contact h5 {
@@ -278,7 +303,6 @@ h5 {
   }
 
   .social-links {
-    flex-direction: column;
     margin: 2rem;
   }
 }

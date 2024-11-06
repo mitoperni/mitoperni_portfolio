@@ -61,7 +61,6 @@ function Contact() {
 
         <div className="contact-container">
           <div className="contact-info">
-            <div>
               <h5>{t("contact.calendly_title")}</h5>
               <a
                 href="https://calendly.com/mitoperni/30-minute-meeting"
@@ -72,7 +71,6 @@ function Contact() {
                 <Calendar1Icon size={20} />
                 <span>{t("contact.calendly_text")}</span>
               </a>
-            </div>
           </div>
         </div>
       </div>

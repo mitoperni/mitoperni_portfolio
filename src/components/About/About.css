@@ -40,6 +40,10 @@
     font-size: 5.5rem;
   }
 
+  .about-description {
+    line-height: 1.4;
+  }
+
 }
 
 @media (max-width: 720px) {
