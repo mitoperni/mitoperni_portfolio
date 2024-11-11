@@ -1,48 +1,49 @@
-# Mitoperni's Portfolio
+# Hi there! 👋 I'm Miguel Toyas Pernichi
 
 Welcome to my personal portfolio! Here, you'll find a showcase of my projects, skills, and experiences as a Full-Stack Developer.
 
 ## About Me
 
-I am a Full-Stack Developer with a passion for crafting elegant solutions and bridging the gap between engineering and software development. My journey from Mechanical Engineering to Software Development has equipped me with a unique perspective and a diverse skill set.
+I'm a passionate Full-Stack Developer with a background in Mechanical Engineering. My journey from engineering to software development has equipped me with a unique perspective and a diverse skill set.
 
-## Projects
+- 🌱 I’m currently learning **Elixir** and **Phoenix** to enhance my Full-Stack development capabilities.
+- 👯 I’m looking to collaborate on **open-source projects** and am open to **professional opportunities** in web development.
+- 💬 Ask me about **React**, **Flask**, **SQLAlchemy**, or my experience transitioning from engineering to software development.
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/migueltoyaspernichi/) | [Email](mailto:mitoperni@gmail.com)
 
-### Liquiboxes
+## 🛠️ Skills
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Elixir](https://img.shields.io/badge/-Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white)
+![Phoenix](https://img.shields.io/badge/-Phoenix-E44D26?style=flat-square&logo=phoenix&logoColor=white)
+
+## 🚀 Projects
+
+### [Liquiboxes](https://github.com/mitoperni/Liquiboxes)
 
 - **Description:** A full-stack application designed for buying and selling mystery boxes.
-- **Technologies Used:** React, Flask, SQLAlchemy, PostgreSQL.
-- **Repository:** [Liquiboxes GitHub Repository](https://github.com/mitoperni/Liquiboxes)
+- **Technologies Used:** ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black), ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white), ![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-000000?style=flat-square&logo=sqlalchemy&logoColor=red), ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 
-### Star Wars Database
+### [Star Wars Database](https://github.com/mitoperni/StarWarsDatabase)
 
 - **Description:** A React-based project demonstrating proficiency in front-end development and API integration.
-- **Technologies Used:** React, RESTful APIs.
-- **Repository:** [Star Wars Database GitHub Repository](#)
+- **Technologies Used:** ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black), ![RESTful APIs](https://img.shields.io/badge/-RESTful%20APIs-000000?style=flat-square&logo=rest&logoColor=white)
 
-### YoLoCuido
+### [YoLoCuido](https://github.com/mitoperni/Yo-lo-Cuido-No-Country)
 
 - **Description:** A collaborative hackathon project focused on connecting pet owners with trusted caregivers and walkers.
-- **Technologies Used:** HTML, CSS, React, Node.js, Express, MongoDB.
-- **Repository:** [YoLoCuido GitHub Repository](https://github.com/mitoperni/Yo-lo-Cuido-No-Country)
+- **Technologies Used:** ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white), ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white), ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black), ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white), ![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white), ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
-## Skills
+## 📈 GitHub Stats
 
-- **Languages:** JavaScript, Python, HTML, CSS, SQL.
-- **Frameworks/Libraries:** React, Flask.
-- **Tools:** Git, JWT, SQLAlchemy.
-- **Soft Skills:** Team Leadership, Rapid Learning, Cross-functional Collaboration.
+![Miguel's GitHub stats](https://github-readme-stats.vercel.app/api?username=mitoperni&show_icons=true&theme=radical)
 
-## Experience
+## 📫 Contact Me
 
-- **Full-Stack Developer Bootcamp Graduate**
-- **Mechanical Engineer:** 4 years specializing in R&D&I project documentation.
-- **Hackathon Participant:** Front-end Developer with No Country.
-
-## Contact
-
-Feel free to reach out to me via [LinkedIn](#) or [Email](#) for any inquiries or collaboration opportunities.
-
-## License
-
-This portfolio is open-source and available under the [MIT License](LICENSE).
+- [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/migueltoyaspernichi/)
+- [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mitoperni@gmail.com)
