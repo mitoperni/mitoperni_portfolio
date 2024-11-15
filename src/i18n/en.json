@@ -50,7 +50,7 @@
       "title": "LIQUIBOXES - E-commerce Platform",
       "description": "Led the development of LIQUIBOXES, a custom e-commerce platform enhancing inventory management with personalized mystery boxes. Built with React.js, Python/Flask, and PostgreSQL, it features secure payment processing (Stripe), real-time inventory tracking, and CI/CD pipelines with GitHub Actions.",
       "date": "Jun 2024 - Nov 2024",
-      "link": "https://sample-service-name-3no0.onrender.com",
+      "link": "https://sample-service-name-om7d.onrender.com",
       "image": "https://i.imgur.com/o6fsGOD.jpeg",
       "gif": "https://i.imgur.com/tgWNyHM.gif",
       "technologies": ["React.js", "Python", "Flask", "PostgreSQL"]
