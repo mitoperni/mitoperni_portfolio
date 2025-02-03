@@ -26,22 +26,34 @@
   "experience": {
     "title": "Experiencia Profesional",
     "job1": {
+      "title": "Asistente de Profesor | Desarrollador Full Stack en Bootcamp",
+      "company": "4Geeks Academy España",
+      "date": "Noviembre 2024 - Presente",
+      "description": "Co-instruí cursos de desarrollo full-stack cubriendo HTML, CSS, JavaScript, React, Python, Flask y SQLAlchemy. Proporcioné mentoría personalizada para ayudar a los estudiantes a superar desafíos de aprendizaje y avanzar en su formación. Desarrollé y ofrecí conferencias sobre temas avanzados, mejorando la comprensión y aplicación práctica de los estudiantes. Colaboré con los instructores principales para crear un entorno de aprendizaje inclusivo y atractivo."
+    },
+    "job2": {
+      "title": "Desarrollador Full Stack",
+      "company": "Yumly",
+      "date": "Noviembre 2024 - Presente",
+      "description": "Desarrollo y mantenimiento de una plataforma web full-stack utilizando Elixir y Phoenix. Implementé nuevas funcionalidades y optimicé el rendimiento del backend, asegurando interacciones en tiempo real fluidas. Colaboré con un equipo multifuncional para mejorar la escalabilidad y fiabilidad del sistema. Trabajé con PostgreSQL, LiveView y TailwindCSS para mejorar la experiencia del usuario."
+    },
+    "job3": {
       "title": "Desarrollador Full Stack y Líder de Equipo",
       "company": "LIQUIBOXES",
       "date": "Junio 2024 - Noviembre 2024",
-      "description": "Lideré un equipo en el desarrollo de una innovadora plataforma de comercio electrónico usando React.js y Python/Flask. Logros clave: integración de pagos seguros con Stripe, diseño de bases de datos optimizadas con SQLAlchemy y gestión ágil de proyectos. Premio al Mejor Proyecto en 4Geeks Academy."
+      "description": "Lideré un equipo en el desarrollo de una innovadora plataforma de comercio electrónico utilizando React.js y Python/Flask. Entre los logros clave se incluyen el procesamiento de pagos seguro con Stripe, el diseño optimizado de bases de datos con SQLAlchemy y la gestión ágil de proyectos. Premio al Mejor Proyecto en 4Geeks Academy."
     },
-    "job2": {
+    "job4": {
       "title": "Desarrollador Frontend",
       "company": "No Country",
       "date": "Mayo 2024 - Agosto 2024",
-      "description": "Desarrollé el frontend para YO LO CUIDO, una plataforma de servicios para mascotas, utilizando React y CSS moderno. Colaboré con el equipo de UX/UI para implementar diseños precisos y mejoré la seguridad con autenticación de usuarios."
+      "description": "Desarrollé el frontend de YO LO CUIDO, una plataforma de servicios para el cuidado de mascotas, utilizando React y prácticas modernas de CSS. Colaboré con el equipo de UX/UI para lograr una precisión en el diseño e implementé autenticación de usuarios para mejorar la seguridad."
     },
-    "job3": {
-      "title": "Consultor de I+D+i",
+    "job5": {
+      "title": "Consultor de Proyectos I+D+i",
       "company": "Aliot Innovación",
       "date": "Abril 2023 - Enero 2024",
-      "description": "Analicé proyectos tecnológicos en áreas de TI, videojuegos y animación. Este rol despertó mi interés por el desarrollo de software y me brindó una valiosa perspectiva sobre tecnologías avanzadas y metodologías, inspirándome a hacer la transición al desarrollo full stack."
+      "description": "Analicé proyectos tecnológicos en IT, videojuegos y animación. Este rol despertó mi interés por el desarrollo de software y me proporcionó conocimientos sobre tecnologías avanzadas y metodologías, lo que impulsó mi transición al desarrollo full-stack."
     }
   },
   "projects": {
