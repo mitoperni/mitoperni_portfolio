@@ -26,18 +26,30 @@
   "experience": {
     "title": "Professional Experience",
     "job1": {
+      "title": "Teacher Assistant | Bootcamp Full Stack Developer",
+      "company": "4Geeks Academy España",
+      "date": "November 2024 - Present",
+      "description": "Co-instructed full-stack development courses covering HTML, CSS, JavaScript, React, Python, Flask, and SQLAlchemy. Provided personalized mentoring to help students overcome learning challenges and progress in their training. Developed and delivered lectures on advanced topics, enhancing students’ understanding and practical application. Collaborated with lead instructors to create an engaging and inclusive learning environment."
+    },
+    "job2": {
+      "title": "Full Stack Developer",
+      "company": "Yumly",
+      "date": "November 2024 - Present",
+      "description": "Developing and maintaining a full-stack web platform using Elixir and Phoenix. Implemented new features and optimized backend performance, ensuring smooth real-time interactions. Collaborated with a cross-functional team to improve system scalability and reliability. Worked with PostgreSQL, LiveView, and TailwindCSS to enhance the user experience."
+    },
+    "job3": {
       "title": "Full Stack Developer & Team Lead",
       "company": "LIQUIBOXES",
       "date": "June 2024 - November 2024",
       "description": "Led a team in developing an innovative e-commerce platform using React.js and Python/Flask. Key achievements include secure payment processing with Stripe, optimized database design with SQLAlchemy, and agile project management. Awarded Best Project at 4Geeks Academy."
     },
-    "job2": {
+    "job4": {
       "title": "Frontend Developer",
       "company": "No Country",
       "date": "May 2024 - August 2024",
       "description": "Developed the frontend for YO LO CUIDO, a pet care services platform, using React and modern CSS practices. Collaborated with UX/UI team for design precision and implemented user authentication for enhanced security."
     },
-    "job3": {
+    "job5": {
       "title": "R&D&I Project Consultant",
       "company": "Aliot Innovación",
       "date": "April 2023 - January 2024",

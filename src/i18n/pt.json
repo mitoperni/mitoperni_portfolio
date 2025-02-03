@@ -26,22 +26,34 @@
   "experience": {
     "title": "Experiência Profissional",
     "job1": {
-      "title": "Desenvolvedor Full Stack e Líder de Equipa",
-      "company": "LIQUIBOXES",
-      "date": "Junho 2024 - Novembro 2024",
-      "description": "Liderei uma equipa no desenvolvimento de uma plataforma inovadora de comércio eletrónico usando React.js e Python/Flask. Principais conquistas: integração de pagamentos seguros com Stripe, design de bases de dados otimizadas com SQLAlchemy e gestão ágil de projetos. Recebemos o prémio de Melhor Projeto na 4Geeks Academy."
+      "title": "Assistente de Professor | Desenvolvedor Full Stack no Bootcamp",
+      "company": "4Geeks Academy Espanha",
+      "date": "Novembro 2024 - Presente",
+      "description": "Co-ensinei cursos de desenvolvimento full-stack abordando HTML, CSS, JavaScript, React, Python, Flask e SQLAlchemy. Ofereci mentoria personalizada para ajudar os alunos a superar desafios de aprendizagem e avançar em sua formação. Desenvolvi e apresentei palestras sobre tópicos avançados, melhorando a compreensão e aplicação prática dos alunos. Colaborei com os instrutores principais para criar um ambiente de aprendizagem inclusivo e envolvente."
     },
     "job2": {
+      "title": "Desenvolvedor Full Stack",
+      "company": "Yumly",
+      "date": "Novembro 2024 - Presente",
+      "description": "Desenvolvimento e manutenção de uma plataforma web full-stack usando Elixir e Phoenix. Implementei novos recursos e otimizei o desempenho do backend, garantindo interações em tempo real suaves. Colaborei com uma equipe multifuncional para melhorar a escalabilidade e a confiabilidade do sistema. Trabalhei com PostgreSQL, LiveView e TailwindCSS para melhorar a experiência do usuário."
+    },
+    "job3": {
+      "title": "Desenvolvedor Full Stack e Líder de Equipe",
+      "company": "LIQUIBOXES",
+      "date": "Junho 2024 - Novembro 2024",
+      "description": "Liderou uma equipe no desenvolvimento de uma plataforma de comércio eletrônico inovadora utilizando React.js e Python/Flask. Entre as principais conquistas estão o processamento de pagamentos seguro com Stripe, o design otimizado de banco de dados com SQLAlchemy e a gestão ágil de projetos. Premiado como Melhor Projeto na 4Geeks Academy."
+    },
+    "job4": {
       "title": "Desenvolvedor Frontend",
       "company": "No Country",
       "date": "Maio 2024 - Agosto 2024",
-      "description": "Desenvolvi o frontend para o YO LO CUIDO, uma plataforma de serviços para animais de estimação, usando React e CSS moderno. Colaborei com a equipa de UX/UI para garantir a implementação precisa dos designs e melhorei a segurança com autenticação de utilizadores."
+      "description": "Desenvolvi o frontend de YO LO CUIDO, uma plataforma de serviços de cuidado de animais, utilizando React e práticas modernas de CSS. Colaborei com a equipe de UX/UI para alcançar precisão no design e implementei autenticação de usuários para maior segurança."
     },
-    "job3": {
-      "title": "Consultor de I&D&I",
+    "job5": {
+      "title": "Consultor de Projetos I&D+i",
       "company": "Aliot Inovação",
       "date": "Abril 2023 - Janeiro 2024",
-      "description": "Analisei projetos tecnológicos nas áreas de TI, videojogos e animação. Este papel despertou o meu interesse pelo desenvolvimento de software e deu-me uma visão valiosa sobre tecnologias avançadas e metodologias, inspirando a minha transição para o desenvolvimento full stack."
+      "description": "Analisei projetos tecnológicos em TI, videogames e animação. Esse cargo despertou meu interesse pelo desenvolvimento de software e forneceu uma visão sobre tecnologias e metodologias avançadas, o que impulsionou minha transição para o desenvolvimento full-stack."
     }
   },
   "projects": {
