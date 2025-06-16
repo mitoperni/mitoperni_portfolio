@@ -12,78 +12,63 @@
   "hero": {
     "greeting": "Olá, sou",
     "name": "Miguel Toyas Pernichi",
-    "title": "Desenvolvedor Full Stack especializado em React e Python",
-    "subtitle": "A criar aplicações web dinâmicas com JavaScript, Flask e soluções de backend",
+    "title": "Desenvolvedor Frontend na ResMed",
+    "subtitle": "A construir plataformas de saúde com React e TypeScript enquanto fundo a EquiRoster",
     "cta": "Explora a minha experiência",
     "location": "Residente em Dublin, Irlanda"
   },
   "about": {
     "title": "Sobre Mim",
-    "description": "Sou um desenvolvedor Full Stack especializado em React.js e Python, com experiência prática na criação e implementação de aplicações web dinâmicas. Trago sólidas competências em desenvolvimento front-end e back-end.",
-    "description_2": "A minha formação em Engenharia Mecânica reforça a minha capacidade de resolver problemas e de conceber soluções web eficientes e escaláveis.",
-    "description_3": "Residente em Dublin, sou fluente em inglês, espanhol e português e estou focado em contribuir para projetos impactantes em ambientes tecnológicos dinâmicos."
+    "description": "Desenvolvedor Frontend na ResMed a construir software médico que mais de 20.000 pessoas usam todas as semanas. Trabalho principalmente com React e TypeScript, mas a minha base em full-stack significa que posso entrar em conversas de backend sem problema.",
+    "description_2": "Atualmente a fundar a EquiRoster paralelamente ao meu trabalho diário - a liderar 4 desenvolvedores para resolver o caos de horários em restaurantes. A minha formação em engenharia ensinou-me a resolver problemas metodicamente, mas em tech aprendi que às vezes a melhor solução é aquela que realmente funciona.",
+    "description_3": "Baseado em Dublin, a colaborar diariamente com equipas de quatro continentes. Falo inglês, espanhol e português fluentemente. Importo-me em construir coisas que funcionem de forma confiável e não se partam quando as pessoas as usam realmente."
   },
   "experience": {
     "title": "Experiência Profissional",
     "job1": {
-      "title": "Professor Assistente | Desenvolvedor Full Stack",
-      "company": "4Geeks Academy Espanha",
-      "date": "Novembro 2024 - Presente",
-      "description": "Co-ensinei cursos de desenvolvimento full-stack abordando HTML, CSS, JavaScript, React, Python, Flask e SQLAlchemy. Ofereci mentoria personalizada para ajudar os alunos a superar desafios de aprendizagem e avançar em sua formação. Desenvolvi e apresentei palestras sobre tópicos avançados, melhorando a compreensão e aplicação prática dos alunos. Colaborei com os instrutores principais para criar um ambiente de aprendizagem inclusivo e envolvente."
+      "title": "Desenvolvedor Frontend",
+      "company": "ResMed",
+      "date": "Maio 2025 - Presente",
+      "description": "A desenvolver funcionalidades complexas para plataforma de saúde que serve mais de 20.000 utilizadores semanais, implementando lógica de processamento de dados e fluxos críticos. A construir integrações de sistemas e implementações de API com React e TypeScript, garantindo conformidade regulatória em ambientes médicos. Recentemente aumentei a cobertura de testes de 1,2% para 35% usando Jest e GitHub Actions. A colaborar com equipas internacionais em Dublin, Sydney, Bangalore e San Diego para entregar funcionalidades tanto para a plataforma pública como ferramentas administrativas internas que apoiam profissionais de saúde."
     },
     "job2": {
-      "title": "Desenvolvedor Full Stack",
-      "company": "Yumly",
-      "date": "Novembro 2024 - Presente",
-      "description": "Desenvolvimento e manutenção de uma plataforma web full-stack usando Elixir e Phoenix. Implementei novos recursos e otimizei o desempenho do backend, garantindo interações em tempo real suaves. Colaborei com uma equipe multifuncional para melhorar a escalabilidade e a confiabilidade do sistema. Trabalhei com PostgreSQL, LiveView e TailwindCSS para melhorar a experiência do usuário."
+      "title": "Professor Assistente | Desenvolvedor Full Stack",
+      "company": "4Geeks Academy Espanha",
+      "date": "Novembro 2024 - Junho 2025",
+      "description": "Orientei mais de 50 estudantes em React, Python e Flask, alcançando uma taxa de conclusão de 90%. Ministrei aulas técnicas sobre React hooks, design de bases de dados e desenvolvimento de APIs. Desenvolvi exercícios de programação complementares e projetos prontos para produção para melhorar os resultados de aprendizagem."
     },
     "job3": {
-      "title": "Desenvolvedor Full Stack e Líder de Equipe",
-      "company": "LIQUIBOXES",
-      "date": "Junho 2024 - Novembro 2024",
-      "description": "Liderou uma equipe no desenvolvimento de uma plataforma de comércio eletrônico inovadora utilizando React.js e Python/Flask. Entre as principais conquistas estão o processamento de pagamentos seguro com Stripe, o design otimizado de banco de dados com SQLAlchemy e a gestão ágil de projetos. Premiado como Melhor Projeto na 4Geeks Academy."
-    },
-    "job4": {
-      "title": "Desenvolvedor Frontend",
-      "company": "No Country",
-      "date": "Maio 2024 - Agosto 2024",
-      "description": "Desenvolvi o frontend de YO LO CUIDO, uma plataforma de serviços de cuidado de animais, utilizando React e práticas modernas de CSS. Colaborei com a equipe de UX/UI para alcançar precisão no design e implementei autenticação de usuários para maior segurança."
-    },
-    "job5": {
-      "title": "Consultor de Projetos I&D+i",
-      "company": "Aliot Inovação",
-      "date": "Abril 2023 - Janeiro 2024",
-      "description": "Analisei projetos tecnológicos em TI, videogames e animação. Esse cargo despertou meu interesse pelo desenvolvimento de software e forneceu uma visão sobre tecnologias e metodologias avançadas, o que impulsionou minha transição para o desenvolvimento full-stack."
+      "title": "Desenvolvedor Full Stack Estagiário",
+      "company": "Yumly",
+      "date": "Novembro 2024 - Fevereiro 2025",
+      "description": "Implementei funcionalidades usando Elixir e Phoenix para plataforma web escalável. Otimizei consultas de base de dados e processos de backend com PostgreSQL. Colaborei com equipa multifuncional para melhorar performance do sistema e experiência do utilizador usando LiveView e TailwindCSS."
     }
   },
   "projects": {
     "title": "Projetos em Destaque",
     "project1": {
+      "title": "EquiRoster - Programação de Pessoal com IA",
+      "description": "A fundar e liderar o desenvolvimento da EquiRoster, uma plataforma de programação de pessoal alimentada por IA para a indústria hoteleira. A gerir uma equipa de 4 desenvolvedores enquanto conduzo validação de mercado com mais de 10 gestores de restaurantes. A construir solução abrangente de programação com algoritmos de otimização de pessoal e interface de gestão intuitiva.",
+      "date": "2025 - Presente",
+      "image": "https://i.imgur.com/GtwEDzW.png",
+      "gif": "https://i.imgur.com/SBJPGap.gif",
+      "technologies": ["React", "TypeScript", "Python", "SQLAlchemy"]
+    },
+    "project2": {
       "title": "LIQUIBOXES - Plataforma de Comércio Eletrónico",
-      "description": "Liderei o desenvolvimento do LIQUIBOXES, uma plataforma personalizada de comércio eletrónico que otimiza a gestão de inventário através de caixas surpresa personalizadas. Construída com React.js, Python/Flask e PostgreSQL, inclui integração de pagamentos seguros (Stripe), acompanhamento de inventário em tempo real e CI/CD com GitHub Actions.",
+      "description": "Liderei equipa de desenvolvimento para plataforma inovadora de comércio eletrónico com caixas surpresa personalizadas e gestão de vendedores. Construí solução abrangente com processamento seguro de pagamentos (Stripe), acompanhamento de inventário em tempo real e algoritmos de recomendação personalizados. Premiado como Melhor Projeto na 4Geeks Academy.",
       "date": "Jun 2024 - Nov 2024",
-      "link": "https://sample-service-name-om7d.onrender.com",
       "image": "https://i.imgur.com/o6fsGOD.jpeg",
       "gif": "https://i.imgur.com/tgWNyHM.gif",
       "technologies": ["React.js", "Python", "Flask", "PostgreSQL"]
     },
-    "project2": {
-      "title": "YO LO CUIDO - Plataforma de Cuidado de Animais de Estimação",
-      "description": "Desenvolvi o YO LO CUIDO, uma plataforma responsiva que conecta donos de animais a cuidadores. Construída com React, hooks personalizados e Context API, inclui notificações em tempo real, autenticação segura e um sistema de reservas intuitivo.",
+    "project3": {
+      "title": "YO LO CUIDO - Plataforma de Cuidado de Animais",
+      "description": "Desenvolvi plataforma responsiva que conecta donos de animais com cuidadores usando React e práticas modernas de desenvolvimento. Implementei hooks personalizados, Context API para gestão de estado, notificações em tempo real e autenticação segura com sistema de reservas intuitivo.",
       "date": "Maio 2024 - Ago 2024",
-      "link": "https://yolocuido.vercel.app",
       "image": "https://i.imgur.com/oKZzomT.png",
       "gif": "https://i.imgur.com/RMEfTmW.gif",
       "technologies": ["React.js", "Hooks", "Context API"]
-    },
-    "project3": {
-      "title": "Base de Dados de Star Wars",
-      "description": "Criei uma aplicação web interativa que apresenta dados do universo de Star Wars utilizando React e Redux. Inclui pesquisa dinâmica, sistema de favoritos e perfis detalhados dos personagens. Integrada com a API REST do SWAPI e otimizada com cache de dados.",
-      "date": "Maio 2024 - Jul 2024",
-      "link": "https://starwarsdatabase.vercel.app",
-      "image": "https://i.imgur.com/ojoENAe.png",
-      "gif": "https://i.imgur.com/SBPv12t.gif",
-      "technologies": ["React.js", "Redux", "SWAPI API"]
     }
   },
   "skills": {
@@ -93,9 +78,9 @@
     "tools": "Ferramentas e Métodos"
   },
   "contact": {
-    "title": "Contacta-me",
-    "description": "Disponível para oportunidades em Dublin ou posições remotas a nível internacional. Vamos conversar sobre como posso contribuir para a tua equipa!",
-    "description.2": "Se estiveres interessado em colaborar, marca uma reunião ou envia-me uma mensagem. Também podes ver mais sobre o meu trabalho nos meus perfis de redes sociais.",
+    "title": "Vamos Conectar",
+    "description": "Sempre aberto a conversas interessantes - seja sobre novas oportunidades, colaboração na EquiRoster, ou apenas a falar sobre tecnologia. Atualmente a explorar papéis remotos e animado para conversar sobre o que vem a seguir.",
+    "description.2": "A trabalhar em algo interessante? Precisas de um programador? Queres tomar um café (virtual ou real)? Só me escreve. Respondo bastante rapidamente e adoro conhecer pessoas novas no mundo tech.",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
     "location": "Dublin, Irlanda",

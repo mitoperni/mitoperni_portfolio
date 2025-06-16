@@ -73,7 +73,7 @@ const ProjectModal = ({ project, onClose }) => {
           onClick={(e) => e.stopPropagation()} // Evitar que el click cierre el modal
         >
           <button className="close-button" onClick={onClose}>X</button>
-          
+
           {/* Imagen GIF con key única para forzar la recarga */}
           <img
             src={project.gif}
@@ -81,19 +81,15 @@ const ProjectModal = ({ project, onClose }) => {
             className="project-modal-image"
             key={project.gif + Date.now()} // Usa Date.now() para generar una key única
           />
-          
+
           <h2 className="project-modal-title">{project.title}</h2>
           <p className="project-modal-description">{project.description}</p>
-          
+
           {project.technologies && Array.isArray(project.technologies) && (
             <p className="project-modal-technologies">
               <strong>Tecnologías:</strong> {project.technologies.join(', ')}
             </p>
           )}
-          
-          <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-modal-link">
-            Ver Demo
-          </a>
         </motion.div>
       </motion.div>
     </AnimatePresence>

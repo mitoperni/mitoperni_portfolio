@@ -70,22 +70,6 @@
   margin-bottom: 1rem;
 }
 
-.project-modal-link {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: var(--primary-color);
-  color: var(--text-color-neg);
-  border-radius: 0.4rem;
-  font-weight: bold;
-  text-align: center;
-  transition: background-color 0.3s ease;
-}
-
-.project-modal-link:hover {
-  background-color: var(--secondary-color);
-}
-
 @media (max-width: 720px) {
 
   .project-modal {
@@ -107,17 +91,17 @@
     width: 90%;
     margin-bottom: 0;
   }
-  
+
   .project-modal-title {
     font-size: 1.2rem;
     margin-bottom: 0;
   }
-  
+
   .project-modal-description {
     font-size: 0.8rem;
     margin-bottom: 0;
   }
-  
+
   .project-modal-technologies {
     font-size: 0.6rem;
     margin-bottom: 0;

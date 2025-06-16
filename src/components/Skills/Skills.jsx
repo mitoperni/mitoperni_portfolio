@@ -5,22 +5,34 @@ import "./Skills.css";
 const skillsList = {
   frontend: [
     "React",
+    "TypeScript",
     "JavaScript",
     "HTML5",
     "CSS3",
-    "Bootstrap",
+    "Redux",
+    "TailwindCSS",
     "Responsive Design",
   ],
   backend: [
     "Python",
     "Flask",
+    "Elixir",
+    "Phoenix",
     "SQLAlchemy",
     "PostgreSQL",
     "RESTful APIs",
     "Database Design",
-    "SQL",
   ],
-  tools: ["Git", "GitHub", "VS Code", "Trello", "Pair Programming", "Vercel"],
+  tools: [
+    "Jest",
+    "Git",
+    "GitHub Actions",
+    "Docker",
+    "GitHub",
+    "VS Code",
+    "Postman",
+    "Vite"
+  ],
 };
 
 function Skills() {

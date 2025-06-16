@@ -12,78 +12,63 @@
   "hero": {
     "greeting": "Hello, I'm",
     "name": "Miguel Toyas Pernichi",
-    "title": "Full Stack Developer with a Focus on React & Python",
-    "subtitle": "Creating dynamic web applications using JavaScript, Flask, and backend solutions",
+    "title": "Frontend Developer at ResMed",
+    "subtitle": "Building healthcare platforms with React & TypeScript while founding EquiRoster",
     "cta": "Explore My Experience",
     "location": "Based in Dublin, Ireland"
   },
   "about": {
     "title": "About Me",
-    "description": "I am a Full Stack Web Developer specializing in React.js and Python. With hands-on experience in building and deploying dynamic web applications, I bring strong front-end and back-end skills.",
-    "description_2": "My background in Mechanical Engineering strengthens my problem-solving approach and enhances my ability to design efficient, scalable web solutions.",
-    "description_3": "Based in Dublin, I am fluent in English, Spanish, and Portuguese, with a commitment to contributing to impactful projects within tech-driven environments."
+    "description": "Frontend Developer at ResMed building medical software that 20,000+ people use every week. I work primarily with React and TypeScript, but my full-stack foundation means I can jump into backend conversations without breaking a sweat.",
+    "description_2": "Currently founding EquiRoster alongside my day job - leading 4 developers to tackle the scheduling chaos in restaurants. My engineering background taught me to solve problems methodically, but in tech I've learned that sometimes the best solution is the one that actually ships.",
+    "description_3": "Based in Dublin, collaborating daily with teams across four continents. Fluent in English, Spanish, and Portuguese. I care about building things that work reliably and don't fall apart when people actually use them."
   },
   "experience": {
     "title": "Professional Experience",
     "job1": {
-      "title": "Teacher Assistant | Full Stack Developer",
-      "company": "4Geeks Academy España",
-      "date": "November 2024 - Present",
-      "description": "Co-instructed full-stack development courses covering HTML, CSS, JavaScript, React, Python, Flask, and SQLAlchemy. Provided personalized mentoring to help students overcome learning challenges and progress in their training. Developed and delivered lectures on advanced topics, enhancing students understanding and practical application. Collaborated with lead instructors to create an engaging and inclusive learning environment."
+      "title": "Frontend Developer",
+      "company": "ResMed",
+      "date": "May 2025 - Present",
+      "description": "Engineering complex business functionality for healthcare platform serving 20,000+ weekly users, implementing data processing logic and critical workflows. Building system integrations and API implementations with React and TypeScript, ensuring regulatory compliance in medical environments. Recently boosted testing coverage from 1.2% to 35% using Jest and GitHub Actions. Collaborating with international teams across Dublin, Sydney, Bangalore, and San Diego to deliver features for both public platform and internal admin tools supporting healthcare providers."
     },
     "job2": {
-      "title": "Full Stack Developer",
-      "company": "Yumly",
-      "date": "November 2024 - Present",
-      "description": "Developing and maintaining a full-stack web platform using Elixir and Phoenix. Implemented new features and optimized backend performance, ensuring smooth real-time interactions. Collaborated with a cross-functional team to improve system scalability and reliability. Worked with PostgreSQL, LiveView, and TailwindCSS to enhance the user experience."
+      "title": "Teacher Assistant | Full Stack Developer",
+      "company": "4Geeks Academy España",
+      "date": "November 2024 - June 2025",
+      "description": "Mentored 50+ students in React, Python, Flask, achieving 90% completion rate. Delivered technical lectures on React hooks, database design, and API development. Developed supplementary coding exercises and production-ready projects to enhance learning outcomes."
     },
     "job3": {
-      "title": "Full Stack Developer & Team Lead",
-      "company": "LIQUIBOXES",
-      "date": "June 2024 - November 2024",
-      "description": "Led a team in developing an innovative e-commerce platform using React.js and Python/Flask. Key achievements include secure payment processing with Stripe, optimized database design with SQLAlchemy, and agile project management. Awarded Best Project at 4Geeks Academy."
-    },
-    "job4": {
-      "title": "Frontend Developer",
-      "company": "No Country",
-      "date": "May 2024 - August 2024",
-      "description": "Developed the frontend for YO LO CUIDO, a pet care services platform, using React and modern CSS practices. Collaborated with UX/UI team for design precision and implemented user authentication for enhanced security."
-    },
-    "job5": {
-      "title": "R&D&I Project Consultant",
-      "company": "Aliot Innovación",
-      "date": "April 2023 - January 2024",
-      "description": "Analyzed technology projects in IT, video games, and animation. This role sparked my interest in software development and provided insights into advanced technologies and methodologies, fueling my transition to full-stack development."
+      "title": "Full Stack Developer Intern",
+      "company": "Yumly",
+      "date": "November 2024 - February 2025",
+      "description": "Implemented features using Elixir and Phoenix for scalable web platform. Optimized database queries and backend processes with PostgreSQL. Collaborated with cross-functional team to improve system performance and user experience using LiveView and TailwindCSS."
     }
   },
   "projects": {
     "title": "Highlighted Projects",
     "project1": {
+      "title": "EquiRoster - AI-Powered Workforce Scheduling",
+      "description": "Founding and leading development of EquiRoster, an AI-powered workforce scheduling platform for the hospitality industry. Managing a team of 4 developers while conducting market validation with 10+ restaurant managers. Building comprehensive scheduling solution with workforce optimization algorithms and intuitive management interface.",
+      "date": "2025 - Present",
+      "image": "https://i.imgur.com/GtwEDzW.png",
+      "gif": "https://i.imgur.com/SBJPGap.gif",
+      "technologies": ["React", "TypeScript", "Python", "SQLAlchemy"]
+    },
+    "project2": {
       "title": "LIQUIBOXES - E-commerce Platform",
-      "description": "Led the development of LIQUIBOXES, a custom e-commerce platform enhancing inventory management with personalized mystery boxes. Built with React.js, Python/Flask, and PostgreSQL, it features secure payment processing (Stripe), real-time inventory tracking, and CI/CD pipelines with GitHub Actions.",
+      "description": "Led development team for innovative e-commerce platform featuring personalized mystery boxes and vendor management. Built comprehensive solution with secure payment processing (Stripe), real-time inventory tracking, and personalized recommendation algorithms. Awarded Best Project at 4Geeks Academy.",
       "date": "Jun 2024 - Nov 2024",
-      "link": "https://sample-service-name-om7d.onrender.com",
       "image": "https://i.imgur.com/o6fsGOD.jpeg",
       "gif": "https://i.imgur.com/tgWNyHM.gif",
       "technologies": ["React.js", "Python", "Flask", "PostgreSQL"]
     },
-    "project2": {
+    "project3": {
       "title": "YO LO CUIDO - Pet Care Platform",
-      "description": "Developed YO LO CUIDO, a responsive platform for connecting pet owners with caregivers. Built using React, custom hooks, and Context API, it includes real-time notifications, secure user authentication, and intuitive booking features.",
+      "description": "Developed responsive platform connecting pet owners with caregivers using React and modern development practices. Implemented custom hooks, Context API for state management, real-time notifications, and secure user authentication with intuitive booking system.",
       "date": "May 2024 - Aug 2024",
-      "link": "https://yolocuido.vercel.app",
       "image": "https://i.imgur.com/oKZzomT.png",
       "gif": "https://i.imgur.com/RMEfTmW.gif",
       "technologies": ["React.js", "Hooks", "Context API"]
-    },
-    "project3": {
-      "title": "Star Wars Database",
-      "description": "Created an interactive web application displaying Star Wars data using React and Redux. Features include dynamic search, favorites management, and character profiles. Integrated SWAPI REST API and optimized data caching.",
-      "date": "May 2024 - Jul 2024",
-      "link": "https://starwarsdatabase.vercel.app",
-      "image": "https://i.imgur.com/ojoENAe.png",
-      "gif": "https://i.imgur.com/SBPv12t.gif",
-      "technologies": ["React.js", "Redux", "SWAPI API"]
     }
   },
   "skills": {
@@ -93,9 +78,9 @@
     "tools": "Tools & Methods"
   },
   "contact": {
-    "title": "Contact Me",
-    "description": "Open to on-site opportunities in Dublin or remote positions internationally. Let’s discuss how I can contribute to your team!",
-    "description.2": "For collaboration inquiries, schedule a meeting or send me a message. Feel free to explore my work on social media as well.",
+    "title": "Let's Connect",
+    "description": "Always open to interesting conversations - whether about new opportunities, EquiRoster collaboration, or just geeking out about tech. Currently exploring remote roles and excited to chat about what's next.",
+    "description.2": "Working on something cool? Need a developer? Want to grab a coffee (virtual or real)? Just drop me a line. I'm pretty responsive and love meeting new people in the tech space.",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
     "location": "Dublin, Ireland",
