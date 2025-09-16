@@ -1,32 +1,7 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import './ProjectModal.css';
-
-// Función para centrar el modal dinámicamente
-const centerModal = (modal) => {
-  if (modal) {
-    const { innerHeight, innerWidth, scrollY, scrollX } = window;
-    const modalHeight = modal.offsetHeight;
-    const modalWidth = modal.offsetWidth;
-    const top = (innerHeight - modalHeight) / 2 + scrollY;
-    const left = (innerWidth - modalWidth) / 2 + scrollX;
-    modal.style.top = `${top}px`;
-    modal.style.left = `${left}px`;
-  }
-};
-
-// Configuración de animaciones para fondo y modal
-const backdropVariants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1 },
-  exit: { opacity: 0 }
-};
-
-const modalVariants = {
-  hidden: { opacity: 0, scale: 0.8 },
-  visible: { opacity: 1, scale: 1 },
-  exit: { opacity: 0, scale: 0.8 }
-};
 
 const ProjectModal = ({ project, onClose }) => {
   const modalRef = useRef(null);
