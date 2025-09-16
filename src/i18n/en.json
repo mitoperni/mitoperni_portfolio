@@ -12,24 +12,24 @@
   "hero": {
     "greeting": "Hello, I'm",
     "name": "Miguel Toyas Pernichi",
-    "title": "Frontend Developer at ResMed",
-    "subtitle": "Building healthcare platforms with React & TypeScript while founding EquiRoster",
+    "title": "Frontend Developer & Entrepreneur",
+    "subtitle": "Full-stack developer and entrepreneur, currently founding EquiRoster",
     "cta": "Explore My Experience",
-    "location": "Based in Dublin, Ireland"
+    "location": "Based in Granada, Spain"
   },
   "about": {
     "title": "About Me",
-    "description": "Frontend Developer at ResMed building medical software that 20,000+ people use every week. I work primarily with React and TypeScript, but my full-stack foundation means I can jump into backend conversations without breaking a sweat.",
+    "description": "Full-stack developer with experience building scalable applications used by thousands of people. I work primarily with React and TypeScript, but my full-stack foundation means I can jump into backend conversations without breaking a sweat.",
     "description_2": "Currently founding EquiRoster alongside my day job - leading 4 developers to tackle the scheduling chaos in restaurants. My engineering background taught me to solve problems methodically, but in tech I've learned that sometimes the best solution is the one that actually ships.",
-    "description_3": "Based in Dublin, collaborating daily with teams across four continents. Fluent in English, Spanish, and Portuguese. I care about building things that work reliably and don't fall apart when people actually use them."
+    "description_3": "Based in Granada, collaborating with teams across different continents. Fluent in English, Spanish, and Portuguese. I care about building things that work reliably and don't fall apart when people actually use them."
   },
   "experience": {
     "title": "Professional Experience",
     "job1": {
       "title": "Frontend Developer",
       "company": "ResMed",
-      "date": "May 2025 - Present",
-      "description": "Engineering complex business functionality for healthcare platform serving 20,000+ weekly users, implementing data processing logic and critical workflows. Building system integrations and API implementations with React and TypeScript, ensuring regulatory compliance in medical environments. Recently boosted testing coverage from 1.2% to 35% using Jest and GitHub Actions. Collaborating with international teams across Dublin, Sydney, Bangalore, and San Diego to deliver features for both public platform and internal admin tools supporting healthcare providers."
+      "date": "May 2025 - September 2025",
+      "description": "Engineered complex business functionality for healthcare platform serving 20,000+ weekly users, implementing data processing logic and critical workflows. Built system integrations and API implementations with React and TypeScript, ensuring regulatory compliance in medical environments. Boosted testing coverage from 1.2% to 35% using Jest and GitHub Actions. Collaborated with international teams across Dublin, Sydney, Bangalore, and San Diego to deliver features for both public platform and internal admin tools supporting healthcare providers."
     },
     "job2": {
       "title": "Teacher Assistant | Full Stack Developer",
@@ -83,7 +83,7 @@
     "description.2": "Working on something cool? Need a developer? Want to grab a coffee (virtual or real)? Just drop me a line. I'm pretty responsive and love meeting new people in the tech space.",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
-    "location": "Dublin, Ireland",
+    "location": "Granada, Spain",
     "linkedin": "https://www.linkedin.com/in/migueltoyaspernichi",
     "github": "https://github.com/mitoperni",
     "linkedin_text": "LinkedIn Profile",

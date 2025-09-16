@@ -12,24 +12,24 @@
   "hero": {
     "greeting": "Hola, soy",
     "name": "Miguel Toyas Pernichi",
-    "title": "Desarrollador Frontend en ResMed",
-    "subtitle": "Construyendo plataformas de salud con React y TypeScript mientras fundo EquiRoster",
+    "title": "Desarrollador Frontend y Emprendedor",
+    "subtitle": "Desarrollador full-stack y emprendedor, actualmente fundando EquiRoster",
     "cta": "Descubre mi experiencia",
-    "location": "Residente en Dublín, Irlanda"
+    "location": "Residente en Granada, España"
   },
   "about": {
     "title": "Sobre mí",
-    "description": "Desarrollador Frontend en ResMed construyendo software médico que usan más de 20,000 personas cada semana. Trabajo principalmente con React y TypeScript, pero mi base en full-stack significa que puedo saltar a conversaciones de backend sin problemas.",
+    "description": "Desarrollador full-stack con experiencia construyendo aplicaciones escalables usadas por miles de personas. Trabajo principalmente con React y TypeScript, pero mi base en full-stack significa que puedo saltar a conversaciones de backend sin problemas.",
     "description_2": "Actualmente fundando EquiRoster junto a mi trabajo diario - liderando 4 desarrolladores para abordar el caos de horarios en restaurantes. Mi formación en ingeniería me enseñó a resolver problemas metódicamente, pero en tech he aprendido que a veces la mejor solución es la que realmente funciona.",
-    "description_3": "Basado en Dublín, colaborando diariamente con equipos de cuatro continentes. Hablo inglés, español y portugués con fluidez. Me importa construir cosas que funcionen de manera confiable y no se rompan cuando la gente las usa realmente."
+    "description_3": "Basado en Granada, colaborando con equipos de diferentes continentes. Hablo inglés, español y portugués con fluidez. Me importa construir cosas que funcionen de manera confiable y no se rompan cuando la gente las usa realmente."
   },
   "experience": {
     "title": "Experiencia Profesional",
     "job1": {
       "title": "Desarrollador Frontend",
       "company": "ResMed",
-      "date": "Mayo 2025 - Presente",
-      "description": "Desarrollo funcionalidades complejas para plataforma de salud que sirve a más de 20,000 usuarios semanales, implementando lógica de procesamiento de datos y flujos críticos. Construyo integraciones de sistemas e implementaciones de API con React y TypeScript, asegurando cumplimiento regulatorio en entornos médicos. Recientemente aumenté la cobertura de testing del 1.2% al 35% usando Jest y GitHub Actions. Colaboro con equipos internacionales en Dublín, Sydney, Bangalore y San Diego para entregar funcionalidades tanto para la plataforma pública como herramientas administrativas internas que apoyan a proveedores de salud."
+      "date": "Mayo 2025 - Septiembre 2025",
+      "description": "Desarrollé funcionalidades complejas para plataforma de salud que sirve a más de 20,000 usuarios semanales, implementando lógica de procesamiento de datos y flujos críticos. Construí integraciones de sistemas e implementaciones de API con React y TypeScript, asegurando cumplimiento regulatorio en entornos médicos. Aumenté la cobertura de testing del 1.2% al 35% usando Jest y GitHub Actions. Colaboré con equipos internacionales en Dublín, Sydney, Bangalore y San Diego para entregar funcionalidades tanto para la plataforma pública como herramientas administrativas internas que apoyan a proveedores de salud."
     },
     "job2": {
       "title": "Profesor Asistente | Desarrollador Full Stack",
@@ -83,7 +83,7 @@
     "description.2": "¿Trabajando en algo genial? ¿Necesitas un desarrollador? ¿Quieres tomar un café (virtual o real)? Solo escríbeme. Respondo bastante rápido y me encanta conocer gente nueva en el mundo tech.",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
-    "location": "Dublín, Irlanda",
+    "location": "Granada, España",
     "linkedin": "https://www.linkedin.com/in/migueltoyaspernichi",
     "github": "https://github.com/mitoperni",
     "linkedin_text": "Perfil de LinkedIn",

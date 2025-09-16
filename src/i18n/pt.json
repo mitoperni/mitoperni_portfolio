@@ -12,24 +12,24 @@
   "hero": {
     "greeting": "Olá, sou",
     "name": "Miguel Toyas Pernichi",
-    "title": "Desenvolvedor Frontend na ResMed",
-    "subtitle": "A construir plataformas de saúde com React e TypeScript enquanto fundo a EquiRoster",
+    "title": "Desenvolvedor Frontend e Empreendedor",
+    "subtitle": "Desenvolvedor full-stack e empreendedor, atualmente a fundar a EquiRoster",
     "cta": "Explora a minha experiência",
-    "location": "Residente em Dublin, Irlanda"
+    "location": "Residente em Granada, Espanha"
   },
   "about": {
     "title": "Sobre Mim",
-    "description": "Desenvolvedor Frontend na ResMed a construir software médico que mais de 20.000 pessoas usam todas as semanas. Trabalho principalmente com React e TypeScript, mas a minha base em full-stack significa que posso entrar em conversas de backend sem problema.",
+    "description": "Desenvolvedor full-stack com experiência a construir aplicações escaláveis usadas por milhares de pessoas. Trabalho principalmente com React e TypeScript, mas a minha base em full-stack significa que posso entrar em conversas de backend sem problema.",
     "description_2": "Atualmente a fundar a EquiRoster paralelamente ao meu trabalho diário - a liderar 4 desenvolvedores para resolver o caos de horários em restaurantes. A minha formação em engenharia ensinou-me a resolver problemas metodicamente, mas em tech aprendi que às vezes a melhor solução é aquela que realmente funciona.",
-    "description_3": "Baseado em Dublin, a colaborar diariamente com equipas de quatro continentes. Falo inglês, espanhol e português fluentemente. Importo-me em construir coisas que funcionem de forma confiável e não se partam quando as pessoas as usam realmente."
+    "description_3": "Baseado em Granada, a colaborar com equipas de diferentes continentes. Falo inglês, espanhol e português fluentemente. Importo-me em construir coisas que funcionem de forma confiável e não se partam quando as pessoas as usam realmente."
   },
   "experience": {
     "title": "Experiência Profissional",
     "job1": {
       "title": "Desenvolvedor Frontend",
       "company": "ResMed",
-      "date": "Maio 2025 - Presente",
-      "description": "A desenvolver funcionalidades complexas para plataforma de saúde que serve mais de 20.000 utilizadores semanais, implementando lógica de processamento de dados e fluxos críticos. A construir integrações de sistemas e implementações de API com React e TypeScript, garantindo conformidade regulatória em ambientes médicos. Recentemente aumentei a cobertura de testes de 1,2% para 35% usando Jest e GitHub Actions. A colaborar com equipas internacionais em Dublin, Sydney, Bangalore e San Diego para entregar funcionalidades tanto para a plataforma pública como ferramentas administrativas internas que apoiam profissionais de saúde."
+      "date": "Maio 2025 - Setembro 2025",
+      "description": "Desenvolvi funcionalidades complexas para plataforma de saúde que serve mais de 20.000 utilizadores semanais, implementando lógica de processamento de dados e fluxos críticos. Construí integrações de sistemas e implementações de API com React e TypeScript, garantindo conformidade regulatória em ambientes médicos. Aumentei a cobertura de testes de 1,2% para 35% usando Jest e GitHub Actions. Colaborei com equipas internacionais em Dublin, Sydney, Bangalore e San Diego para entregar funcionalidades tanto para a plataforma pública como ferramentas administrativas internas que apoiam profissionais de saúde."
     },
     "job2": {
       "title": "Professor Assistente | Desenvolvedor Full Stack",
@@ -83,7 +83,7 @@
     "description.2": "A trabalhar em algo interessante? Precisas de um programador? Queres tomar um café (virtual ou real)? Só me escreve. Respondo bastante rapidamente e adoro conhecer pessoas novas no mundo tech.",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
-    "location": "Dublin, Irlanda",
+    "location": "Granada, Espanha",
     "linkedin": "https://www.linkedin.com/in/migueltoyaspernichi",
     "github": "https://github.com/mitoperni",
     "linkedin_text": "Perfil no LinkedIn",
