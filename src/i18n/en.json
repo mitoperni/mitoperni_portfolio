@@ -12,16 +12,16 @@
   "hero": {
     "greeting": "Hello, I'm",
     "name": "Miguel Toyas Pernichi",
-    "title": "Frontend Developer & Entrepreneur",
-    "subtitle": "Full-stack developer and entrepreneur, currently founding EquiRoster",
-    "cta": "Explore My Experience",
+    "title": "Freelance Web Developer",
+    "subtitle": "Building modern React applications and full-stack web solutions for businesses",
+    "cta": "See My Work",
     "location": "Based in Granada, Spain"
   },
   "about": {
     "title": "About Me",
-    "description": "Full-stack developer with experience building scalable applications used by thousands of people. I work primarily with React and TypeScript, but my full-stack foundation means I can jump into backend conversations without breaking a sweat.",
-    "description_2": "Currently founding EquiRoster alongside my day job - leading 4 developers to tackle the scheduling chaos in restaurants. My engineering background taught me to solve problems methodically, but in tech I've learned that sometimes the best solution is the one that actually ships.",
-    "description_3": "Based in Granada, collaborating with teams across different continents. Fluent in English, Spanish, and Portuguese. I care about building things that work reliably and don't fall apart when people actually use them."
+    "description": "Freelance web developer specializing in React applications and full-stack solutions. I help businesses build modern, scalable web applications that deliver results. With experience serving thousands of users, I bring both technical expertise and business understanding to every project.",
+    "description_2": "I work with businesses of all sizes to create custom web solutions. Whether you need a complete web application, an e-commerce platform, or a modern company website, I deliver fast, reliable results using the latest technologies like React, TypeScript, and modern backend frameworks.",
+    "description_3": "Based in Granada, I work with clients worldwide. Fluent in English, Spanish, and Portuguese, ensuring clear communication throughout your project. I focus on delivering high-quality solutions that work reliably and scale with your business needs."
   },
   "experience": {
     "title": "Professional Experience",
@@ -79,8 +79,8 @@
   },
   "contact": {
     "title": "Let's Connect",
-    "description": "Always open to interesting conversations - whether about new opportunities, EquiRoster collaboration, or just geeking out about tech. Currently exploring remote roles and excited to chat about what's next.",
-    "description.2": "Working on something cool? Need a developer? Want to grab a coffee (virtual or real)? Just drop me a line. I'm pretty responsive and love meeting new people in the tech space.",
+    "description": "Ready to bring your web project to life? I'm available for freelance work and excited to help your business succeed online. Let's discuss how we can build something amazing together.",
+    "description.2": "Whether you need a complete web application, modern company website, or custom React solution, I'm here to help. Fast delivery, modern technology stack, and bilingual communication in English, Spanish, and Portuguese. Let's start your project today.",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
     "location": "Granada, Spain",

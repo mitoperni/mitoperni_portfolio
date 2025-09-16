@@ -12,16 +12,16 @@
   "hero": {
     "greeting": "Hola, soy",
     "name": "Miguel Toyas Pernichi",
-    "title": "Desarrollador Frontend y Emprendedor",
-    "subtitle": "Desarrollador full-stack y emprendedor, actualmente fundando EquiRoster",
-    "cta": "Descubre mi experiencia",
+    "title": "Desarrollador Web Freelance",
+    "subtitle": "Creando aplicaciones React modernas y soluciones web completas para empresas",
+    "cta": "Ver Mi Trabajo",
     "location": "Residente en Granada, España"
   },
   "about": {
     "title": "Sobre mí",
-    "description": "Desarrollador full-stack con experiencia construyendo aplicaciones escalables usadas por miles de personas. Trabajo principalmente con React y TypeScript, pero mi base en full-stack significa que puedo saltar a conversaciones de backend sin problemas.",
-    "description_2": "Actualmente fundando EquiRoster junto a mi trabajo diario - liderando 4 desarrolladores para abordar el caos de horarios en restaurantes. Mi formación en ingeniería me enseñó a resolver problemas metódicamente, pero en tech he aprendido que a veces la mejor solución es la que realmente funciona.",
-    "description_3": "Basado en Granada, colaborando con equipos de diferentes continentes. Hablo inglés, español y portugués con fluidez. Me importa construir cosas que funcionen de manera confiable y no se rompan cuando la gente las usa realmente."
+    "description": "Desarrollador web freelance especializado en aplicaciones React y soluciones full-stack. Ayudo a empresas a crear aplicaciones web modernas y escalables que generan resultados. Con experiencia sirviendo a miles de usuarios, aporto tanto expertise técnico como comprensión de negocio a cada proyecto.",
+    "description_2": "Trabajo con empresas de todos los tamaños para crear soluciones web personalizadas. Ya sea que necesites una aplicación web completa, una plataforma de e-commerce, o un sitio web corporativo moderno, entrego resultados rápidos y confiables usando las últimas tecnologías como React, TypeScript y frameworks backend modernos.",
+    "description_3": "Basado en Granada, trabajo con clientes de todo el mundo. Hablo inglés, español y portugués con fluidez, asegurando comunicación clara durante todo tu proyecto. Me enfoco en entregar soluciones de alta calidad que funcionen de manera confiable y escalen con las necesidades de tu negocio."
   },
   "experience": {
     "title": "Experiencia Profesional",
@@ -79,8 +79,8 @@
   },
   "contact": {
     "title": "Conectemos",
-    "description": "Siempre abierto a conversaciones interesantes - ya sea sobre nuevas oportunidades, colaboración en EquiRoster, o simplemente charlar sobre tecnología. Actualmente explorando roles remotos y emocionado de hablar sobre lo que viene.",
-    "description.2": "¿Trabajando en algo genial? ¿Necesitas un desarrollador? ¿Quieres tomar un café (virtual o real)? Solo escríbeme. Respondo bastante rápido y me encanta conocer gente nueva en el mundo tech.",
+    "description": "¿Listo para dar vida a tu proyecto web? Estoy disponible para trabajo freelance y emocionado de ayudar a tu negocio a tener éxito online. Hablemos sobre cómo podemos construir algo increíble juntos.",
+    "description.2": "Ya sea que necesites una aplicación web completa, un sitio web corporativo moderno, o una solución React personalizada, estoy aquí para ayudar. Entrega rápida, stack tecnológico moderno, y comunicación trilingüe en inglés, español y portugués. Comencemos tu proyecto hoy.",
     "name": "Miguel Toyas Pernichi",
     "email": "mitoperni@gmail.com",
     "location": "Granada, España",
