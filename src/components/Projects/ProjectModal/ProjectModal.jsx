@@ -12,19 +12,31 @@ const ProjectModal = ({ project, onClose }) => {
         const { innerHeight, innerWidth, scrollY, scrollX } = window;
         const modalHeight = modalRef.current.offsetHeight;
         const modalWidth = modalRef.current.offsetWidth;
-        const top = (innerHeight - modalHeight) / 2 + scrollY;
-        const left = (innerWidth - modalWidth) / 2 + scrollX;
-        modalRef.current.style.top = `${top}px`;
-        modalRef.current.style.left = `${left}px`;
+
+        // Solo posicionar si el modal ya tiene dimensiones
+        if (modalHeight > 0 && modalWidth > 0) {
+          // Centrar en el viewport visible actual
+          const top = scrollY + Math.max(0, (innerHeight - modalHeight) / 2);
+          const left = scrollX + Math.max(0, (innerWidth - modalWidth) / 2);
+
+          modalRef.current.style.top = `${top}px`;
+          modalRef.current.style.left = `${left}px`;
+        }
       }
     };
 
-    // Centrar el modal al cargar y al redimensionar/scroll
-    handleScrollResize();
+    // Centrar el modal al cargar con un pequeño delay para asegurar que el DOM esté listo
+    const initialPosition = setTimeout(handleScrollResize, 0);
+
+    // También verificar después de que las animaciones/imágenes se carguen
+    const delayedPosition = setTimeout(handleScrollResize, 100);
+
     window.addEventListener('scroll', handleScrollResize);
     window.addEventListener('resize', handleScrollResize);
 
     return () => {
+      clearTimeout(initialPosition);
+      clearTimeout(delayedPosition);
       window.removeEventListener('scroll', handleScrollResize);
       window.removeEventListener('resize', handleScrollResize);
     };
