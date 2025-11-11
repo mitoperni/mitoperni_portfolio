@@ -13,62 +13,70 @@
     "greeting": "Olá, sou",
     "name": "Miguel Toyas Pernichi",
     "title": "Desenvolvedor Web Freelance",
-    "subtitle": "Criando aplicações React modernas e soluções web completas para empresas",
+    "subtitle": "Soluções web completas end-to-end com Next.js, React e TypeScript para empresas",
     "cta": "Ver o Meu Trabalho",
     "location": "Residente em Granada, Espanha"
   },
   "about": {
     "title": "Sobre Mim",
-    "description": "Desenvolvedor web freelance especializado em aplicações React e soluções full-stack. Ajudo empresas a criar aplicações web modernas e escaláveis que geram resultados. Com experiência servindo milhares de utilizadores, trago tanto expertise técnico como compreensão de negócio para cada projeto.",
-    "description_2": "Trabalho com empresas de todos os tamanhos para criar soluções web personalizadas. Quer precises de uma aplicação web completa, uma plataforma de e-commerce, ou um website corporativo moderno, entrego resultados rápidos e confiáveis usando as mais recentes tecnologias como React, TypeScript e frameworks backend modernos.",
-    "description_3": "Baseado em Granada, trabalho com clientes de todo o mundo. Falo inglês, espanhol e português fluentemente, garantindo comunicação clara durante todo o teu projeto. Foco-me em entregar soluções de alta qualidade que funcionem de forma confiável e cresçam com as necessidades do teu negócio."
+    "description": "Desenvolvedor Full Stack especializado em React e Next.js com mais de 18 meses de experiência intensiva. Capaz de criar aplicações web completas end-to-end, trabalhei em plataformas de saúde servindo mais de 20.000 utilizadores semanais e construí aplicações com Lighthouse 99/100.",
+    "description_2": "Atualmente fundador da Nixi Web Lab, onde ofereço soluções web completas end-to-end: desde design UX/UI em Figma até desenvolvimento full-stack, SEO e deployment. Especializado em aplicações web bilingues otimizadas para performance com Next.js, React e TypeScript, alcançando tempos de carregamento <1s.",
+    "description_3": "Residente em Granada, trabalho com clientes internacionais. Falo inglês, espanhol e português fluentemente. Combino expertise técnico com gestão de projetos, tendo liderado equipas multifuncionais de até 30 pessoas em projetos internacionais."
   },
   "experience": {
     "title": "Experiência Profissional",
     "job1": {
-      "title": "Desenvolvedor Frontend",
-      "company": "ResMed",
-      "date": "Maio 2025 - Setembro 2025",
-      "description": "Desenvolvi funcionalidades complexas para plataforma de saúde que serve mais de 20.000 utilizadores semanais, implementando lógica de processamento de dados e fluxos críticos. Construí integrações de sistemas e implementações de API com React e TypeScript, garantindo conformidade regulatória em ambientes médicos. Aumentei a cobertura de testes de 1,2% para 35% usando Jest e GitHub Actions. Colaborei com equipas internacionais em Dublin, Sydney, Bangalore e San Diego para entregar funcionalidades tanto para a plataforma pública como ferramentas administrativas internas que apoiam profissionais de saúde."
+      "title": "Fundador & Desenvolvedor Web",
+      "company": "Nixi Web Lab",
+      "date": "Outubro 2025 - Presente",
+      "description": "Fundei consultoria independente de desenvolvimento web especializada em aplicações bilingues de alta performance para pequenas e médias empresas. Desenvolvi 3 aplicações Next.js em produção com pontuações Lighthouse de 99/100, internacionalização (EN/ES), otimização SEO e tempos de carregamento inferiores a 1 segundo. Ofereço soluções completas que incluem design UX/UI, desenvolvimento responsivo, acessibilidade web e SEO técnico. Trabalho com Next.js 14+ App Router, TypeScript, Tailwind CSS e next-intl com deployment na Vercel."
     },
     "job2": {
-      "title": "Professor Assistente | Desenvolvedor Full Stack",
-      "company": "4Geeks Academy Espanha",
-      "date": "Novembro 2024 - Junho 2025",
-      "description": "Orientei mais de 50 estudantes em React, Python e Flask, alcançando uma taxa de conclusão de 90%. Ministrei aulas técnicas sobre React hooks, design de bases de dados e desenvolvimento de APIs. Desenvolvi exercícios de programação complementares e projetos prontos para produção para melhorar os resultados de aprendizagem."
+      "title": "Desenvolvedor Frontend",
+      "company": "ResMed",
+      "date": "Maio 2025 - Outubro 2025",
+      "description": "Contribuí para a plataforma de saúde NightOwl que serve mais de 20.000 utilizadores semanais em 3 mercados internacionais dentro de uma equipa globalmente distribuída. Aumentei a cobertura de testes de 2% para 35% em 5 dias criando mais de 1.000 testes unitários com Jest, melhorando significativamente a confiabilidade do código. Introduzi infraestrutura de testes end-to-end usando Playwright, estabelecendo processos completos de garantia de qualidade. Servi como Scrum Master rotativo coordenando cerimónias de sprint e gerindo o fluxo de trabalho da equipa em Jira/Confluence. Geri resposta a incidentes de produção através de rotação de chamada em PagerDuty, solucionando problemas críticos em equipas multifuncionais. Liderei 3 lançamentos de produção de forma independente, coordenando com equipas de backend em 4 fusos horários."
     },
     "job3": {
-      "title": "Desenvolvedor Full Stack",
+      "title": "Professor Assistente | Desenvolvedor Full Stack",
+      "company": "4Geeks Academy Espanha",
+      "date": "Novembro 2024 - Presente",
+      "description": "Orientei mais de 50 estudantes em duas coortes no bootcamp intensivo de desenvolvimento full-stack, alcançando taxa de conclusão do curso de 90% através de apoio estruturado e orientação personalizada. Ministrei instrução técnica sobre React, JavaScript, Python, Flask e SQLAlchemy. Criei repositórios educacionais, exercícios de programação e materiais de apresentação reforçando conceitos fundamentais de programação. Ministrei aulas técnicas sobre React hooks, gestão de estado, design de bases de dados e desenvolvimento de APIs."
+    },
+    "job4": {
+      "title": "Desenvolvedor Full Stack Intern",
       "company": "Yumly",
       "date": "Novembro 2024 - Fevereiro 2025",
-      "description": "Implementei funcionalidades usando Elixir e Phoenix para plataforma web escalável. Otimizei consultas de base de dados e processos de backend com PostgreSQL. Colaborei com equipa multifuncional para melhorar performance do sistema e experiência do utilizador usando LiveView e TailwindCSS."
+      "description": "Desenvolvi funcionalidades full-stack para plataforma web usando Elixir e framework Phoenix, focando em otimização de backend e interações em tempo real. Implementei funcionalidades full-stack aumentando o engagement de utilizadores em 35% através de processamento de dados otimizado e interface de utilizador interativa. Desenvolvi componentes de UI responsivos usando Phoenix LiveView e TailwindCSS, melhorando a experiência do utilizador em diferentes dispositivos. Otimizei consultas de base de dados com PostgreSQL, reduzindo tempos de resposta e melhorando a escalabilidade da aplicação."
     }
   },
   "projects": {
     "title": "Projetos em Destaque",
     "project1": {
-      "title": "EquiRoster - Programação de Pessoal com IA",
-      "description": "A fundar e liderar o desenvolvimento da EquiRoster, uma plataforma de programação de pessoal alimentada por IA para a indústria hoteleira. A gerir uma equipa de 4 desenvolvedores enquanto conduzo validação de mercado com mais de 10 gestores de restaurantes. A construir solução abrangente de programação com algoritmos de otimização de pessoal e interface de gestão intuitiva.",
-      "date": "2025 - Presente",
-      "image": "https://i.imgur.com/GtwEDzW.png",
-      "gif": "https://i.imgur.com/SBJPGap.gif",
-      "technologies": ["React", "TypeScript", "Python", "SQLAlchemy"]
+      "title": "Fields Barbers - Website Barbearia Premium",
+      "description": "Website completo para barbearia premium em Córdoba com sistema de reservas online integrado com Booksy. Desenvolvi uma experiência web moderna e elegante com design minimalista, paleta sofisticada com acentos dourados e suporte bilingue (ES/EN). Inclui catálogo de serviços com preços, horários, integração com Google Maps, SEO otimizado com Schema.org e tempos de carregamento <1s. Projetado para comunicar profissionalismo e acessibilidade tanto à clientela local como internacional.",
+      "date": "Outubro 2025",
+      "image": "https://i.imgur.com/FP7seH5.png",
+      "video": "https://i.imgur.com/Xf6d6gk.mp4",
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "SEO", "Figma"],
+      "link": "https://fields-barber-web.vercel.app/"
     },
     "project2": {
-      "title": "LIQUIBOXES - Plataforma de Comércio Eletrónico",
-      "description": "Liderei equipa de desenvolvimento para plataforma inovadora de comércio eletrónico com caixas surpresa personalizadas e gestão de vendedores. Construí solução abrangente com processamento seguro de pagamentos (Stripe), acompanhamento de inventário em tempo real e algoritmos de recomendação personalizados. Premiado como Melhor Projeto na 4Geeks Academy.",
-      "date": "Jun 2024 - Nov 2024",
-      "image": "https://i.imgur.com/o6fsGOD.jpeg",
-      "gif": "https://i.imgur.com/tgWNyHM.gif",
-      "technologies": ["React.js", "Python", "Flask", "PostgreSQL"]
+      "title": "El Higo - Website Restaurante Mediterrâneo",
+      "description": "Website completo para restaurante mediterrâneo no Albaicín de Granada. Desenvolvi uma experiência web calorosa e elegante que reflete a identidade do restaurante com menu interativo completo, sistema de reservas integrado com WhatsApp e TheFork, secção destacada do pátio, testemunhos de clientes e suporte bilingue (ES/EN). Design responsivo com tipografias sofisticadas, imagens de alta qualidade, SEO otimizado com Schema.org e tempos de carregamento excelentes. O website captura a essência da cozinha granadina autêntica num ambiente íntimo.",
+      "date": "Outubro 2025",
+      "image": "https://i.imgur.com/LCfxUsk.jpeg",
+      "video": "https://i.imgur.com/H1Jod4j.mp4",
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "SEO", "Figma"],
+      "link": "https://el-higo-web-nextjs.vercel.app/"
     },
     "project3": {
-      "title": "YO LO CUIDO - Plataforma de Cuidado de Animais",
-      "description": "Desenvolvi plataforma responsiva que conecta donos de animais com cuidadores usando React e práticas modernas de desenvolvimento. Implementei hooks personalizados, Context API para gestão de estado, notificações em tempo real e autenticação segura com sistema de reservas intuitivo.",
-      "date": "Maio 2024 - Ago 2024",
-      "image": "https://i.imgur.com/oKZzomT.png",
-      "gif": "https://i.imgur.com/RMEfTmW.gif",
-      "technologies": ["React.js", "Hooks", "Context API"]
+      "title": "EquiRoster - Plataforma de Programação com IA",
+      "description": "Fundei e liderei plataforma de programação de pessoal alimentada por IA para restaurantes e negócios de hospitalidade, gerindo equipa de 4 desenvolvedores. Desenhei a arquitetura completa do sistema e fluxos UX usando Figma/Draw.io, traduzindo desafios reais de hospitalidade em soluções técnicas. Desenvolvi algoritmos de IA personalizados para otimização de pessoal sem dependências de APIs externas. Validei product-market fit através de entrevistas com mais de 10 gestores de restaurantes. Solução full-stack com React TypeScript e Python/SQLAlchemy.",
+      "date": "Fevereiro 2025 - Junho 2025",
+      "image": "https://i.imgur.com/GtwEDzW.png",
+      "video": "https://i.imgur.com/whNN5Z3.mp4",
+      "technologies": ["React", "TypeScript", "Python", "SQLAlchemy", "Vite", "Pytest", "Figma"]
     }
   },
   "skills": {

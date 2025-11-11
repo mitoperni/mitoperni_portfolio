@@ -13,62 +13,70 @@
     "greeting": "Hello, I'm",
     "name": "Miguel Toyas Pernichi",
     "title": "Freelance Web Developer",
-    "subtitle": "Building modern React applications and full-stack web solutions for businesses",
+    "subtitle": "Complete end-to-end web solutions with Next.js, React, and TypeScript for businesses",
     "cta": "See My Work",
     "location": "Based in Granada, Spain"
   },
   "about": {
     "title": "About Me",
-    "description": "Freelance web developer specializing in React applications and full-stack solutions. I help businesses build modern, scalable web applications that deliver results. With experience serving thousands of users, I bring both technical expertise and business understanding to every project.",
-    "description_2": "I work with businesses of all sizes to create custom web solutions. Whether you need a complete web application, an e-commerce platform, or a modern company website, I deliver fast, reliable results using the latest technologies like React, TypeScript, and modern backend frameworks.",
-    "description_3": "Based in Granada, I work with clients worldwide. Fluent in English, Spanish, and Portuguese, ensuring clear communication throughout your project. I focus on delivering high-quality solutions that work reliably and scale with your business needs."
+    "description": "Full Stack Developer specializing in React and Next.js with 18+ months intensive experience. Capable of building complete end-to-end web applications, worked on healthcare platforms serving 20,000+ weekly users and built applications with Lighthouse 99/100 scores.",
+    "description_2": "Currently founder of Nixi Web Lab, delivering complete end-to-end web solutions: from UX/UI design in Figma to full-stack development, SEO, and deployment. Specialized in performance-optimized bilingual web applications with Next.js, React, and TypeScript, achieving <1s load times.",
+    "description_3": "Based in Granada, working with international clients. Fluent in English, Spanish, and Portuguese. I combine technical expertise with project management, having led cross-functional teams of up to 30 people in international projects."
   },
   "experience": {
     "title": "Professional Experience",
     "job1": {
-      "title": "Frontend Developer",
-      "company": "ResMed",
-      "date": "May 2025 - September 2025",
-      "description": "Engineered complex business functionality for healthcare platform serving 20,000+ weekly users, implementing data processing logic and critical workflows. Built system integrations and API implementations with React and TypeScript, ensuring regulatory compliance in medical environments. Boosted testing coverage from 1.2% to 35% using Jest and GitHub Actions. Collaborated with international teams across Dublin, Sydney, Bangalore, and San Diego to deliver features for both public platform and internal admin tools supporting healthcare providers."
+      "title": "Founder & Web Developer",
+      "company": "Nixi Web Lab",
+      "date": "October 2025 - Present",
+      "description": "Founded independent web development consultancy specializing in performance-optimized, bilingual web applications for small-to-medium businesses. Architected 3 production-grade Next.js applications with Lighthouse scores 99/100, featuring internationalization (EN/ES), SEO optimization, and <1s load times. Delivered end-to-end solutions encompassing UX/UI design, responsive development, accessibility compliance, and technical SEO. Established scalable workflow using Next.js 14+ App Router, TypeScript, Tailwind CSS, and next-intl with Vercel deployment."
     },
     "job2": {
-      "title": "Teacher Assistant | Full Stack Developer",
-      "company": "4Geeks Academy España",
-      "date": "November 2024 - June 2025",
-      "description": "Mentored 50+ students in React, Python, Flask, achieving 90% completion rate. Delivered technical lectures on React hooks, database design, and API development. Developed supplementary coding exercises and production-ready projects to enhance learning outcomes."
+      "title": "Frontend Developer",
+      "company": "ResMed",
+      "date": "May 2025 - October 2025",
+      "description": "Contributed to NightOwl healthcare platform serving 20,000+ weekly users across 3 international markets within globally distributed team. Increased test coverage from 2% to 35% in 5 days by authoring 1,000+ unit tests with Jest, significantly improving code reliability. Introduced end-to-end testing infrastructure using Playwright, establishing comprehensive quality assurance processes. Served as rotating Scrum Master coordinating sprint ceremonies and managing team workflow in Jira/Confluence. Managed production incident response through PagerDuty on-call rotation, troubleshooting critical issues across cross-functional teams. Led 3 production releases independently, coordinating with backend teams across 4 time zones."
     },
     "job3": {
-      "title": "Full Stack Developer",
+      "title": "Teaching Assistant | Full Stack Developer",
+      "company": "4Geeks Academy España",
+      "date": "November 2024 - Present",
+      "description": "Mentored 50+ students across two cohorts in intensive full-stack development bootcamp, achieving 90% course completion rate through structured support and personalized guidance. Delivered technical instruction on React, JavaScript, Python, Flask, and SQLAlchemy. Created educational repositories, coding exercises, and presentation materials reinforcing core programming concepts. Delivered technical lectures on React hooks, state management, database design, and API development."
+    },
+    "job4": {
+      "title": "Full Stack Developer Intern",
       "company": "Yumly",
       "date": "November 2024 - February 2025",
-      "description": "Implemented features using Elixir and Phoenix for scalable web platform. Optimized database queries and backend processes with PostgreSQL. Collaborated with cross-functional team to improve system performance and user experience using LiveView and TailwindCSS."
+      "description": "Developed full-stack features for web platform using Elixir and Phoenix framework, focusing on backend optimization and real-time interactions. Implemented full-stack functionalities increasing user engagement by 35% through optimized data processing and interactive UI. Developed responsive UI components using Phoenix LiveView and TailwindCSS, enhancing user experience across devices. Optimized database queries with PostgreSQL, reducing response times and improving application scalability."
     }
   },
   "projects": {
     "title": "Highlighted Projects",
     "project1": {
-      "title": "EquiRoster - AI-Powered Workforce Scheduling",
-      "description": "Founding and leading development of EquiRoster, an AI-powered workforce scheduling platform for the hospitality industry. Managing a team of 4 developers while conducting market validation with 10+ restaurant managers. Building comprehensive scheduling solution with workforce optimization algorithms and intuitive management interface.",
-      "date": "2025 - Present",
-      "image": "https://i.imgur.com/GtwEDzW.png",
-      "gif": "https://i.imgur.com/SBJPGap.gif",
-      "technologies": ["React", "TypeScript", "Python", "SQLAlchemy"]
+      "title": "Fields Barbers - Premium Barbershop Website",
+      "description": "Complete website for premium barbershop in Córdoba with online booking system integrated with Booksy. Developed a modern and elegant web experience with minimalist design, sophisticated palette with gold accents, and bilingual support (ES/EN). Features service catalog with pricing, schedules, Google Maps integration, SEO optimized with Schema.org, and <1s load times. Designed to communicate professionalism and accessibility to both local and international clientele.",
+      "date": "October 2025",
+      "image": "https://i.imgur.com/FP7seH5.png",
+      "video": "https://i.imgur.com/Xf6d6gk.mp4",
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "SEO", "Figma"],
+      "link": "https://fields-barber-web.vercel.app/"
     },
     "project2": {
-      "title": "LIQUIBOXES - E-commerce Platform",
-      "description": "Led development team for innovative e-commerce platform featuring personalized mystery boxes and vendor management. Built comprehensive solution with secure payment processing (Stripe), real-time inventory tracking, and personalized recommendation algorithms. Awarded Best Project at 4Geeks Academy.",
-      "date": "Jun 2024 - Nov 2024",
-      "image": "https://i.imgur.com/o6fsGOD.jpeg",
-      "gif": "https://i.imgur.com/tgWNyHM.gif",
-      "technologies": ["React.js", "Python", "Flask", "PostgreSQL"]
+      "title": "El Higo - Mediterranean Restaurant Website",
+      "description": "Complete website for Mediterranean restaurant in Granada's Albaicín neighborhood. Developed a warm and elegant web experience that reflects the restaurant's identity with complete interactive menu, reservation system integrated with WhatsApp and TheFork, featured patio section, customer testimonials, and bilingual support (ES/EN). Responsive design with sophisticated typography, high-quality imagery, SEO optimized with Schema.org, and excellent load times. The website captures the essence of authentic Granada cuisine in an intimate setting.",
+      "date": "October 2025",
+      "image": "https://i.imgur.com/LCfxUsk.jpeg",
+      "video": "https://i.imgur.com/H1Jod4j.mp4",
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "SEO", "Figma"],
+      "link": "https://el-higo-web-nextjs.vercel.app/"
     },
     "project3": {
-      "title": "YO LO CUIDO - Pet Care Platform",
-      "description": "Developed responsive platform connecting pet owners with caregivers using React and modern development practices. Implemented custom hooks, Context API for state management, real-time notifications, and secure user authentication with intuitive booking system.",
-      "date": "May 2024 - Aug 2024",
-      "image": "https://i.imgur.com/oKZzomT.png",
-      "gif": "https://i.imgur.com/RMEfTmW.gif",
-      "technologies": ["React.js", "Hooks", "Context API"]
+      "title": "EquiRoster - AI-Powered Scheduling Platform",
+      "description": "Founded and led AI-powered workforce scheduling platform for restaurants and hospitality businesses, managing team of 4 developers. Designed complete system architecture and UX flows using Figma/Draw.io, translating real-world hospitality challenges into technical solutions. Developed custom AI algorithms for workforce optimization without external API dependencies. Validated product-market fit through interviews with 10+ restaurant managers. Full-stack solution with React TypeScript and Python/SQLAlchemy.",
+      "date": "February 2025 - June 2025",
+      "image": "https://i.imgur.com/GtwEDzW.png",
+      "video": "https://i.imgur.com/whNN5Z3.mp4",
+      "technologies": ["React", "TypeScript", "Python", "SQLAlchemy", "Vite", "Pytest", "Figma"]
     }
   },
   "skills": {

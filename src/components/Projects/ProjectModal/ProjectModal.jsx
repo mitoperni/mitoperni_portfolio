@@ -47,14 +47,18 @@ const ProjectModal = ({ project, onClose }) => {
           exit={{ opacity: 0, scale: 0.8 }}
           onClick={(e) => e.stopPropagation()} // Evitar que el click cierre el modal
         >
-          <button className="close-button" onClick={onClose}>X</button>
+          <button className="close-button" onClick={onClose}>
+            X
+          </button>
 
-          {/* Imagen GIF con key única para forzar la recarga */}
-          <img
-            src={project.gif}
-            alt={`${project.title} preview`}
+          <video
+            key={project.video}
+            src={project.video}
+            autoPlay
+            loop
+            muted
+            playsInline
             className="project-modal-image"
-            key={project.gif + Date.now()} // Usa Date.now() para generar una key única
           />
 
           <h2 className="project-modal-title">{project.title}</h2>
@@ -62,7 +66,7 @@ const ProjectModal = ({ project, onClose }) => {
 
           {project.technologies && Array.isArray(project.technologies) && (
             <p className="project-modal-technologies">
-              <strong>Tecnologías:</strong> {project.technologies.join(', ')}
+              <strong>Tecnologías:</strong> {project.technologies.join(", ")}
             </p>
           )}
         </motion.div>
