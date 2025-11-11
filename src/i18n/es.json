@@ -52,6 +52,7 @@
   },
   "projects": {
     "title": "Proyectos Destacados",
+    "viewProject": "Live Demo",
     "project1": {
       "title": "Fields Barbers - Sitio Web Barbería Premium",
       "description": "Sitio web completo para barbería premium en Córdoba con sistema de reservas online integrado con Booksy. Desarrollé una experiencia web moderna y elegante con diseño minimalista, paleta sofisticada con acentos dorados y soporte bilingüe (ES/EN). Incluye catálogo de servicios con precios, horarios, integración con Google Maps, SEO optimizado con Schema.org y tiempos de carga <1s. Diseñado para comunicar profesionalismo y accesibilidad tanto a clientela local como internacional.",

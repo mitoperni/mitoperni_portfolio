@@ -52,6 +52,7 @@
   },
   "projects": {
     "title": "Highlighted Projects",
+    "viewProject": "Live Demo",
     "project1": {
       "title": "Fields Barbers - Premium Barbershop Website",
       "description": "Complete website for premium barbershop in Córdoba with online booking system integrated with Booksy. Developed a modern and elegant web experience with minimalist design, sophisticated palette with gold accents, and bilingual support (ES/EN). Features service catalog with pricing, schedules, Google Maps integration, SEO optimized with Schema.org, and <1s load times. Designed to communicate professionalism and accessibility to both local and international clientele.",

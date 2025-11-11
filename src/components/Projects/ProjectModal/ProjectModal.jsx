@@ -1,9 +1,11 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import './ProjectModal.css';
 
 const ProjectModal = ({ project, onClose }) => {
+  const { t } = useTranslation();
   const modalRef = useRef(null);
 
   useEffect(() => {
@@ -80,6 +82,15 @@ const ProjectModal = ({ project, onClose }) => {
             <p className="project-modal-technologies">
               <strong>Tecnologías:</strong> {project.technologies.join(", ")}
             </p>
+          )}
+
+          {project.link && (
+            <button
+              onClick={() => window.open(project.link, '_blank', 'noopener,noreferrer')}
+              className="link-button"
+            >
+              {t('projects.viewProject')}
+            </button>
           )}
         </motion.div>
       </motion.div>

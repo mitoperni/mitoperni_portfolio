@@ -68,6 +68,24 @@
   margin-bottom: 1rem;
 }
 
+.link-button {
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid var(--accent-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.link-button:hover {
+  background-color: #a67f5e;
+  color: #ffffff;
+}
+
 @media (max-width: 720px) {
 
   .project-modal {
