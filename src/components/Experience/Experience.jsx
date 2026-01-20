@@ -13,7 +13,6 @@ function Experience() {
 
   // Nueva referencia y controles independientes para el título h2
   const { ref, controls } = useScrollAnimationFromRight();
-  const { refUp = ref, controlsUp = controls } = useScrollAnimationFromRight();
 
   // Estados para el modal
   const [isModalOpen, setIsModalOpen] = useState(false);
