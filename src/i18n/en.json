@@ -54,6 +54,15 @@
     "title": "Highlighted Projects",
     "viewProject": "Live Demo",
     "project1": {
+      "title": "CycleMap - Global Bike Sharing Explorer",
+      "description": "Interactive web application to explore and discover 600+ bicycle sharing networks worldwide on an interactive map. Users can find stations, check real-time availability, and plan their rides. Features detail view with sortable stations table, marker clustering, 'Near Me' geolocation, search and country filters with URL-persisted state, pagination, and fully responsive design. Static generation with ISR for 35 popular networks. Lighthouse: Performance 96-100, Accessibility 96-100, Best Practices 100, SEO 100.",
+      "date": "February 2026",
+      "image": "https://i.imgur.com/do6084u.png",
+      "video": "https://i.imgur.com/JKDgFLi.mp4",
+      "technologies": ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Mapbox GL", "Zod", "Vitest"],
+      "link": "https://cyclemap-rho.vercel.app/"
+    },
+    "project2": {
       "title": "Fields Barbers - Premium Barbershop Website",
       "description": "Complete website for premium barbershop in Córdoba with online booking system integrated with Booksy. Developed a modern and elegant web experience with minimalist design, sophisticated palette with gold accents, and bilingual support (ES/EN). Features service catalog with pricing, schedules, Google Maps integration, SEO optimized with Schema.org, and <1s load times. Designed to communicate professionalism and accessibility to both local and international clientele.",
       "date": "October 2025",
@@ -62,7 +71,7 @@
       "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "SEO", "Figma"],
       "link": "https://fields-barber-web.vercel.app/"
     },
-    "project2": {
+    "project3": {
       "title": "El Higo - Mediterranean Restaurant Website",
       "description": "Complete website for Mediterranean restaurant in Granada's Albaicín neighborhood. Developed a warm and elegant web experience that reflects the restaurant's identity with complete interactive menu, reservation system integrated with WhatsApp and TheFork, featured patio section, customer testimonials, and bilingual support (ES/EN). Responsive design with sophisticated typography, high-quality imagery, SEO optimized with Schema.org, and excellent load times. The website captures the essence of authentic Granada cuisine in an intimate setting.",
       "date": "October 2025",
@@ -71,13 +80,22 @@
       "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "SEO", "Figma"],
       "link": "https://el-higo-web-nextjs.vercel.app/"
     },
-    "project3": {
+    "project4": {
       "title": "EquiRoster - AI-Powered Scheduling Platform",
       "description": "Founded and led AI-powered workforce scheduling platform for restaurants and hospitality businesses, managing team of 4 developers. Designed complete system architecture and UX flows using Figma/Draw.io, translating real-world hospitality challenges into technical solutions. Developed custom AI algorithms for workforce optimization without external API dependencies. Validated product-market fit through interviews with 10+ restaurant managers. Full-stack solution with React TypeScript and Python/SQLAlchemy.",
       "date": "February 2025 - June 2025",
       "image": "https://i.imgur.com/GtwEDzW.png",
       "video": "https://i.imgur.com/whNN5Z3.mp4",
       "technologies": ["React", "TypeScript", "Python", "SQLAlchemy", "Vite", "Pytest", "Figma"]
+    },
+    "project5": {
+      "title": "VSCode Shortcuts - Interactive Learning App",
+      "description": "Interactive web application designed for full-stack development bootcamp students to learn and practice 122 VS Code keyboard shortcuts and 51 Git commands. Features practice mode with random questions and instant feedback, progress tracking, favorites system, real-time search, category filters, Windows/Mac toggle, and automatic bilingual support (EN/ES). All persistence via LocalStorage.",
+      "date": "November 2025",
+      "image": "https://i.imgur.com/TNq0YTX.png",
+      "video": "https://i.imgur.com/I74WmTV.mp4",
+      "technologies": ["React", "Vite", "Bootstrap", "i18next"],
+      "link": "https://vscode-shortcuts.vercel.app/"
     }
   },
   "skills": {

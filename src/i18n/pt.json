@@ -54,6 +54,15 @@
     "title": "Projetos em Destaque",
     "viewProject": "Live Demo",
     "project1": {
+      "title": "CycleMap - Explorador Global de Bicicletas Partilhadas",
+      "description": "Aplicação web interativa para explorar e descobrir mais de 600 redes de bicicletas partilhadas em todo o mundo num mapa interativo. Os utilizadores podem encontrar estações, consultar disponibilidade em tempo real e planear as suas rotas. Inclui vista de detalhe com tabela de estações ordenável, clustering de marcadores, geolocalização 'Near Me', pesquisa e filtros por país com estado persistido na URL, paginação e design totalmente responsivo. Geração estática com ISR para 35 redes populares. Lighthouse: Performance 96-100, Accessibility 96-100, Best Practices 100, SEO 100.",
+      "date": "Fevereiro 2026",
+      "image": "https://i.imgur.com/do6084u.png",
+      "video": "https://i.imgur.com/JKDgFLi.mp4",
+      "technologies": ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Mapbox GL", "Zod", "Vitest"],
+      "link": "https://cyclemap-rho.vercel.app/"
+    },
+    "project2": {
       "title": "Fields Barbers - Website Barbearia Premium",
       "description": "Website completo para barbearia premium em Córdoba com sistema de reservas online integrado com Booksy. Desenvolvi uma experiência web moderna e elegante com design minimalista, paleta sofisticada com acentos dourados e suporte bilingue (ES/EN). Inclui catálogo de serviços com preços, horários, integração com Google Maps, SEO otimizado com Schema.org e tempos de carregamento <1s. Projetado para comunicar profissionalismo e acessibilidade tanto à clientela local como internacional.",
       "date": "Outubro 2025",
@@ -62,7 +71,7 @@
       "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "SEO", "Figma"],
       "link": "https://fields-barber-web.vercel.app/"
     },
-    "project2": {
+    "project3": {
       "title": "El Higo - Website Restaurante Mediterrâneo",
       "description": "Website completo para restaurante mediterrâneo no Albaicín de Granada. Desenvolvi uma experiência web calorosa e elegante que reflete a identidade do restaurante com menu interativo completo, sistema de reservas integrado com WhatsApp e TheFork, secção destacada do pátio, testemunhos de clientes e suporte bilingue (ES/EN). Design responsivo com tipografias sofisticadas, imagens de alta qualidade, SEO otimizado com Schema.org e tempos de carregamento excelentes. O website captura a essência da cozinha granadina autêntica num ambiente íntimo.",
       "date": "Outubro 2025",
@@ -71,13 +80,22 @@
       "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "SEO", "Figma"],
       "link": "https://el-higo-web-nextjs.vercel.app/"
     },
-    "project3": {
+    "project4": {
       "title": "EquiRoster - Plataforma de Programação com IA",
       "description": "Fundei e liderei plataforma de programação de pessoal alimentada por IA para restaurantes e negócios de hospitalidade, gerindo equipa de 4 desenvolvedores. Desenhei a arquitetura completa do sistema e fluxos UX usando Figma/Draw.io, traduzindo desafios reais de hospitalidade em soluções técnicas. Desenvolvi algoritmos de IA personalizados para otimização de pessoal sem dependências de APIs externas. Validei product-market fit através de entrevistas com mais de 10 gestores de restaurantes. Solução full-stack com React TypeScript e Python/SQLAlchemy.",
       "date": "Fevereiro 2025 - Junho 2025",
       "image": "https://i.imgur.com/GtwEDzW.png",
       "video": "https://i.imgur.com/whNN5Z3.mp4",
       "technologies": ["React", "TypeScript", "Python", "SQLAlchemy", "Vite", "Pytest", "Figma"]
+    },
+    "project5": {
+      "title": "VSCode Shortcuts - App Educativa Interativa",
+      "description": "Aplicação web interativa desenhada para estudantes de bootcamp de desenvolvimento full-stack para aprender e praticar 122 atalhos de teclado do VS Code e 51 comandos Git. Inclui modo prática com perguntas aleatórias e feedback instantâneo, seguimento de progresso, sistema de favoritos, pesquisa em tempo real, filtros por categoria, toggle entre Windows e Mac, e suporte bilingue automático (EN/ES). Toda a persistência via LocalStorage.",
+      "date": "Novembro 2025",
+      "image": "https://i.imgur.com/TNq0YTX.png",
+      "video": "https://i.imgur.com/QR6zqyS.gif",
+      "technologies": ["React", "Vite", "Bootstrap", "i18next"],
+      "link": "https://vscode-shortcuts.vercel.app/"
     }
   },
   "skills": {
